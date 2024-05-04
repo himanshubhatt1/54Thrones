@@ -15,101 +15,202 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./images/logo.png" alt="" srcset=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt="" srcset=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                ABOUT
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SHOP
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SKIN QUIZ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">AMBASSADORS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">REWARDS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav nav-buttons d-flex g-5">
-            <li class="nav-item">
-              <a href="#" class="search-btn"><img src="./images/loupe.png" alt="" srcset="" /></a>
-            </li>
-            <li class="nav-item">
-              <a href="#">LOG IN</a>
-            </li>
-            <li class="nav-item">
-              <a href="#"><img src="./images/cart.png" alt="" srcset="" />0</a>
-            </li>
-          </ul>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SKIN QUIZ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AMBASSADORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">REWARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav nav-buttons d-flex">
+              <li class="nav-item">
+                <a href="#" class="search-btn d-flex"
+                  ><img src="./images/loupe.png" alt="" srcset=""
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="log-in-btn">LOG IN</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="cart-btn"
+                  ><img src="./images/cart.png" alt="" srcset="" />0</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <!-- Banner section -->
-    <section>
-      <div class="banner-sec">
-        <img src="./images/banner.png" alt="banner" class="img-fluid">
+    <section class="banner-sec">
+      <div class="banner-img">
+        <img src="./images/banner.png" alt="banner" class="img-fluid" />
+      </div>
+      <div class="banner-text">
+        <h1>To Africa, With Love</h1>
+        <p>
+          Our products pay homage to the 54 nations of the African continent,
+          its culture, and people. Every product features botanical ingredients
+          that are ethically sourced from cooperatives and artisans throughout
+          Africa.
+        </p>
+      </div>
+    </section>
+
+    <!-- Philosophy section -->
+    <section class="philosophy-sec">
+      <div class="container pt-5">
+        <div class="phil-head text-center">
+          <p class="phil-top-text">
+            <img src="./images/star.png" alt="" srcset="" />
+            Our Philosophy
+          </p>
+          <h2>
+            Founded by <span class="inner-heading">Christina Funke Tegbe</span>,
+            54 Thrones is a clean beauty brand handcrafted to celebrate the
+            richness, diversity and cultures of the
+            <span class="inner-heading">African continent and its people.</span>
+          </h2>
+          <p class="phil-content-text">
+            Inspired by her own Nigerian heritage, Christina had one goal in
+            mind: to create clean yet decadent skincare products that
+            sustainably honor the rich natural resources of Africa and the
+            authentic beauty rituals that have been handed down from generation
+            to generation.
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./images/phil1.png" alt="img1" class="img-fluid" />
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/phil2.png" alt="img2" class="img-fluid" />
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/phil3.png" alt="img3" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="img-content-sec py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <img src="./images/product-img.png" alt="img3" class="img-fluid" />
+          </div>
+          <div class="col-lg-6">
+            <div class="we-believe-content">
+              <h2>We believe</h2>
+              <p>Clean beauty originated in Africa. Many of these African beauty rituals we share were initially created with intent to heal or celebrate. </p>
+              <p>Plant botanicals like: roots, herbs, oils and butters were first used to efficaciously treat ailments, maintain health or as part of ceremonious occasions like births and weddings. These same plant botanicals have powerful results when used as part of your beauty routine.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="img-content-sec py-5">
+      <div class="container">
+        <h2 class="meet-heading text-center">
+          Meet our <span class="inner-heading">founder</span>
+        </h2>
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <div class="we-believe-content">
+              <h2>Christina Tegbe</h2>
+              <p>A southern-American childhood rooted with the cultural essence of Nigeria, Christina grew up experiencing the true and sacred beauty of Africa. </p>
+              <p>Empowered by her Nigerian aunt who would indulge her with tubs of shea butter sent via Nigeria and moved by the ingenuity and innovation across the motherland, she answered the call to share the heart and soul of Africa with the world. In 2015, she left a career in corporate consulting to launch 54 Thrones.
+                With 54 Thrones, Christina aspires to spread the message of the African origin of clean beauty. Determined to share the beauty and authenticity of an Africa often not seen, she partners with passionate artisans who handcraft the rich ingredients that make up the brand.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="./images/Christina-img.png" alt="img3" class="img-fluid" />
+          </div>
+        </div>
       </div>
     </section>
   </body>

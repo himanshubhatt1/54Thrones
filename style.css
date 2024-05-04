@@ -1,8 +1,109 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.nav-menus .nav-link{
+    color: #AD543B;
+}
+.nav-menus .dropdown-item{
+    color: #AD543B;
+}
 .nav-buttons{
     gap: 10px;
+    align-items: center;
 }
 .nav-buttons .search-btn{
     border: 1px solid #AD543B;
     border-radius: 50%;
-    padding: 15px;
+    padding: 14px;
+}
+.nav-buttons .log-in-btn{
+    border: 1px solid #AD543B;
+    padding: 10px 14px 10px 14px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #AD543B;
+}
+.nav-buttons .cart-btn{
+    border: 1px solid #AD543B;
+    padding: 10px 14px 10px 14px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #AD543B;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.banner-sec {
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FDFBFF;
+}
+.banner-text h1{
+    font-size: 83px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+.phil-head p.phil-top-text{
+    font-size: 16px;
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.phil-head p.phil-content-text{
+    font-size: 16px;
+    color: #AD543B;
+    max-width: 695px;
+    margin: auto;
+    padding: 30px 0;
+}
+.phil-head h2{
+    font-size: 52px;
+    color: #AD543B;
+    font-weight: 400;
+}
+.phil-head h2 .inner-heading{
+    color: #F3BD49;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+.we-believe-content h2{
+    color: #AD543B;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 54px;
+    font-weight: 400;
+}
+.we-believe-content p{
+    color: #AD543B;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+.meet-heading{
+    color: #AD543B;
+    font-size: 90px;
+    font-weight: 400;
+}
+.meet-heading .inner-heading{
+    color: #F3BD49;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+
+@media (max-width: 767px){
+    .banner-text {
+        top: 50%;
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 23px;
+    }
 }
