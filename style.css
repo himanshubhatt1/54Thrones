@@ -388,3 +388,25 @@ section, footer {
         margin-bottom: 15px;
     }
 }
+@media (min-width: 768px) and (max-width: 820px){
+    .banner-text {
+        top: 50%;
+    }
+    .banner-text h1 {
+        font-size: 43px;
+    }
+    .phil-head h2 {
+        font-size: 38px;
+    }
+    .img-wrap img{
+        margin-bottom: 15px;
+    }
+    .footer-content img{
+        margin-bottom: 12px;
+    }
+    .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
