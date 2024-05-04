@@ -249,6 +249,7 @@ section, footer {
 .footer-content{
     background: url('./images/footer-bg.png') no-repeat;
     background-color: #CBC9EF;
+    margin-top: -1px;
 }
 .footer-text{
     color: #765DBA;
@@ -321,6 +322,9 @@ section, footer {
     justify-content: center;
     margin: auto;
 }
+.img-full {
+    width: 100%;
+}
 
 
 
@@ -379,5 +383,8 @@ section, footer {
     }
     .email-box{
         margin-bottom: 20px;
+    }
+    .img-wrap img{
+        margin-bottom: 15px;
     }
 }
