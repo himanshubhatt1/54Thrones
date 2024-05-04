@@ -1,0 +1,8 @@
+.nav-buttons{
+    gap: 10px;
+}
+.nav-buttons .search-btn{
+    border: 1px solid #AD543B;
+    border-radius: 50%;
+    padding: 15px;
+}
