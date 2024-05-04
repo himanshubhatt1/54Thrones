@@ -75,8 +75,21 @@ body{
 }
 .banner-text h1{
     font-size: 83px;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
+}
+.marquee{
+    background: #F6F3FA;
+}
+.slider-wrap{
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+.slider-wrap span{
+    color: #765DBA;
+    font-size: 18px;
 }
 .phil-head p.phil-top-text{
     font-size: 16px;
@@ -98,12 +111,12 @@ body{
 }
 .phil-head h2 .inner-heading{
     color: #F3BD49;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
 }
 .we-believe-content h2{
     color: #AD543B;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
     font-size: 54px;
     font-weight: 400;
@@ -120,7 +133,7 @@ body{
 }
 .meet-heading .inner-heading{
     color: #F3BD49;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
 }
 .Christina-content h2{
@@ -153,7 +166,7 @@ body{
 }
 .african-beauty-heading .inner-heading{
     color: #F3BD49;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
 }
 .Christina-text{
@@ -166,6 +179,10 @@ body{
     color: #AD543B;
     font-size: 52px;
     font-weight: 400;
+}
+.our-story-heading .inner-heading{
+    font-family: "Playfair-Display-italic";
+    font-style: italic;
 }
 .story-col{
     background: #F6F3FA;
@@ -187,11 +204,14 @@ body{
     background: #CBC9EF;
     height: 100%;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .the54 h3{
     font-size: 54px;
     font-weight: 400;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
     color: #765DBA;
 }
@@ -210,7 +230,7 @@ body{
 }
 .at-heading .inner-content{
     color: #F3BD49;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair-Display-italic";
     font-style: italic;
 }
 section, footer {
@@ -262,21 +282,45 @@ section, footer {
 .video_section{
     position: relative;
 }
-.play_btn{
-   
-   position: absolute;
-   top: 50%;
-   z-index: 999;
-   left: 50%;
-   transform: translate(-50% ,-50%);
-
-
+.lets-heading{
+    color: #765DBA;
+    font-size: 52px;
+    text-align: center;
 }
-.play_btn img{
-   width:80%;
-
+.lets-heading .inner-content{
+    font-family: "Playfair-Display-italic";
+    font-style: italic;
 }
-
+.email-box{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #765DBAB2;
+    font-size: 25px;
+    color: #765DBA;
+}
+.email-box:focus-visible{
+    outline: none;
+}
+.email-box::placeholder{
+    color: #765DBA;
+}
+.sign-up-btn{
+    background: #765DBA;
+    color: #FDFBFF;
+    font-size: 18px;
+    padding: 21px 40px 21px 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky-sec img{
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
 
 
 
@@ -332,5 +376,8 @@ section, footer {
     }
     .footer-icon{
         width: auto!important;
+    }
+    .email-box{
+        margin-bottom: 20px;
     }
 }
