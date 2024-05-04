@@ -2,6 +2,16 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('./fonts/Poppins-Regular.eot');
+	src: url('./fonts/Poppins-Medium.eot');
+	src:
+		local('Poppins-Regular'),
+		local('Poppins-Regular'),
+		url('./fonts/Poppins-Regular.ttf') format('opentype'),
+		url('./fonts/Poppins-Medium.ttf') format('opentype');
+}
 .nav-menus .nav-link{
     color: #AD543B;
 }
@@ -82,13 +92,12 @@ body{
 }
 .we-believe-content p{
     color: #AD543B;
-    font-style: italic;
     font-size: 16px;
     font-weight: 400;
 }
 .meet-heading{
     color: #AD543B;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 400;
 }
 .meet-heading .inner-heading{
@@ -96,6 +105,87 @@ body{
     font-family: "Playfair Display", serif;
     font-style: italic;
 }
+.Christina-content h2{
+    color: #AD543B;
+    font-size: 52px;
+    font-weight: 400;
+}
+.two-color-content{
+    color: #AD543B;
+    font-size: 24px;
+}
+.two-color-content .inner-content{
+    font-size: 24px;
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Christina-inner-text{
+    color: #AD543B;
+    font-size: 20px;
+    font-weight: 400;
+}
+.african-beauty-heading{
+    color: #AD543B;
+    font-size: 52px;
+    font-weight: 400;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+}
+.african-beauty-heading .inner-heading{
+    color: #F3BD49;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+.Christina-text{
+    font-size: 20px;
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.our-story-heading{
+    color: #AD543B;
+    font-size: 52px;
+    font-weight: 400;
+}
+.story-col{
+    background: #F6F3FA;
+    padding: 50px;
+}
+.explor-btn{
+    background: #B39EEF;
+    color: #FDFBFF;
+    padding: 16px 40px 16px 40px;
+    text-decoration: none;
+}
+.footer-content{
+    background: url('./images/footer-bg.png') no-repeat;
+    background-color: #CBC9EF;
+}
+.footer-text{
+    color: #765DBA;
+    font-size: 24px;
+    text-align: center;
+}
+.footer-title{
+    color: #765DBA;
+    font-size: 20px;
+}
+.footer-menu{
+    color: #765DBA;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.footer-menu-link{
+    color: #765DBA;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
 
 
 @media (max-width: 767px){
