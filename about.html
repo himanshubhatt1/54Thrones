@@ -18,12 +18,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
@@ -33,7 +27,6 @@
     <!-- Header -->
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img src="./images/logo.png" alt="" srcset=""
           /></a>
@@ -120,7 +113,6 @@
               </li>
             </ul>
           </div>
-        </div>
       </nav>
     </div>
 
@@ -128,6 +120,9 @@
     <section class="banner-sec">
       <div class="banner-img">
         <img src="./images/banner.png" alt="banner" class="img-fluid" />
+      </div>
+      <div class="bredcrum">
+        <p>HOME / ABOUT</p>
       </div>
       <div class="banner-text">
         <h1>To Africa, With Love</h1>
@@ -271,7 +266,7 @@
               54 countries: 54 Thrones. The name 54 Thrones distinctively represents <span class="inner-content">Africa's 54 countries.</span></p>
               <p class="Christina-inner-text">Christina travels to each country to source our key ingredients, personally meeting each artisan, cooperative members and businesses that we work with. Collaborating to create authentic, sustainably-made beauty products inspired by ancient African tradition.</p>
               <p class="Christina-inner-text">The result: high-quality, African-grown ingredients, backed by women who've cared for their skin with these natural ingredients for generations.</p>
-              <p><a href="#" class="explor-btn">Explore the origins</a></p>
+              <p class="pt-4"><a href="#" class="explor-btn">Explore the origins</a></p>
           </div>
           <div class="col-lg-6">
             <img src="./images/our-story.png" alt="img" class="img-fluid" />
@@ -280,16 +275,24 @@
       </div>
     </section>
 
-    <section>
+    <section class="video_section pt-5">
+      <div>
+        <p class="play_btn"><img src="./images/play_button.png" alt="playbutton" class="img-fluid"></p>
+      </div>
       <video class="video-sec" height="255" poster="./images/54thrones.png" controls>
+    
         <source src="video.mp4" type="video/mp4">
         <source src="video.ogg" type="video/ogg">
         <source src="video.webm" type="video/webm">
         <object data="video.mp4" width="470" height="255">
         <embed src="video.swf" width="470" height="255">
+         
+          
         </object>
+       
     </video>
-    </section>
+    
+    </section>
 
     <section class="pt-5">
       <div class="container-fluid pt-5">
@@ -359,7 +362,7 @@
           <div class="row py-5">
             <div class="col-lg-6">
               <p class="footer-menu">54 THRONES <br>© 2024 COPYRIGHT</p>
-                <img src="./images/footer-icon.png" alt="img" class="img-fluid" />
+                <img src="./images/footer-icon.png" alt="img" class="img-fluid footer-icon" />
             </div>
             <div class="col-lg-2 footer-menus">
               <p class="footer-title">Menu</p>
@@ -389,5 +392,47 @@
         </div>
       </div>
     </footer>
+    <section class="img-content-sec py-5 sticky-sec mt-4">
+      <div class="container">
+        <h2 class="meet-heading text-center py-5">
+          Meet our <span class="inner-heading">founder</span>
+        </h2>
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <img
+              src="./images/Christina-img.png"
+              alt="img3"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="Christina-content">
+              <h2>Christina Tegbe</h2>
+              <p class="two-color-content">
+                A southern-American childhood rooted with the cultural essence
+                of Nigeria, Christina grew up experiencing <span class="inner-content">the true</span> and <span class="inner-content">sacred
+                beauty of Africa.</span>
+              </p>
+
+              <p class="Christina-inner-text">
+                Empowered by her Nigerian aunt who would indulge her with tubs
+                of shea butter sent via Nigeria and moved by the ingenuity and
+                innovation across the motherland, she answered the call to share
+                the heart and soul of Africa with the world. In 2015, she left a
+                career in corporate consulting to launch 54 Thrones.
+              </p>
+              <p class="Christina-inner-text">
+                With 54 Thrones, Christina aspires to spread the message of the
+                African origin of clean beauty. Determined to share the beauty
+                and authenticity of an Africa often not seen, she partners with
+                passionate artisans who handcraft the rich ingredients that make
+                up the brand.
+              </p>
+              <p class="pt-3"><a href="#" class="learn-btn">LEARN MORE</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

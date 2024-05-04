@@ -1,22 +1,33 @@
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-Regular";
     font-weight: 500;
 }
 @font-face {
 	font-family: 'Poppins-Regular';
-	src: url('./fonts/Poppins-Regular.eot');
-	src: url('./fonts/Poppins-Medium.eot');
-	src:
-		local('Poppins-Regular'),
-		local('Poppins-Regular'),
-		url('./fonts/Poppins-Regular.ttf') format('opentype'),
-		url('./fonts/Poppins-Medium.ttf') format('opentype');
+	src: url('./fonts/Poppins-Regular.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url('./fonts/Poppins-Medium.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Playfair-Display-italic';
+	src:url('./fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
+
+	
 }
 .nav-menus .nav-link{
     color: #AD543B;
 }
 .nav-menus .dropdown-item{
     color: #AD543B;
+}
+.nav-menus{
+    column-gap: 15px;
 }
 .nav-buttons{
     gap: 10px;
@@ -54,6 +65,13 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #FDFBFF;
+}
+.bredcrum{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
 }
 .banner-text h1{
     font-size: 83px;
@@ -195,6 +213,14 @@ body{
     font-family: "Playfair Display", serif;
     font-style: italic;
 }
+section, footer {
+    background: #FDFBFF;
+}
+.sticky-sec{
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+}
 .be-text{
     color: #AD543B;
     font-size: 20px;
@@ -225,6 +251,31 @@ body{
     font-weight: 400;
     text-decoration: none;
 }
+.learn-btn{
+    padding: 15px 20px;
+    color: #AD543B;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #AD543B;
+    margin-top: 20px;
+}
+.video_section{
+    position: relative;
+}
+.play_btn{
+   
+   position: absolute;
+   top: 50%;
+   z-index: 999;
+   left: 50%;
+   transform: translate(-50% ,-50%);
+
+
+}
+.play_btn img{
+   width:80%;
+
+}
 
 
 
@@ -235,6 +286,51 @@ body{
         width: 100%;
     }
     .banner-text h1{
-        font-size: 23px;
+        font-size: 22px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .phil-head h2 {
+        font-size: 26px;
+    }
+    .meet-heading {
+        font-size: 40px;
+    }
+    .Christina-content h2 {
+        font-size: 30px;
+    }
+    .two-color-content {
+        font-size: 22px;
+    }
+    .african-beauty-heading {
+        font-size: 28px;
+    }
+    .story-col {
+        padding: 20px;
+    }
+    .our-story-heading {
+        font-size: 35px;
+    }
+    .at-heading {
+        font-size: 28px;
+    }
+    .the54 h3 {
+        font-size: 32px;
+    }
+    .footer-text {
+        font-size: 20px;
+    }
+    .footer-content img{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .footer-icon{
+        width: auto!important;
     }
 }
