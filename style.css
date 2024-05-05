@@ -27,11 +27,13 @@ body{
     color: #AD543B;
 }
 .nav-menus{
-    column-gap: 15px;
+    column-gap: 40px;
+    flex-direction: row;
 }
 .nav-buttons{
     gap: 10px;
     align-items: center;
+    flex-direction: row;
 }
 .nav-buttons .search-btn{
     border: 1px solid #AD543B;
@@ -341,10 +343,139 @@ section, footer {
     opacity: 0;
     transition: 0.3s ease;
 }
-
+header {
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    background: #fff;
+    z-index: 250;
+    height: var(--header-height);
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+  }
+  .header .logo {
+    font-family: 'Comforter Brush', cursive;
+  padding-left: 40px;
+    font-size:38px;
+  }
+  .header .menu .drawer {
+    display: flex;
+    height: var(--header-height);
+  }
+  .header .menu .drawer a {
+    text-transform: capitalize;
+    transition: all 0.1s linear;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: #AD543B;
+    font-size: 16px;
+    position: relative;
+  }
+  .header .menu .drawer a:active {
+    background: #e0e0e0;
+  }
+  .menu-btn,
+  .close-btn {
+    background: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 11px;
+    top: 8px;
+    display: none;
+    cursor: pointer;
+  }
+  .menu-btn {
+    left: 3px;
+  }
+  .close-btn:active,
+  .menu-btn:active {
+    background: #f3f3f3;
+  }
+  .img{
+   height:calc(100vh - 53px);
+   width:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .header .menu .drawer a:hover::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #AD543B;
+    bottom: 0;
+    left: 0;
+    transition: 0,3s ease;
+  }
+  @media (max-width: 1140px) {
+    .header .menu .drawer {
+      padding: 0;
+    }
+  }
+  @media (max-width: 920px) {
+    .header .menu {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: -925px;
+      width: 100%;
+      height: 100%;
+      z-index: 300;
+    }
+    .header .menu .blank {
+      height: 100%;
+      flex: 1;
+    }
+    .header .menu .drawer {
+      box-shadow: 2px 0 12px rgb(0 0 0 / 40%);
+      padding-top: 50px;
+      height: 100%;
+      width: 225px;
+      background: #fff;
+      flex-direction: column;
+      position: fixed;
+      left: -240px;
+      transition: all 200ms linear;
+      overflow: auto;
+    }
+    .header .menu .drawer a {
+      padding: 15px;
+    }
+    .menu-btn,
+    .close-btn {
+      display: block;
+    }
+    .header .logo {
+      margin-left: 17px;
+    }
+    .drawer-visible {
+      left: 0 !important;
+    }
+    .blur {
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(15px);
+      left: 0 !important;
+    }
+  }
 
 
 @media (max-width: 767px){
+    .logo{
+        display: none;
+    }
+    .header{
+        padding: 10px 0;
+    }
     .banner-text {
         width: 100%;
     }
@@ -354,10 +485,14 @@ section, footer {
     .banner-text p{
         font-size: 14px;
     }
+    .nav-menus{
+        flex-direction: column;
+    }
     .nav-buttons {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-left: auto;
     }
     .phil-head h2 {
         font-size: 26px;
@@ -480,4 +615,9 @@ section, footer {
             flex: 0 0 auto;
             width: 50%;
         }
+}
+@media (max-width: 820px){
+    .nav-menus {
+        flex-direction: column;
+    }
 }
