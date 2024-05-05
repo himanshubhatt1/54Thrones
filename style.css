@@ -632,7 +632,8 @@ header {
 }
 .card-product-name{
     color: #AD543B;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .card-bottom-cart{
     background: #B39EEF;
@@ -672,11 +673,23 @@ header {
     background: url(./images/down.png) no-repeat right 12px center;
     background-size: 10px;
     color: #AD543B;
-    font-size: 18px;
+    font-size: 17px;
 }
 .form-select.card-select:focus {
     box-shadow: none;
     border: none;
+}
+.card-read-more{
+    color: #AD543B;
+    font-size: 18px;
+}
+.ago-text{
+    color: #AD543B;
+    font-size: 16px;
+}
+.card-content-text{
+    color: #AD543B;
+    font-size: 16px;
 }
 
 
