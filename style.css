@@ -238,8 +238,9 @@ section, footer {
 }
 .sticky-sec{
     position: sticky;
-    bottom: 0;
+    bottom: -280px;
     z-index: -1;
+    padding-bottom: 20px;
 }
 .be-text{
     color: #AD543B;
@@ -345,7 +346,6 @@ section, footer {
 
 @media (max-width: 767px){
     .banner-text {
-        top: 50%;
         width: 100%;
     }
     .banner-text h1{
@@ -405,6 +405,48 @@ section, footer {
     .about-cards p {
         padding: 0 15px;
         font-size: 13px;
+        opacity: 1;
+    }
+    .about-cards img {
+        height: 100%;
+        min-height: 450px;
+        object-fit: cover;
+    }
+    .sticky-sec {
+        bottom: -505px;
+    }
+    .footer-menu-link {
+        font-size: 15px;
+    }
+    .footer-title {
+        font-size: 17px;
+    }
+    .footer-menu {
+        font-size: 14px;
+    }
+    .banner-img img{
+        height: 100%;
+        min-height: 500px;
+        object-fit: cover;
+    }
+    .sm-col-rev{
+        flex-direction: column-reverse;
+    }
+    .lets-heading {
+        font-size: 36px;
+        text-align: left;
+    }
+    .sm-order-1{
+        order: 1;
+    }
+    .sm-order-2{
+        order: 2;
+    }
+    .sm-order-3{
+        order: 3;
+    }
+    .sm-order-4{
+        order: 4;
     }
 }
 @media (min-width: 768px) and (max-width: 820px){
@@ -428,4 +470,14 @@ section, footer {
         flex-direction: row;
         justify-content: center;
     }
+}
+@media (max-width: 576px) {
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+        .col-sm-6 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
 }
