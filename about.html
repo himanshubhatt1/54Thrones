@@ -20,94 +20,6 @@
   <body>
     <!-- Header -->
     <div class="container-fluid">
-      <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <a class="navbar-brand" href="#"
-          ><img src="./images/logo.png" alt="" srcset=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
-            style="--bs-scroll-height: 100px"
-          >
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                ABOUT
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SHOP
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SKIN QUIZ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">AMBASSADORS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">REWARDS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav nav-buttons d-flex">
-            <li class="nav-item">
-              <a href="#" class="search-btn d-flex"
-                ><img src="./images/loupe.png" alt="" srcset=""
-              /></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="log-in-btn">LOG IN</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="cart-btn"
-                ><img src="./images/cart.png" alt="" srcset="" />0</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav> -->
       <header>
         <div class="header">
           <button class="menu-btn" aria-label="Open Menu">
@@ -116,7 +28,7 @@
             /></a>
           </button>
           <div class="logo">
-            <a class="navbar-brand" href="#"
+            <a class="navbar-brand" href="/"
               ><img
                 src="./images/logo.png"
                 alt="logo"
@@ -144,7 +56,7 @@
               <ul class="navbar-nav nav-menus">
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle-icon"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -161,7 +73,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle-icon"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -560,8 +472,11 @@
 
         <div class="row g-2 py-5">
           <div class="col-lg-6 col-md-6 about-cards">
+            <h2 class="about-card-heading">
+              The Mission
+            </h2>
             <img
-              src="./images/mission.png"
+              src="./images/mission1.png"
               alt="img"
               class="img-fluid img-full"
             />
@@ -576,8 +491,11 @@
             </p>
           </div>
           <div class="col-lg-6 col-md-6 about-cards">
+            <h2 class="about-card-heading">
+              The Process
+            </h2>
             <img
-              src="./images/process.jpg"
+              src="./images/process1.jpg"
               alt="img"
               class="img-fluid img-full"
             />
@@ -590,8 +508,11 @@
             </p>
           </div>
           <div class="col-lg-6 col-md-6 about-cards">
+            <h2 class="about-card-heading">
+              The Family
+            </h2>
             <img
-              src="./images/family.jpg"
+              src="./images/family1.jpg"
               alt="img"
               class="img-fluid img-full"
             />
@@ -602,8 +523,11 @@
             </p>
           </div>
           <div class="col-lg-6 col-md-6 about-cards">
+            <h2 class="about-card-heading">
+              The 54 Thrones Oath
+            </h2>
             <img
-              src="./images/family.jpg"
+              src="./images/the54.jpeg"
               alt="img"
               class="img-fluid img-full"
             />
@@ -807,84 +731,6 @@
         </div>
       </div>
     </section>
-    <script>
-      // For Making Header Responsive
-      const menu_btn = document.querySelector(".menu-btn");
-      const close_btn = document.querySelector(".close-btn");
-      const menu = document.querySelector(".menu");
-      const drawer = menu.querySelector(".drawer");
-      const blank = menu.querySelector(".blank");
-      const close = () => {
-        menu.classList.remove("blur");
-        drawer.classList.remove("drawer-visible");
-      };
-
-      menu_btn.addEventListener("click", (e) => {
-        menu.classList.add("blur");
-        drawer.classList.add("drawer-visible");
-      });
-
-      close_btn.addEventListener("click", (e) => {
-        close();
-      });
-
-      blank.addEventListener("click", (e) => {
-        close();
-      });
-
-      Array.from(drawer.querySelectorAll("a")).forEach((element) => {
-        element.addEventListener("click", () => {
-          close();
-        });
-      });
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const searchBtn = document.querySelector(".search-btn");
-        const searchMenu = document.querySelector(".search-menu");
-        const searchIcon = searchBtn.querySelector("img");
-
-        // Function to toggle search menu visibility
-        function toggleSearchMenu() {
-          searchMenu.classList.toggle("show");
-          if (searchMenu.classList.contains("show")) {
-            searchIcon.src = "./images/cross.png"; // Change icon to close when menu is open
-          } else {
-            searchIcon.src = "./images/loupe.png"; // Change icon to search when menu is closed
-          }
-        }
-
-        // Event listener for search button click
-        searchBtn.addEventListener("click", function (e) {
-          e.preventDefault();
-          toggleSearchMenu();
-        });
-      });
-    </script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const searchBox = document.querySelector(".search-box");
-        const clearIcon = document.querySelector(".clear-icon");
-
-        // Function to clear input text
-        function clearInput() {
-          searchBox.value = "";
-        }
-
-        // Event listener for clear icon click
-        clearIcon.addEventListener("click", function () {
-          clearInput();
-        });
-
-        // Event listener for input text change
-        searchBox.addEventListener("input", function () {
-          // Toggle clear icon visibility based on input value
-          clearIcon.style.visibility =
-            this.value.trim() !== "" ? "visible" : "hidden";
-        });
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
