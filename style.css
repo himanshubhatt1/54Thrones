@@ -793,6 +793,24 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.community-inner-wrap {
+    padding: 280px 0;
+    background: url('./images/commu-img3.png') no-repeat left 300px bottom -70px, 
+    url('./images/commu-img2.png') no-repeat left 50px center, 
+    url('./images/commu-img1.png') no-repeat left 300px top,
+    url('./images/commu-img5.png') no-repeat right 50px top,
+    url('./images/commu-img4.png') no-repeat right 140px bottom 30px;
+    background-size: 300px;
+}
+.commu-heading{
+    color: #AD543B;
+    font-size: 90px;
+    text-align: center;
+}
+.commu-heading .inner-heading{
+    font-family: "Playfair-Display-italic";
+    font-style: italic;
+}
 
 
 
@@ -1006,6 +1024,14 @@ header {
     .rev-carousel-sec .carousel-control-prev, .rev-carousel-sec .carousel-control-next{
         display: none;
     }
+    .commu-heading {
+        font-size: 30px;
+    }
+    .community-inner-wrap {
+        padding: 300px 0;
+        background: url(./images/commu-img3.png) no-repeat left 300px bottom -32px, url(./images/commu-img2.png) no-repeat left 0px top 50px, url(./images/commu-img1.png) no-repeat right -30px top, url(./images/commu-img5.png) no-repeat right 10px bottom, url(./images/commu-img4.png) no-repeat left -31px bottom 30px;
+        background-size: 170px;
+    }
 }
 @media (min-width: 768px) and (max-width: 820px){
     /* .banner-text {
@@ -1073,6 +1099,14 @@ header {
     }
     .choose-cat-heading {
         font-size: 70px;
+    }
+    .commu-heading {
+        font-size: 70px;
+    }
+    .community-inner-wrap {
+        padding: 350px 0;
+        background: url(./images/commu-img3.png) no-repeat left -3px bottom -16px, url(./images/commu-img2.png) no-repeat left 10px top 96px, url(./images/commu-img1.png) no-repeat left 150px top -8px, url(./images/commu-img5.png) no-repeat right 13px top, url(./images/commu-img4.png) no-repeat center bottom -1px;
+        background-size: 300px;
     }
 }
 @media (max-width: 576px) {
