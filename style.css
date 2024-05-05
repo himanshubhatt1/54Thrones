@@ -682,6 +682,7 @@ header {
 .card-read-more{
     color: #AD543B;
     font-size: 18px;
+    font-weight: 500;
 }
 .ago-text{
     color: #AD543B;
@@ -691,8 +692,102 @@ header {
     color: #AD543B;
     font-size: 16px;
 }
-
-
+.card-name-wrap{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    margin: 10px 0;
+}
+.short-name-wrap p{
+    background: #AD543B;
+    color: #FFFDFA;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.card-name-right .rev-name{
+    color: #AD543B;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.card-name-right .verify-text{
+    color: #CA8D00;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.rev-conteny-wrap{
+    padding: 15px;
+}
+.rev-carousel-sec{
+    background: #F6F3FA;
+}
+.catagry-col{
+    position: relative;
+}
+.cat-shop-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.cat-shop-btn a{
+    background: #B39EEF;
+    width: 100%;
+    color: #FDFBFF;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.cat-tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: "Playfair-Display-italic";
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
+.catagry-col:hover .cat-shop-btn{
+    opacity: 1;
+}
+.choose-cat-heading{
+    font-size: 90px;
+    color: #AD543B;
+}
+.choose-cat-heading .inner-heading{
+    font-family: "Playfair-Display-italic";
+    font-style: italic;
+}
+.catagry-shopall-col{
+    background: #F6F3FA;
+    position: relative;
+}
+.catagry-shopall-col p.cat-shopall-tittle{
+    color: #AD543B;
+    font-size: 45px;
+    font-family: "Playfair-Display-italic";
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
+.cat-shopall-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 
 
@@ -758,6 +853,21 @@ header {
     }
     .search-menu h2 {
         font-size: 28px;    
+    }
+    .cat-tittle {
+        font-size: 18px;
+    }
+    .choose-cat-heading {
+        font-size: 31px;
+    }
+    .phil-head .to-africa-heading {
+        font-size: 31px;
+    }
+    .create-heading {
+        font-size: 22px;
+    }
+    .our-seller-heading {
+        font-size: 31px;
     }
     .banner-text {
         width: 100%;
@@ -964,5 +1074,16 @@ header {
     }
     .nav-menus .dropdown-menu{
         top: 0px !important;
+    }
+    .banner-right-col img{
+        display: none;
+    }
+    .banner-right-wrap {
+        bottom: 0px;
+    }
+    .banner-left-col img{
+        height: 100%;
+        min-height: 600px;
+        object-fit: cover;
     }
 }
