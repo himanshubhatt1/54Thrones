@@ -325,6 +325,21 @@ section, footer {
 .img-full {
     width: 100%;
 }
+.about-cards {
+    position: relative;
+    cursor: pointer;
+}
+.about-cards:hover p{
+    opacity: 1;
+}
+.about-cards p{
+    color: #FDFBFF;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
 
 
 
@@ -386,6 +401,10 @@ section, footer {
     }
     .img-wrap img{
         margin-bottom: 15px;
+    }
+    .about-cards p {
+        padding: 0 15px;
+        font-size: 13px;
     }
 }
 @media (min-width: 768px) and (max-width: 820px){
