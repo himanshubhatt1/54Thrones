@@ -116,7 +116,7 @@
         /></a>
           </button>
           <div class="logo"><a class="navbar-brand" href="#"
-            ><img src="./images/logo.png" alt="" srcset=""
+            ><img src="./images/logo.png" alt="logo" class="img-fluid" srcset=""
           /></a></div>
           <nav class="menu">
             <div class="drawer">
@@ -149,12 +149,8 @@
                 ABOUT
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+                <li><a class="dropdown-item" href="#">Our Story</a></li>
+                <li><a class="dropdown-item" href="#">Beauty Rituals</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -170,10 +166,6 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -190,14 +182,23 @@
             </li>
           </ul>
             </div>
-            <div class="blank"></div>
+            <!-- <div class="blank"></div> -->
           </nav>
           <ul class="navbar-nav nav-buttons d-flex">
             <li class="nav-item">
-              <a href="#" class="search-btn d-flex"
-                ><img src="./images/loupe.png" alt="" srcset=""
-              /></a>
-            </li>
+              <a href="#" class="search-btn d-flex"><img src="./images/loupe.png" alt="" srcset=""></a>
+              
+          </li>
+          <div class="search-menu">
+            <div>
+                <h2><span class="inner-content">Search</span> on 54 thrones</h2>
+                <div class="input-wrap">
+                  <input type="text" name="search" placeholder="Type here" class="search-box">
+                  <span class="clear-icon">×</span> <!-- Close icon -->
+                </div>
+                
+            </div>
+        </div>
             <li class="nav-item">
               <a href="#" class="log-in-btn">LOG IN</a>
             </li>
@@ -221,7 +222,7 @@
         />
       </div>
       <div class="bredcrum">
-        <p>HOME / ABOUT</p>
+        <p><span class="light-bredcrum">HOME /</span> ABOUT</p>
       </div>
       <div class="banner-text">
         <h1>To Africa, With Love</h1>
@@ -260,7 +261,7 @@
     </section>
 
     <!-- Philosophy section -->
-    <section class="philosophy-sec">
+    <section class="philosophy-sec py-5">
       <div class="container pt-5">
         <div class="phil-head text-center">
           <p class="phil-top-text">
@@ -284,21 +285,21 @@
       </div>
       <div class="container-fluid py-5">
         <div class="row img-wrap">
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-4">
             <img
               src="./images/phil1.png"
               alt="img1"
               class="img-fluid img-full"
             />
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-4">
             <img
               src="./images/phil2.png"
               alt="img2"
               class="img-fluid img-full"
             />
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-4">
             <img
               src="./images/phil3.png"
               alt="img3"
@@ -311,14 +312,14 @@
     <section class="img-content-sec py-5">
       <div class="container">
         <div class="row d-flex align-items-center sm-col-rev">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <img
               src="./images/product-img.png"
               alt="img3"
               class="img-fluid img-full"
             />
           </div>
-          <div class="col-lg-6 p-lg-5">
+          <div class="col-lg-6 col-md-6 p-lg-5">
             <div class="we-believe-content">
               <h2>We believe</h2>
               <p>
@@ -326,7 +327,7 @@
                 rituals we share were initially created with intent to heal or
                 celebrate.
               </p>
-              <p>
+              <p class="text-indent">
                 Plant botanicals like: roots, herbs, oils and butters were first
                 used to efficaciously treat ailments, maintain health or as part
                 of ceremonious occasions like births and weddings. These same
@@ -344,7 +345,7 @@
           Meet our <span class="inner-heading">founder</span>
         </h2>
         <div class="row d-flex align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <div class="Christina-content">
               <h2>Christina Tegbe</h2>
               <p class="two-color-content">
@@ -370,7 +371,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <img
               src="./images/Christina-img.png"
               alt="img3"
@@ -380,7 +381,7 @@
         </div>
       </div>
     </section>
-    <section class="video_section pb-3">
+    <section class="video_section py-5">
       <video
         class="video-sec"
         height="255"
@@ -416,9 +417,9 @@
     <!-- Our Story section -->
     <section class="our-story-sec">
       <div class="container-fluid">
-        <div class="row g-0">
+        <div class="row g-0 pt-5">
           <div
-            class="col-lg-6 d-flex flex-column justify-content-center story-col"
+            class="col-lg-6 col-md-6 d-flex flex-column justify-content-center story-col"
           >
             <h2 class="our-story-heading">
               Our
@@ -437,7 +438,7 @@
               sustainably-made beauty products inspired by ancient African
               tradition.
             </p>
-            <p class="Christina-inner-text">
+            <p class="Christina-inner-text text-indent">
               The result: high-quality, African-grown ingredients, backed by
               women who've cared for their skin with these natural ingredients
               for generations.
@@ -446,7 +447,7 @@
               <a href="#" class="explor-btn">Explore the origins</a>
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <img
               src="./images/our-story.png"
               alt="img"
@@ -487,7 +488,7 @@
               beyond what you're used to.
             </h2>
           </div>
-          <div class="col-lg-3 offset-lg-2">
+          <div class="col-lg-3 col-md-6 pt-md-4 offset-lg-2">
             <p class="be-text">
               Be inspired by the rich cultures our ingredients come from, the
               people who create them and the power behind African clean beauty.
@@ -495,7 +496,7 @@
           </div>
         </div>
 
-        <div class="row g-2">
+        <div class="row g-2 py-5">
           <div class="col-lg-6 col-md-6 about-cards">
             <img
               src="./images/mission.png"
@@ -539,15 +540,17 @@
             </p>
           </div>
           <div class="col-lg-6 col-md-6 about-cards">
-            <div class="the54">
-              <h3>The 54 Thrones Oath</h3>
+            <img
+              src="./images/family.jpg"
+              alt="img"
+              class="img-fluid img-full"
+            />
               <p>
                 We care about what we produce, how we produce it, who produces
                 it, and the why behind everything we make. We promise to always
                 put safety, efficacy and integrity into everything we do and
                 every product we produce.
               </p>
-            </div>
           </div>
         </div>
       </div>
@@ -630,8 +633,8 @@
             </div>
           </div>
 
-          <div class="row py-5">
-            <div class="col-lg-6 col-sm-6 sm-order-3">
+          <div class="row py-5 row-gap-sm">
+            <div class="col-lg-6 col-sm-6 sm-order-3 col-rev-sm">
               <p class="footer-menu">54 THRONES <br />© 2024 COPYRIGHT</p>
               <img
                 src="./images/footer-icon.png"
@@ -773,5 +776,53 @@
         });
       });
     </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const searchBtn = document.querySelector('.search-btn');
+      const searchMenu = document.querySelector('.search-menu');
+      const searchIcon = searchBtn.querySelector('img');
+
+      // Function to toggle search menu visibility
+      function toggleSearchMenu() {
+          searchMenu.classList.toggle('show');
+          if (searchMenu.classList.contains('show')) {
+              searchIcon.src = './images/cross.png'; // Change icon to close when menu is open
+          } else {
+              searchIcon.src = './images/loupe.png'; // Change icon to search when menu is closed
+          }
+      }
+
+      // Event listener for search button click
+      searchBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          toggleSearchMenu();
+      });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const searchBox = document.querySelector('.search-box');
+      const clearIcon = document.querySelector('.clear-icon');
+
+      // Function to clear input text
+      function clearInput() {
+          searchBox.value = '';
+      }
+
+      // Event listener for clear icon click
+      clearIcon.addEventListener('click', function() {
+          clearInput();
+      });
+
+      // Event listener for input text change
+      searchBox.addEventListener('input', function() {
+          // Toggle clear icon visibility based on input value
+          clearIcon.style.visibility = this.value.trim() !== '' ? 'visible' : 'hidden';
+      });
+  });
+</script>
+
   </body>
 </html>
