@@ -376,6 +376,11 @@ section, footer {
     text-decoration: none;
     border: 1px solid #AD543B;
     margin-top: 20px;
+    transition: 0.3s ease;
+}
+a.learn-btn:hover {
+    background: #AD543B;
+    color: #fff;
 }
 .video_section{
     position: relative;
@@ -887,6 +892,9 @@ header {
         justify-content: center;
         margin-left: auto;
     }
+    .catagry-shopall-col p.cat-shopall-tittle {
+        font-size: 18px;
+    }
     .phil-head h2 {
         font-size: 26px;
     }
@@ -995,6 +1003,9 @@ header {
     .about-card-heading {
         font-size: 29px;
     }
+    .rev-carousel-sec .carousel-control-prev, .rev-carousel-sec .carousel-control-next{
+        display: none;
+    }
 }
 @media (min-width: 768px) and (max-width: 820px){
     /* .banner-text {
@@ -1054,6 +1065,15 @@ header {
         padding: 15px;
         opacity: 1;
     }
+    .phil-head .to-africa-heading {
+        font-size: 70px;
+    }
+    .our-seller-heading {
+        font-size: 70px;
+    }
+    .choose-cat-heading {
+        font-size: 70px;
+    }
 }
 @media (max-width: 576px) {
     .col-sm-4 {
@@ -1085,5 +1105,8 @@ header {
         height: 100%;
         min-height: 600px;
         object-fit: cover;
+    }
+    .banner-right-col {
+        position: initial;
     }
 }
