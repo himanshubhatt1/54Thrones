@@ -355,11 +355,26 @@
         </div>
       </div>
     </section>
-    <section class="video_section py-5">
+    <section class="video_section desktop-video-sec pt-5">
       <video
         class="video-sec"
         height="255"
         poster="./images/watch-our.png"
+        controls
+      >
+        <source src="video.mp4" type="video/mp4" />
+        <source src="video.ogg" type="video/ogg" />
+        <source src="video.webm" type="video/webm" />
+        <object data="video.mp4" width="470" height="255">
+          <embed src="video.swf" width="470" height="255" />
+        </object>
+      </video>
+    </section>
+    <section class="video_section mob-video-sec pt-5">
+      <video
+        class="video-sec"
+        height="255"
+        poster="./images/mob-thumb.png"
         controls
       >
         <source src="video.mp4" type="video/mp4" />
@@ -553,7 +568,7 @@
               Let’s <span class="inner-content">stay in touch!</span>
             </p>
             <div class="row">
-              <div class="col-lg-10 d-flex">
+              <div class="col-lg-10 col-md-9 d-flex">
                 <input
                   type="email"
                   name="email"
@@ -562,7 +577,7 @@
                   class="email-box"
                 />
               </div>
-              <div class="col-lg-2">
+              <div class="col-lg-2 col-md-3">
                 <p class="m-0"><a href="#" class="sign-up-btn">SIGN UP</a></p>
               </div>
             </div>
