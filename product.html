@@ -12,7 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/themes/splide-skyblue.min.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/product-style.css">
 </head>
 
 <body>
@@ -151,49 +156,234 @@
     </div>
 
     <!-- Banner section -->
-    <section class="banner-sec">
-        <div class="row g-0 banner-row">
-            <img src="./images/54logo.png" alt="img" class="img-fluid img-full banner-54-img" srcset="" />
-            <div class="col-lg-6 banner-left-col">
-                <img src="./images/img1.png" alt="img" class="img-fluid img-full" srcset="" />
+    <!-- card_displaysection -->
+    <section class="product_card_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 left-slid-col">
+                    <div id="main-slider" class="splide ">
+                        <div class="splide__track left_section">
+                            <div class="desk-card-tag">
+                                <p class="star-text">
+                                    <img src="./images/blue-star.png" class="img-fluid" alt="product" />
+                                    BRIGHTENS + TONES
+                                </p>
+                                <p class="fav-text">TIKTOK FAVE</p>
+                            </div>
+                            <ul class="splide__list text-center">
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/front.png" alt="front" class="img-fluid">
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <ul id="thumbnails" class="thumbnails">
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="./images/front.png" alt="front_image" class="img-fluid" />
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="right_product_section ">
+                        <div class="backToshop">
+                            <p><a href="javascript:void()"><span><img src="./images/left-back.png" alt="backarrow"
+                                            class="img-fluid me-3"></span>Back to shop</a></p>
+                        </div>
+
+                        <div class="product_content">
+                            <h2>Barrier Repair <span class="cream_text">Cloud Cream</span></h2>
+
+                            <p><img src="./images/half_fourstars.png" alt="halfstar" class="img-fluid me-">(4.9) 12
+                                Reviews</p>
+
+                            <p>A fast-absorbing, ultra-hydrating, non-greasy body <br> cream great for daily use on all
+                                skin types. Rapidly <br> hydrates and protects skin barrier. </p>
+                        </div>
+
+                        <div class="three_icons mt-4">
+                            <div class="d-flex gap-4 icons-wrap">
+                                <div class="text-center">
+                                    <p class="mb-0"><img src="./images/vegan.png" alt="vegan" class="img-fluid"></p>
+                                    <p class="vegan_text">Vegan</p>
+
+                                </div>
+                                <div class="text-center">
+                                    <p class="mb-0"><img src="./images/gluten4.png" alt="gluten" class="img-fluid"></p>
+                                    <p class="vegan_text">Gluten Free</p>
+
+                                </div>
+                                <div class="text-center">
+                                    <p class="mb-0"><img src="./images/heart.png" alt="heart" class="img-fluid"></p>
+                                    <p class="vegan_text">Cruelty Free</p>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="add_to_cart mt-3">
+                            <div class="kenyan">
+                                <select class="" aria-label="Default select example">
+                                    <option selected>
+                                        Kenyan Hibiscus + Moroccan Rose
+                                    </option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                </select>
+                            </div>
+
+                            <div class="one_time_purchase">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label d-flex justify-content-between"
+                                        for="flexRadioDefault1">
+                                        <p class="rupees_text">ONE TIME PURCHASE</p>
+                                        <p class="ruppes">$36</p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label d-flex justify-content-between"
+                                        for="flexRadioDefault2">
+                                        <div>
+                                            <p class="mb-0">SUBSCRIBE, SAVE & GET FREE SHIPPING (5%) <span><img
+                                                        src="./images/ask-circle.png" alt="ask_circle"
+                                                        class="img-fluid"></span>
+                                            <p class="mb-0 free_delivery">Free delivery <u>every 1 months</u></p>
+                                        </div>
+                                        </p>
+                                        <p class="ruppes">$34.20</p>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="cart_part d-flex gap-2 align-items-center">
+                                <div class="product_quantity">
+                                    <button class="product_decrease products_btn">-</button><span>1</span> <button
+                                        class="product_increase products_btn">+</button>
+                                </div>
+                                <div class="add_btn flex-grow-1">
+                                    <button class="w-100">ADD TO CART <span><img src="./images/cart-icon.png"
+                                                alt="addtocart" class="img-fluid "></span></button>
+
+                                </div>
+                            </div>
+
+                            <div class="accordian_part">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Why You’ll Love It
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur rem
+                                                    autem repellat quis reprehenderit sequi qui consequatur nostrum.
+                                                    Pariatur distinctio incidunt commodi, quam dolorem dolores laborum
+                                                    asperiores fugiat! Dolores, ipsum?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                How To Use
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+                                                    expedita, atque voluptatum qui ad porro. In, nihil libero corporis
+                                                    quis tempore pariatur quo tenetur perspiciatis! Quis dolores libero
+                                                    accusamus repudiandae.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Ingredients
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingThree"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Consectetur, sed et. Reprehenderit cupiditate consectetur nulla
+                                                    quisquam facilis aliquam dolore. Quam ut minus itaque totam tempore
+                                                    natus quis omnis odio iure?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
             </div>
-            <div class="col-lg-6 banner-right-col">
-                <img src="./images/img2.png" alt="img" class="img-fluid img-full" srcset="" />
-                <div class="banner-right-wrap">
-                    <img src="./images/icon.png" alt="img" class="img-fluid text-center d-flex m-auto mb-4" srcset="" />
-                    <h2 class="create-heading">
-                        Creating <span class="inner-heading">modern </span>skincare
-                        experiences through
-                        <span class="inner-heading">traditional African beauty</span>
-                        rituals
-                    </h2>
-                    <p class="text-center pt-5">
-                        <a href="#" class="explor-btn">SHOP NOW</a>
-                    </p>
+        </div>
+    </section>
+
+    <!-- a fast absorbing -->
+    <section class="fast_absorbing_section px-2">
+        <div class="container-fluid blend_background">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div>
+                        <p><img src="./images/icon.png" alt="star" class="img-fluid "></p>
+                    </div>
+                    <h1>A fast-absorbing, ultra-hydrating, non-greasy body cream <span class="cream_text">great for
+                            daily use</span> on all skin types. Rapidly hydrates and protects skin barrier. </h1>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <marquee class="banner-marq">
-            <p class="slider-wrap">
-                <span><img src="./images/slid-icon3.png" alt="img" class="img-fluid" srcset="" />
-                    FREE SHIPPING ORDERS $50+</span>
-                <span><img src="./images/slid-icon1.png" alt="img" class="img-fluid" srcset="" />
-                    20% OFF SITEWIDE - NO CODE NEEDED</span>
-                <span><img src="./images/slid-icon2.png" alt="img" class="img-fluid" srcset="" />
-                    ingredients ethically sourced from Africa</span>
-                <span><img src="./images/slid-icon3.png" alt="img" class="img-fluid" srcset="" />
-                    FREE SHIPPING ORDERS $50+</span><span><img src="./images/slid-icon2.png" alt="img" class="img-fluid"
-                        srcset="" />
-                    20% OFF SITEWIDE - NO CODE NEEDED</span>
-            </p>
-        </marquee>
-    </section>
 
-    <section class="carousel-sec seller-sec seller-desktop-sec py-5">
+    <section class="carousel-result-sec seller-sec seller-desktop-sec py-5">
         <div class="container-fluid py-5">
-            <h2 class="our-seller-heading text-center">
+            <h2 class="result-heading text-center">
                 <span class="inner-heading">Results</span>
             </h2>
             <div id="carouselExample" class="carousel slide">
@@ -201,50 +391,26 @@
                     <div class="carousel-item active">
                         <div class="row g-2">
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
                                         <img src="./images/be-af-img1.png" class="img-fluid img-full" alt="product" />
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
                                         <img src="./images/be-af-img2.png" class="img-fluid img-full" alt="product" />
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
                                         <img src="./images/be-af-img3.png" class="img-fluid img-full" alt="product" />
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row g-2">
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
                                         <img src="./images/be-af-img1.png" class="img-fluid img-full" alt="product" />
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
                                         <img src="./images/be-af-img2.png" class="img-fluid img-full" alt="product" />
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
                                         <img src="./images/be-af-img3.png" class="img-fluid img-full" alt="product" />
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -294,136 +460,26 @@
                 <span class="inner-heading">Results</span>
             </h2>
             <div class="row g-2 row-gap-3">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="./images/product3.png" class="img-fluid" alt="product" />
-                            <div class="card-tag">
-                                <p class="star-text">
-                                    <img src="./images/blue-star.png" class="img-fluid" alt="product" />
-                                    REPAIRS BARRIER
-                                </p>
-                                <p class="fav-text">TIKTOK FAVE</p>
-                            </div>
-                            <div class="card-footer-content">
-                                <img src="./images/stars.png" class="img-fluid my-2" alt="product" />
-                            </div>
-                            <p class="card-product-name">Mini African Beauty Butters</p>
-                            <select class="form-select card-select" aria-label="Default select example">
-                                <option selected="">Kenyan Hibiscus + Moroccan Rose</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                            </select>
-                            <p>
-                                <a href="#" class="card-bottom-cart"><span>ADD
-                                        <img src="./images/cart-icon.png" class="img-fluid" alt="product" /></span>
-                                    <span>$16</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-sm-12">
+                            <img src="./images/be-af-img1.png" class="img-fluid" alt="product" />
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="./images/product1.png" class="img-fluid" alt="product" />
-                            <div class="card-tag">
-                                <p class="star-text">
-                                    <img src="./images/blue-star.png" class="img-fluid" alt="product" />
-                                    REPAIRS BARRIER
-                                </p>
-                                <p class="fav-text">TIKTOK FAVE</p>
-                            </div>
-                            <div class="card-footer-content">
-                                <img src="./images/stars.png" class="img-fluid my-2" alt="product" />
-                            </div>
-                            <p class="card-product-name">Mini African Beauty Butters</p>
-                            <select class="form-select card-select" aria-label="Default select example">
-                                <option selected="">Kenyan Hibiscus + Moroccan Rose</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                            </select>
-                            <p>
-                                <a href="#" class="card-bottom-cart"><span>ADD
-                                        <img src="./images/cart-icon.png" class="img-fluid" alt="product" /></span>
-                                    <span>$16</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-sm-12">
+                            <img src="./images/be-af-img2.png" class="img-fluid" alt="product" />
                 </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="./images/product3.png" class="img-fluid" alt="product" />
-                            <div class="card-tag">
-                                <p class="star-text">
-                                    <img src="./images/blue-star.png" class="img-fluid" alt="product" />
-                                    REPAIRS BARRIER
-                                </p>
-                                <p class="fav-text">TIKTOK FAVE</p>
-                            </div>
-                            <div class="card-footer-content">
-                                <img src="./images/stars.png" class="img-fluid my-2" alt="product" />
-                            </div>
-                            <p class="card-product-name">Mini African Beauty Butters</p>
-                            <select class="form-select card-select" aria-label="Default select example">
-                                <option selected="">Kenyan Hibiscus + Moroccan Rose</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                            </select>
-                            <p>
-                                <a href="#" class="card-bottom-cart"><span>ADD
-                                        <img src="./images/cart-icon.png" class="img-fluid" alt="product" /></span>
-                                    <span>$16</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="./images/product1.png" class="img-fluid" alt="product" />
-                            <div class="card-tag">
-                                <p class="star-text">
-                                    <img src="./images/blue-star.png" class="img-fluid" alt="product" />
-                                    REPAIRS BARRIER
-                                </p>
-                                <p class="fav-text">TIKTOK FAVE</p>
-                            </div>
-                            <div class="card-footer-content">
-                                <img src="./images/stars.png" class="img-fluid my-2" alt="product" />
-                            </div>
-                            <p class="card-product-name">Mini African Beauty Butters</p>
-                            <select class="form-select card-select" aria-label="Default select example">
-                                <option selected="">Kenyan Hibiscus + Moroccan Rose</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                            </select>
-                            <p>
-                                <a href="#" class="card-bottom-cart"><span>ADD
-                                        <img src="./images/cart-icon.png" class="img-fluid" alt="product" /></span>
-                                    <span>$16</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-sm-12">
+                            <img src="./images/be-af-img3.png" class="img-fluid" alt="product" />
                 </div>
             </div>
-            <p class="pt-5 text-center mb-0 pb-4">
-                <a href="#" class="learn-btn">SHOW MORE</a>
-            </p>
         </div>
     </section>
 
     <section class="your-rit-section py-5">
         <div class="container-fluid">
             <div class="row g-0">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-4 left-rit-col">
                     <img src="./images/your-rit-img.png" class="img-fluid img-full" alt="img" />
                 </div>
-                <div class="col-lg-6 right-rit-col">
+                <div class="col-lg-6 col-md-8 right-rit-col">
                     <div class="right-rit-inner">
                         <div>
                             <h2 class="you-rit-heading">
@@ -440,7 +496,7 @@
                                     </div>
 
                                 </div>
-                                <p><a href="#" class="rit-add-cart-btn">ADD TO CART <img src="./images/brown-cart.png"
+                                <p class="rit-add-cart-btn-wrap"><a href="#" class="rit-add-cart-btn">ADD TO CART <img src="./images/brown-cart.png"
                                             class="img-fluid" alt="img" /></a></p>
 
                             </div>
@@ -453,7 +509,7 @@
                                     </div>
 
                                 </div>
-                                <p><a href="#" class="rit-add-cart-btn">ADD TO CART <img src="./images/brown-cart.png"
+                                <p class="rit-add-cart-btn-wrap"><a href="#" class="rit-add-cart-btn">ADD TO CART <img src="./images/brown-cart.png"
                                             class="img-fluid" alt="img" /></a></p>
 
                             </div>
@@ -466,7 +522,7 @@
                                     </div>
 
                                 </div>
-                                <p><a href="#" class="rit-add-cart-btn">ADD TO CART <img src="./images/brown-cart.png"
+                                <p class="rit-add-cart-btn-wrap"><a href="#" class="rit-add-cart-btn">ADD TO CART <img src="./images/brown-cart.png"
                                             class="img-fluid" alt="img" /></a></p>
 
                             </div>
@@ -482,7 +538,7 @@
         </div>
     </section>
 
-    <section class="video_section desktop-video-sec d-flex">
+    <section class="video_section desktop-video-sec">
         <video class="video-sec" height="255" poster="./images/watch-video.png" controls>
             <source src="video.mp4" type="video/mp4" />
             <source src="video.ogg" type="video/ogg" />
@@ -509,19 +565,19 @@
                 Key<span class="inner-heading"> Ingredients</span>
             </h2>
             <div class="row py-5">
-                <div class="col-lg-4 key-col">
+                <div class="col-lg-4 col-md-4 key-col">
                     <img src="./images/key-img1.png" class="img-fluid" alt="img" />
                     <p class="key-title">Peptides</p>
                     <p class="key-text">
                         Support a healthy skin barrier and collagen production
                     </p>
                 </div>
-                <div class="col-lg-4 key-col">
+                <div class="col-lg-4 col-md-4 key-col">
                     <img src="./images/key-img2.png" class="img-fluid" alt="img" />
                     <p class="key-title">Hyaluronic Acid/ Sodium Hyaluronate</p>
                     <p class="key-text">Draws in moisture to increase skin hydration</p>
                 </div>
-                <div class="col-lg-4 key-col">
+                <div class="col-lg-4 col-md-4 key-col">
                     <img src="./images/key-img3.png" class="img-fluid" alt="img" />
                     <p class="key-title">Resurrection Plant</p>
                     <p class="key-text">
@@ -532,10 +588,10 @@
         </div>
         <div class="container-fluid">
             <div class="row py-4 g-0">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <img src="./images/key-flow.png" class="img-fluid img-full" alt="img" />
                 </div>
-                <div class="col-lg-6 key-flow-right">
+                <div class="col-lg-6 col-md-6 key-flow-right">
                     <p class="key-small-text"><img src="./images/blue-star.png" class="img-fluid" alt="img" />Scent
                         stories</p>
                     <h2 class="key-flow-heading">Ugandan Vanilla + <br> Ethiopian Honey</h2>
@@ -1327,6 +1383,47 @@
         });
     </script>
     <script src="./script.js"></script>
+    <script>
+        var splide = new Splide('#main-slider', {
+            pagination: false,
+        });
+
+
+        var thumbnails = document.getElementsByClassName('thumbnail');
+        var current;
+
+
+        for (var i = 0; i < thumbnails.length; i++) {
+            initThumbnail(thumbnails[i], i);
+        }
+
+
+        function initThumbnail(thumbnail, index) {
+            thumbnail.addEventListener('click', function () {
+                splide.go(index);
+            });
+        }
+
+
+        splide.on('mounted move', function () {
+            var thumbnail = thumbnails[splide.index];
+
+
+            if (thumbnail) {
+                if (current) {
+                    current.classList.remove('is-active');
+                }
+
+
+                thumbnail.classList.add('is-active');
+                current = thumbnail;
+            }
+        });
+
+
+        splide.mount();
+
+    </script>
 </body>
 
 </html>
