@@ -587,7 +587,7 @@ header {
     background: #AD543B;
     bottom: 0;
     left: 0;
-    transition: 0,3s ease;
+    transition: 0.3s ease;
   }
 .banner-row{
     position: relative;
