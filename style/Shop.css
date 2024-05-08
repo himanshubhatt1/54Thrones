@@ -77,9 +77,13 @@ body{
 }
 .cards-row .card{
     border: none;
+    height: 100%;
 }
 .cards-row .card-body{
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .select-wrap{
     display: flex;
@@ -130,6 +134,7 @@ body{
         width: auto;
         flex-direction: column;
         row-gap: 4px;
+        align-items: flex-start;
     }
     .desk-card-tag .star-text {
         column-gap: 7px;
@@ -180,4 +185,4 @@ body{
         display: flex;
         column-gap: 67px;
     }
-}
+}   
