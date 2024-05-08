@@ -13,14 +13,9 @@
     font-size: 134px;
     font-family: "Playfair-Display-italic";
 }
-.banner-content{
-    font-size: 20px;
-}
 .we-look-heading{
     font-size: 52px;
     color: #AD543B;
-    margin-bottom: 30px;
-    line-height: 56px;
 }
 .we-look-heading .inner-heading{
     font-size: 54px;
@@ -29,21 +24,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.we-look-content .we-look-text{
+.we-look-content p{
     color: #AD543B;
     font-size: 20px;
-    line-height: 26px;
 }
 .fw-500{
     font-family: "Poppins-Medium";
-}
-.in-my-text{
-    color: #AD543B;
-    font-size: 24px;
-    line-height: 29px;
-}
-.text-indent {
-    text-indent: 104px;
 }
 .how-does-heading{
     font-size: 52px;
