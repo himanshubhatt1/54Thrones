@@ -846,7 +846,7 @@ header {
 }
 .commu-heading{
     color: #AD543B;
-    font-size: 90px;
+    font-size: 96px;
     text-align: center;
 }
 .commu-heading .inner-heading{
@@ -1141,6 +1141,9 @@ header {
         font-size: 36px;
     }
     .phil-head .to-africa-heading {
+        font-size: 31px;
+    }
+    .our-seller-heading {
         font-size: 31px;
     }
     .create-heading {
