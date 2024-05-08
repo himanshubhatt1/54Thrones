@@ -1,0 +1,176 @@
+body{
+    font-family: "Poppins-Regular";
+    font-weight: 500;
+}
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('./fonts/Poppins-Regular.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url('./fonts/Poppins-Medium.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Playfair-Display-italic';
+	src:url('./fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
+
+	
+}
+.stroy_section{
+    background-color: #F6F3FA;
+}
+
+.shop_breadcrum .Shop_text{
+    color: #AD543B;
+    font-family: 'Poppins-Medium';
+}
+.shop_breadcrum .home_text{
+    color: #AD543B;
+    opacity: 0.8;
+    font-family: 'Poppins-Medium';
+}
+.product_heading{
+    text-align: center;
+    color: #AD543B;
+}
+.shop_feed{
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
+.product_heading .main_heading{
+    font-size: 90px;
+    line-height: 104px;
+}
+.story-wrapper {
+    margin-top: 30px;
+}
+.story_content{
+    display: inline-block;
+    width: 148px;
+    margin: 0 5px;
+}
+.story_content img{
+    border: 3px solid #B39EEF;
+    border-radius: 100%;
+    padding: 2px;
+}
+.story_content a{
+    text-decoration: none;
+    color: #AD543B; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.story_content p{
+    margin: 10px 0;
+}
+.story_list .story{
+   color: #AD543B;  
+}
+.story-wrapper .slick-arrow{
+    display: none!important;
+}
+.cards-row .card{
+    border: none;
+}
+.cards-row .card-body{
+    padding: 0;
+}
+.select-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.product-select{
+    border: none;
+    color: #AD543B;
+    font-family: 'Poppins-Medium';
+    width: auto;
+    line-height: 24px;
+    appearance: none;
+    background: url('../images/select-down-arrow.png') no-repeat right;
+}
+.product-select:focus-visible{
+    box-shadow: none;
+}
+.inner-select-wrap{
+    display: flex;
+}
+
+@media (max-width: 767px){
+    .shop_breadcrum{
+        font-size: 14px;
+    }
+    .product_heading .main_heading {
+        font-size: 46px;
+        line-height: 35px;
+        margin-top: 115px;
+        letter-spacing: -1.5px;
+    }
+    .shop_feed {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .story_content {
+        width: 100px;
+    }
+    .story_content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .girl-with-product{
+        object-fit: cover;
+    }
+    .desk-card-tag {
+        width: auto;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+    .desk-card-tag .star-text {
+        column-gap: 7px;
+    }
+    .select-wrap {
+        flex-direction: column;
+    }
+    .inner-select-wrap {
+        flex-direction: column;
+    }
+    .product-select {
+        border-bottom: 1px solid #AD543B33;
+        border-radius: 0;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .short-select{
+        border: none;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+    .card-product-name {
+        font-size: 14px;
+    }
+    .card-bottom-cart {
+        flex-direction: row-reverse;
+    }
+    .card-bottom-cart span{
+        font-size: 12px;
+    }
+    .select-section{
+        padding: 30px 0;
+    }
+}
+@media (min-width:768px) and (max-width:820px){
+
+    .card-product-name{
+    color: #AD543B;
+    font-size: 17px;}
+    .card-footer-content img{
+        width: 40%;
+
+    }
+}

@@ -1,0 +1,170 @@
+.banner-text {
+    top: 60%;
+    width: 100%;
+    z-index: 1;
+    max-width: 86%;
+}
+.banner-text h1{
+    font-size: 120px;
+    color: #FDFBFF;
+    font-family: "Poppins-Regular";
+}
+.banner-text .inner-heading {
+    font-size: 134px;
+    font-family: "Playfair-Display-italic";
+}
+.we-look-heading{
+    font-size: 52px;
+    color: #AD543B;
+}
+.we-look-heading .inner-heading{
+    font-size: 54px;
+    font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.we-look-content .text-indent{
+    text-indent: 90px;
+}
+.we-look-content p{
+    color: #AD543B;
+    font-size: 20px;
+}
+.fw-500{
+    font-family: "Poppins-Medium";
+}
+.how-does-heading{
+    font-size: 52px;
+    color: #AD543B;
+}
+.how-does-heading .inner-heading{
+    font-size: 54px;
+    font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.african-beauty-orig-sec{
+    background: url('../images/african-bg.png') no-repeat;
+    background-size: cover;
+    background-color: #F6F3FA;
+    padding: 120px 0;
+}
+.african-beauty-heading{
+    font-size: 90px;
+    color: #AD543B;
+}
+.african-beauty-heading .inner-heading{
+    font-size: 96px;
+    font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.african_root{
+    position: relative;
+}
+.african_root .after_image{
+position: absolute;
+top: 39%;
+    left: 4%;
+transform: translate(-50%,-50%);
+}
+.african_map{
+    position: relative;
+}
+.map_content{
+    top: 34%;
+    left: 81%;
+    transform: translate(-50%,-50%);
+position: absolute;
+width: 33%;
+background-color: white;
+padding: 25px;
+}
+
+.map_content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 49%;
+    margin-left: -12px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) transparent transparent transparent;
+  }
+.image_with_text .kigelia_text{
+    font-size: 24px;
+    font-size: 24px;
+    width: 62%;
+    color: #AD543B;
+    font-weight: 500;
+}
+
+.inner_content p{
+    color: #AD543B;
+    font-size: 16px;
+}
+.map_content .inner_content .image_with_text{
+    display: flex;
+    justify-content: space-between;
+}
+.flowerList {
+    display: none;
+}
+@media (max-width: 767px){
+    .banner-text .inner-heading {
+        font-size: 36px;
+    }
+    .banner-text h1 {
+        font-size: 31px;
+    }
+    .we-look-heading {
+        font-size: 31px;
+    }
+    .we-look-heading .inner-heading {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .african-beauty-heading {
+        font-size: 31px;
+    }
+    .african-beauty-heading .inner-heading {
+        font-size: 36px;
+    }
+    .how-does-heading {
+        font-size: 31px;
+    }
+    .how-does-heading .inner-heading {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .we-look-content p {
+        color: #AD543B;
+        font-size: 16px;
+    }
+    .we-look-content .the_idea{
+font-size: 14px;
+line-height: 19px;
+    }
+    .african_root .after_image {
+        display: none;
+    }
+    .map_content{
+display: none;
+    }
+    .african-beauty-orig-sec {
+   
+        padding: 48px 0;
+    
+    }
+    .flowerList .list_items{
+          text-decoration: underline;
+          color: #765DBA;
+          font-size: 14px;
+    }
+    .flowerList {
+        display: block;
+    }
+}
