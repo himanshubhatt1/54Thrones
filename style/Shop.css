@@ -118,9 +118,7 @@ body{
 .filter_list a{
     color: #AD543B;
 }
-.active_filters{
-    display: none;
-}
+
  
 @media (max-width: 767px){
     .shop_breadcrum{
