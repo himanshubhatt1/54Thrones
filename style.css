@@ -497,7 +497,7 @@ a.learn-btn:hover {
     /* display: block; */
     /* opacity: 1; */
 }
-.show{
+.show-modal{
     /* display: block; */
     opacity: 1;
     z-index: 9;

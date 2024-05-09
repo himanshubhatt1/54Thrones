@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to toggle search menu visibility
     function toggleSearchMenu() {
-        searchMenu.classList.toggle("show");
-        if (searchMenu.classList.contains("show")) {
+        searchMenu.classList.toggle("show-modal");
+        if (searchMenu.classList.contains("show-modal")) {
             searchIcon.src = "./images/cross.png"; // Change icon to close when menu is open
         } else {
             searchIcon.src = "./images/loupe.png"; // Change icon to search when menu is closed
