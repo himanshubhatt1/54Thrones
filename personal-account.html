@@ -231,7 +231,7 @@
     <section>
       <div class="inner-wrap">
         <div class="row g-0">
-          <div class="col-lg-4 left-col">
+          <div class="col-lg-3 left-col">
             <p class="back-to-page-text">
               <a href="javascript:void()"
                 ><span
@@ -245,18 +245,180 @@
 
             <h2 class="my-account-heading">My account</h2>
             <p class="email">e-mail@gmail.com</p>
-
-            <p class="log-out-text">
+            <div class="tab">
+              <button class="tablinks text-start w-100 active" onclick="openCity(event, 'London')">ORDERS</button>
+              <hr>
+              <button class="tablinks text-start w-100" onclick="openCity(event, 'Paris')">MY DETAILS</button>
+              <hr>
+              <button class="tablinks text-start w-100" onclick="openCity(event, 'Tokyo')">MANAGE SUBSCRIPTION</button>
+            </div>           <p class="log-out-text">
               <a href="javascript:void()"><span></span>LOG OUT</a>
             </p>
           </div>
           <div class="col-lg-8 right-col">
-            <h2 class="right-main-heading">Orders</h2>
+           
+            <div id="London" class="tabcontent newcontent">
+              <div>
+                <h2 class="orders_text">Orders</h2> 
+  
+                <div class="d-flex gap-3 active_archive ">
+                  <button class="tablinks text-start Active_text " onclick="openCity(event, 'London')">Active</button>
+                <button class="tablinks text-start Archive_text" onclick="openCity(event, 'London')">Archive</button>
+                </div>
+              </div>
+               <div class="orders d-flex gap-4">
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2  heading_text">Order number</p>
+                  <p>7865435678</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text  ">Date</p>
+                  <p>04/18/2024</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text">Total</p>
+                  <p>$144</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text">Status</p>
+                  <p class="Deliver">DELIVERED</p>
+                 </div>
+            
+                 <div class="ViewOrder ms-auto">
+                  <button class="View_btn">VIEW ORDER</button>
+                 </div>
+               </div>
+
+ <hr>
+               <div class="orders d-flex gap-4 ">
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2  heading_text">Order number</p>
+                  <p>7865435678</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text  ">Date</p>
+                  <p>04/18/2024</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text">Total</p>
+                  <p>$144</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text">Status</p>
+                  <p class="Deliver">DELIVERED</p>
+                 </div>
+            
+                 <div class="ViewOrder ms-auto">
+                  <button class="View_btn">VIEW ORDER</button>
+                 </div>
+               </div>
+
+ <hr>
+               <div class="orders d-flex gap-4">
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2  heading_text">Order number</p>
+                  <p>7865435678</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text  ">Date</p>
+                  <p>04/18/2024</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text">Total</p>
+                  <p>$144</p>
+                 </div>
+                 <div class="images">
+                  <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                  <p class="mb-2 heading_text">Status</p>
+                  <p class="Deliver">DELIVERED</p>
+                 </div>
+            
+                 <div class="ViewOrder ms-auto">
+                  <button class="View_btn">VIEW ORDER</button>
+                 </div>
+               </div>
+
+ 
+
+            </div>
+            
+            <div id="Paris" class="tabcontent">
+            <div>
+              <h2 class="orders_text">My details</h2> 
+
+            </div>
+            <div class="personal_information ">
+              <p>PERSONAL INFORMATION</p>
+              
+            </div>
+            <div class="personal_info" >
+              <div class="d-flex justify-content-between w-50 Name"><p>Name</p> <p>Mike</p></div>
+              <hr class="w-50">
+              <div class="d-flex justify-content-between w-50 Name"><p>Phone</p> <p>99999999</p></div>
+              <hr class="w-50">
+              <div class="d-flex justify-content-between w-50 Name"><p>E-mail</p> <p>e-mail@gmail.com</p></div>
+              <hr class="w-50">
+            </div> 
+            <div class="Edit_button">
+              <button class="edit_btn">EDIT</button>
+            </div>
+
+<div class="Address">
+  <div class="personal_information ">
+    <p>ADDRESS</p>
+    
+  </div>
+  <div class="personal_info Address_info" >
+    <div class="d-flex gap-3  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label for="flexRadioDefault1">first address, street, house no.</label> <p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
+    <hr class="Name">
+    <div class="d-flex gap-3  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+      <label for="flexRadioDefault2">Second address, street, house no</label><p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
+    <hr class="Name">
+  
+  </div> 
+  <div class="Address_button">
+    <button class="Address_btn">ADD NEW ADDRESS</button>
+  </div>
+
+</div>
+
+            </div>
+            
+            <div id="Tokyo" class="tabcontent">
+              <h3>Tokyo</h3>
+              <p>Tokyo is the capital of Japan.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      </script>
     <script src="./script.js"></script>
   </body>
 </html>

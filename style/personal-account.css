@@ -20,6 +20,7 @@
     font-size: 20px;
     line-height: 26px;
     color: #AD543B;
+    margin-top: 15px;
 }
 .log-out-text a{
     font-size: 16px;
@@ -86,8 +87,155 @@
     font-family: "Poppins-Medium";
 }
 
+.order_text{
+    
+    padding: 80px 0px;
+}
+.order_text p{
+    font-size: 18px;
+    color: #AD543B;
+}
+.order_text .opacity_text{
+    opacity: 0.8;
+}
+.tab {
+    
+    padding-top: 130px;
+    padding-bottom: 130px;
+    overflow: hidden;
+   
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+    transition: 0.3s;
+    font-size: 18px;
+    color: #AD543B;
+    opacity: 0.6;
+  }
+  
+  /* Change background color of buttons on hover */
+
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+ opacity: 1;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+ 
+  }
+  .tablinks{
+    background:transparent;
+  }
+  .newcontent{
+    display: block;
+  }
+.image_background{
+    background-color: #F6F3FA;
+}
+.orders .images{
+    color: #AD543B;
+    font-size: 20px;
+}
+.images .Deliver{
+    text-align: center;
+    background-color: #765DBA;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+.images .heading_text{
+    font-weight: 600;
+}
+.ViewOrder .View_btn{
+    font-size: 18px;
+    border: none;
+    background-color: #B39EEF;
+    color: white;
+    padding: 21px 40px 21px 40px;
+    width: 266px;
+    height: 72px;
+    line-height: 27px;
+
+    letter-spacing: 1.3px;
+}
+.orders{
+    margin-top: 40px;
+    
+    margin-bottom: 25px;
+}
+hr{
+    color: #AD543B;
+}
+.orders_text{
+    font-size: 90px;
+    color: #AD543B;
+}
+.active_archive button{
+    border: none;
+    background: none;
+    color: #AD543B;
+    font-size: 24px;
+    font-weight: 500;
 
 
+}
+.Archive_text{
+    text-decoration: underline;
+}
+.active_archive .Active_text{
+    opacity: 0.7;
+}
+.personal_information{
+    font-size: 24px;
+    font-weight: 500;
+    color:#AD543B ;
+    margin-top: 80px;
+}
+.personal_info{
+    margin-top: 40px;
+    color: #AD543B;
+    font-size: 20px;
+}
+.personal_info hr{
+    margin-top: 1px;
+}
+.Edit_button .edit_btn{
+    margin-top: 20px;
+    border: none;
+    background-color: #B39EEF;
+    font-size: 18px;
+    padding: 21px 40px;
+    color: white;
+    width: 120px;
+    letter-spacing: 1px;
+    height: 72px;
+}
+.Address_info .Name{
+    width: 65%;
+    font-size: 20px;
+}
+.Address_info .editdelete{
+    opacity: 0.5;
+}
+.Address_button .Address_btn{
+    width: 262px;
+    height: 72px;
+    border: none;
+    background:#B39EEF;
+    padding: 21px 40px;
+color: white;
+font-size: 18px;
+letter-spacing: 1px;
+}
 @media (max-width:767px){
     .offcanvas{
         width: 100% !important;
