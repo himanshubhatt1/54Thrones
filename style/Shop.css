@@ -105,7 +105,23 @@ body{
     display: flex;
 }
 
-
+.filter_list li{
+    width: fit-content;
+    list-style: none;
+    color: #AD543B;
+    font-size: 14px;
+    border: 1px solid #AD543B;
+    border-radius: 60px;
+    padding:7px 20px;
+    margin-bottom: 10px;
+}
+.filter_list a{
+    color: #AD543B;
+}
+.active_filters{
+    display: none;
+}
+ 
 @media (max-width: 767px){
     .shop_breadcrum{
         font-size: 14px;
@@ -186,3 +202,5 @@ body{
         column-gap: 67px;
     }
 }   
+
+

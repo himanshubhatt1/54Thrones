@@ -9,9 +9,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./style/Shop.css">
 </head>
@@ -303,6 +301,26 @@
     </div>
   </section>
 
+  <!-- section_active_filters -->
+
+<section class="active_filters">
+  <div class="container_fluid">
+<div class="row">
+  <div class="col-lg-12">
+    <ul class="filter_list ps-3 pe-3">
+      <li ><span><img src="./images/Vector(Stroke).png" alt="crosss" class="img-fluid"></span> Dryness + Dehydrated</li>
+      <li ><span><img src="./images/Vector(Stroke).png" alt="crosss" class="img-fluid"></span> Sets & Minis</li>
+   <div class="d-flex justify-content-between align-items-center">
+    <li ><span><img src="./images/Vector(Stroke).png" alt="crosss" class="img-fluid"></span> New</li> 
+    <a href="javascript:void(0)">clearall</a>
+   </div>
+    </ul>
+  </div>
+</div>
+  </div>
+
+</section>
+  <!-- section_active_filters -->
 
   <!-- product_section -->
   <section>
@@ -881,19 +899,21 @@
       </div>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script>
     $(document).ready(function () {
       $(".my-slider").slick({
         slidesToShow: 9,
-        slidesToScroll: 1,
-        arrows: true,
+        slidesToScroll: 4,
+  
         dots: false,
-        speed: 300,
+      
         infinite: true,
-        autoplaySpeed: 10000,
-        autoplay: false,
+       
+     
       });
     });
   </script>
