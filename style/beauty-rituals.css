@@ -154,6 +154,36 @@ line-height: 19px;
     .map_content{
 display: none;
     }
+    
+element.style {
+    display: block;
+}
+@media (max-width: 767px) {
+    .map_content {
+        display: none;
+    }
+}
+.inner_content p {
+    color: #AD543B;
+    font-size: 14px;
+}
+.image_with_text .kigelia_text {
+    font-size: 24px;
+    font-size: 16px;}
+.map_content {
+    top: 34%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+}
+.map_content .inner_content .image_with_text {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: column-reverse;}
     .african-beauty-orig-sec {
    
         padding: 48px 0;

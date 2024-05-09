@@ -248,12 +248,13 @@
           class="img-fluid img-full"
         />
           
-        <div class="map_content" > 
+        <div class="map_content"  > 
           <div class="inner_content">
             <div class="image_with_text">
-              <p class="kigelia_text">Kigelia African 
+              <p class="kigelia_text" >Kigelia African 
                 Extract</p>
                 <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
             </div>
             <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so it appears at its healthiest.</p>
           </div>
@@ -267,8 +268,9 @@
             <lil class="list_items"><span class="me-2"><img src="./images/shea.png" alt="flower pic" class="img-fluid"></span>Nigeria, Ghana, Uganda </lil>
           </ul>
         </div>
+
          </div>
-         <div id="popupContent" class="popup"></div>
+     <div id="popupContent" class="popup"></div>
 </div>
     </section>
 
@@ -491,49 +493,6 @@
       </div>
     </section>
 
-    <script>
-      // Get all list items
-      const listItems = document.querySelectorAll('.list_items');
-  
-      // Add click event listener to each list item
-      listItems.forEach(item => {
-          item.addEventListener('click', function() {
-              // Get the country name from data attribute
-              const country = this.getAttribute('data-country');
-              
-              // Create popup content
-              const popupContent = `
-                  <p>You clicked on ${country}</p>
-                  <!-- Add more content here if needed -->
-                  <button onclick="closePopup()">Close</button>
-              `;
-              
-              // Display popup
-              showPopup(popupContent);
-          });
-      });
-  
-      // Function to display the popup
-      function showPopup(content) {
-          // Get the popup element
-          const popup = document.getElementById('popupContent');
-          
-          // Set the content
-          popup.innerHTML = content;
-          
-          // Show the popup
-          popup.style.display = 'block';
-      }
-  
-      // Function to close the popup
-      function closePopup() {
-          // Get the popup element
-          const popup = document.getElementById('popupContent');
-          
-          // Hide the popup
-          popup.style.display = 'none';
-      }
-  </script>
  
     <script src="./script.js"></script>
   </body>

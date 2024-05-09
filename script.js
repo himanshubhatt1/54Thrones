@@ -69,3 +69,23 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// code for popup
+
+const listItems = document.querySelectorAll('.list_items');
+let popupItem = document.getElementsByClassName('map_content')[0];
+let closepopup = document.getElementsByClassName('close_btn')[0];
+listItems.forEach(item => {
+    item.addEventListener('click', () => {
+        if (popupItem.style.display === 'block') {
+            popupItem.style.display = 'none';
+        } else {
+            popupItem.style.display = 'block';
+        }
+      
+    });
+});
+closepopup.addEventListener('click', function(){
+    popupItem.style.display = 'none';
+})
+// Add click event listener to each list item
