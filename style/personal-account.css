@@ -241,8 +241,8 @@ hr {
 .tab_text {
   color: #ad543bb2 !important;
   opacity: 70%;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 26px;
   border-radius: 0 !important;
   padding: 5px 0;
   font-family: "Poppins-Medium";
@@ -502,6 +502,7 @@ hr {
   line-height: 20px;
   color: #ad543b80;
   text-decoration: underline;
+  padding-left: 0;
 }
 .view-history-text:hover {
   color: #ae432680;
@@ -627,6 +628,9 @@ hr {
   margin-top: 100px;
 }
 .mobile_responsive {
+  display: none;
+}
+.mobile_responsive-hr {
   display: none;
 }
 .form-check-input[type="checkbox"] {
@@ -925,6 +929,9 @@ hr {
   }
   .mobile_responsive {
     display: initial;
+  }
+  .mobile_responsive-hr{
+    display: block;
   }
   .update_btn .form-btn {
     height: 45px;
