@@ -295,7 +295,7 @@
         <div class="col-lg-9 col-md-8 right-col">
 
           <div id="London" class="tabcontent newcontent">
-            <div>
+            <div class="section1">
               <h2 class="orders_text">Orders</h2>
               <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -319,7 +319,7 @@
                       <p>7865435678</p>
                     </div>
                     <div class="images">
-                      <p class="mb-2 heading_text  ">Date</p>
+                      <p class="mb-2 heading_text">Date</p>
                       <p>04/18/2024</p>
                     </div>
                     <div class="images">
@@ -347,7 +347,7 @@
                     </div>
                     <div class="images">
                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                      <p class="mb-2 heading_text  ">Date</p>
+                      <p class="mb-2 heading_text">Date</p>
                       <p>04/18/2024</p>
                     </div>
                     <div class="images">
@@ -362,7 +362,7 @@
                     </div>
 
                     <div class="ViewOrder ms-lg-auto">
-                      <button class="View_btn">VIEW ORDER</button>
+                      <button class="View_btn changeContentBtn">VIEW ORDER</button>
                     </div>
                   </div>
               
@@ -390,7 +390,7 @@
                     </div>
 
                     <div class="ViewOrder ms-lg-auto">
-                      <button class="View_btn">VIEW ORDER</button>
+                      <button class="View_btn changeContentBtn">VIEW ORDER</button>
                     </div>
                   </div>
 
@@ -403,7 +403,7 @@
                     </div>
                     <div class="images">
                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                      <p class="mb-2 heading_text  ">Date</p>
+                      <p class="mb-2 heading_text">Date</p>
                       <p>04/18/2024</p>
                     </div>
                     <div class="images">
@@ -418,7 +418,7 @@
                     </div>
 
                     <div class="ViewOrder ms-lg-auto">
-                      <button class="View_btn">VIEW ORDER</button>
+                      <button class="View_btn changeContentBtn">VIEW ORDER</button>
                     </div>
                   </div>
                
@@ -470,7 +470,7 @@
                   </div>
 
                   <div class="ViewOrder ms-lg-auto">
-                    <button class="View_btn">VIEW ORDER</button>
+                    <button class="View_btn changeContentBtn">VIEW ORDER</button>
                   </div>
 
                      </div>
@@ -517,7 +517,7 @@
                   </div>
 
                   <div class="ViewOrder ms-lg-auto">
-                    <button class="View_btn">VIEW ORDER</button>
+                    <button class="View_btn changeContentBtn">VIEW ORDER</button>
                   </div>
 
                      </div>
@@ -564,7 +564,7 @@
                   </div>
 
                   <div class="ViewOrder ms-lg-auto">
-                    <button class="View_btn">VIEW ORDER</button>
+                    <button class="View_btn changeContentBtn">VIEW ORDER</button>
                   </div>
 
                      </div>
@@ -578,6 +578,72 @@
                 </div> -->
             </div>
 
+            <section class="section2" style="display:none;">
+              <p class="back-to-page-text">
+                <a href="javascript:void()" class="backBtn"><span><img src="./images/left-back.png" alt="backarrow" class="img-fluid me-3"></span>BACK TO ORDERS</a>
+              </p>
+              <div class="inner-order-details">
+                <div class="id-tag-wrap">
+                  <p class="order-id">#7865435678</p>
+                  <p class="order-status-tag">DELIVERED</p>
+                </div>
+                <div class="order-info-single-wrap">
+                  <p class="order-date-title">Date</p>
+                  <p class="order-date-single">04/18/2024</p>
+                </div>
+                <hr>
+
+                <div class="order-info-single-wrap">
+                  <p class="order-date-title">Address</p>
+                  <p class="order-date-single">address</p>
+                </div>
+                <hr>
+
+                <div class="order-info-single-wrap">
+                  <p class="order-date-title">Payment method</p>
+                  <p class="order-date-single">payment method</p>
+                </div>
+                <hr>
+
+                <div class="order-info-single-wrap">
+                  <p class="order-date-title">Order amount</p>
+                  <p class="order-date-single">$144</p>
+                </div>
+                <hr>
+
+                <div class="order-info-single-wrap">
+                  <p class="order-date-title">Delivery method</p>
+                  <p class="order-date-single">Courier delivery</p>
+                </div>
+
+                <div class="order-info-single-type mt-5">
+                  <div class="order-info-single-left">
+                    <img src="./images/order-img.png" alt="order_1" class="img-fluid">
+                    <div>
+                      <h4>Mini African Beauty Butters</h4>
+                      <p>Scent: Kenyan Hibiscus + Moroccan Rose</p>
+                    </div>
+                  </div>
+                  <div class="order-info-single-right">
+                    <p>$36</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="order-info-single-type">
+                  <div class="order-info-single-left">
+                    <img src="./images/order-img.png" alt="order_1" class="img-fluid">
+                    <div>
+                      <h4>Barrier Repair Cloud Cream</h4>
+                    </div>
+                  </div>
+                  <div class="order-info-single-right">
+                    <p>$108</p>
+                  </div>
+                </div>
+                <p class="order-single-reorder"><a href="">REORDER</a></p>
+                
+            </div>
+          </section>
 
 
 
@@ -1104,6 +1170,33 @@ aria-labelledby="staticBackdropLabel">
       document.getElementById(cityName).style.display = "block";
       evt.currentTarget.className += " active";
     }
+  </script>
+  <script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const changeContentBtns = document.querySelectorAll(".changeContentBtn");
+    const backBtn = document.querySelector(".backBtn");
+    const section1 = document.querySelector(".section1");
+    const section2 = document.querySelector(".section2");
+
+    // Function to toggle sections
+    function toggleSections() {
+        section1.style.display = section1.style.display === "none" ? "block" : "none";
+        section2.style.display = section2.style.display === "none" ? "block" : "none";
+    }
+
+    // Event listener for "Change Content" buttons
+    changeContentBtns.forEach(function(button) {
+        button.addEventListener("click", function () {
+            toggleSections();
+        });
+    });
+
+    // Event listener for "Back" button click
+    backBtn.addEventListener("click", function () {
+        toggleSections();
+    });
+});
+
   </script>
   <script src="./script.js"></script>
 </body>
