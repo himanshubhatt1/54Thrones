@@ -320,7 +320,7 @@ hr {
   text-align: center;
   letter-spacing: 1.2px;
   color: white;
-  background-color: #765dba;
+  background-color: #B39EEF;
   border: none;
   border-radius: 0px;
 }
@@ -629,86 +629,10 @@ hr {
 .mobile_responsive {
   display: none;
 }
-.id-tag-wrap {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 70px;
-  margin-bottom: 50px;
+.form-check-input[type=checkbox] {
+  border-radius: .25em;
+  border: 2px solid #ad543b !important;
 }
-.inner-order-details {
-  width: 70%;
-}
-.order-id {
-  font-size: 22px;
-  line-height: 26px;
-  color: #ad543b;
-  font-family: "Poppins-Medium";
-}
-.order-status-tag {
-  background: #765dba;
-  padding: 4px 16px;
-  border-radius: 50px;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fdfbff;
-}
-.order-info-single-wrap {
-  display: flex;
-  justify-content: space-between;
-}
-.order-date-title {
-  color: #ad543b;
-  font-size: 16px;
-  line-height: 20px;
-  font-family: "Poppins-Medium";
-}
-.order-date-single {
-  color: #ad543b;
-  font-size: 16px;
-  line-height: 20px;
-}
-.order-info-single-type {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 10px;
-}
-.order-info-single-left {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 15px;
-}
-.order-info-single-left h4 {
-  color: #ad543b;
-  font-size: 20px;
-  line-height: 26px;
-  margin-bottom: 0;
-  font-family: "Poppins-Medium";
-}
-.order-info-single-left p {
-  color: #ad543b;
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 0;
-}
-.order-info-single-right p {
-  font-size: 20px;
-  line-height: 26px;
-  color: #ca8d00;
-}
-.order-single-reorder {
-  margin-top: 70px;
-}
-.order-single-reorder a {
-  background: #b39eef;
-  padding: 21px 50px;
-  color: #fdfbff;
-  font-size: 18px;
-  line-height: 27px;
-  text-decoration: none;
-}
-
 @media (max-width: 767px) {
   .personal_info .Name {
     width: 100% !important;
@@ -907,64 +831,99 @@ hr {
     padding: 20px 0 20px 0;
   }
 
-  .my-account-heading {
-    font-size: 40px;
-    line-height: 56px;
-    color: #ad543b;
-    margin-top: 29px;
-  }
-  .tab {
-    padding-top: 29px;
-    padding-bottom: 34px;
-    overflow: hidden;
-  }
-  .mobile_responsive {
-    display: initial;
-  }
-  .editdelete span {
-    display: block;
-    text-align: end;
-  }
-  .inner-order-details {
-    width: 100%;
-  }
-  .order-info-single-left h4 {
-    font-size: 14px;
-    line-height: 16px;
+.my-account-heading {
+  font-size: 40px;
+  line-height: 56px;
+  color: #ad543b;
+  margin-top: 29px;
 }
-.order-info-single-left p {
+.tab{padding-top: 29px;
+padding-bottom: 34px;
+overflow: hidden;
+}
+.mobile_responsive{
+  display: initial;
+}
+.update_btn .form-btn {
+  height: 45px;
+  padding: 5px 16px;
   font-size: 12px;
-  line-height: 14px;
 }
-.order-info-single-right p {
-  font-size: 14px;
-  line-height: 16px;
+.editdelete span{display: block;
+text-align: end;}
+.Save_btn button {
+  width: 113px !important;
+  
+}.personal_informationupdate {
+  width: 284px;
+  margin-top: 100px !important}
+
+
+  .form_heading h2 {
+    color: #ad543b;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+
 }
-.order-date-title {
-  font-size: 14px;
-  line-height: 16px;
-  margin-bottom: 0;
+.form_box {
+  width: 309px;
+  margin: 0px auto;}
+
+  .update_btn .form-btn {
+    width: 163px;
+    margin-top: 8px;
+  }
+
+    .form .input_fields input {
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid #ad543b;
+      font-size: 14px;
+  }
+  .form .custom_Select {
+    color: #ad543b;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ad543b;
+    font-size: 14px;
 }
-.order-date-single {
+.custom_checkbox .check {
   color: #ad543b;
   font-size: 14px;
-  line-height: 16px;
-  margin-bottom: 0;
 }
-.order-id {
-  font-size: 16px;
-  line-height: 20px;
+.form-check-input[type=checkbox] {
+  border-radius: .25em;
+  border: 2px solid #ad543b !important;
 }
-.order-status-tag {
+.Edit_button .edit_btn {
+  
   font-size: 12px;
-  line-height: 18px;
+  padding: 5px 28px;
+  color: #fdfbff;
+  width: 121px;
+ 
+  height: 49px;
 }
-.order-info-single-left {
-  column-gap: 10px;
-}
-.back-to-page-text a {
-  font-size: 14px;
-}
+.Address_button .Address_btn {
+  width: 216px;
+  height: 61px;
+  border: none;
+  background: #b39eef;
+  padding: 16px 40px;
+  color: #fdfbff;
+  font-size: 12px;}
+
+  .personal_info {
+    margin-top: 27px;
+    color: #ad543b;
+    }
+    .personal_information {
+      font-size: 24px;
+      font-family: "Poppins-Medium";
+      color: #ad543b;
+      margin-top: 45px;}
+
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
@@ -1033,20 +992,44 @@ hr {
   .every-heading-wrap p {
     font-size: 22px;
     line-height: 26px;
+}
+.left-subs-col .subs-ship-heading {
+  font-size: 16px;
+  line-height: 20px;
+}
+.left-subs-col .subs-ship-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+.right-col {
+  padding: 45px;
+}
+.tab {
+  padding-top: 61px;
+  padding-bottom: 61px;}
+
+  .offcanvas_personal{
+    
+      width: 100% !important;
+      max-width: 86%;
+      height: 73%;
+      margin-top: 15%;
+      margin-right: 7%;
+  
   }
-  .left-subs-col .subs-ship-heading {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .left-subs-col .subs-ship-text {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .right-col {
-    padding: 45px;
-  }
-  .tab {
-    padding-top: 61px;
-    padding-bottom: 61px;
-  }
+  .offcanvas {
+    width: 100% !important;
+    max-width: 94%;
+    margin-top: 10%;
+    height: 84%;
+    margin-right: 4%;
+}
+.offcanvas_personal{
+  width: 100% !important;
+  max-width: 94%;
+  margin-right: 24px;
+  height: 70%;
+  margin-top: 16%;
+}
+
 }
