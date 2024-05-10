@@ -1,424 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./style/personal-account.css" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <div class="container-fluid">
-      <header>
-        <div class="header">
-          <button class="menu-btn" aria-label="Open Menu">
-            <a class="navbar-brand" href="#"
-              ><img src="./images/menu.png" alt="" srcset=""
-            /></a>
-          </button>
-          <div class="logo">
-            <a class="navbar-brand" href="/"
-              ><img
-                src="./images/logo.png"
-                alt="logo"
-                class="img-fluid"
-                srcset=""
-            /></a>
-          </div>
-          <nav class="menu">
-            <div class="drawer">
-              <button class="close-btn" aria-label="Close Menu">
-                <svg
-                  height="24"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-label="Close Menu"
-                  role="img"
-                >
-                  <path d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                  ></path>
-                </svg>
-              </button>
-              <ul class="navbar-nav nav-menus">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle-icon"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    ABOUT
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="./about.html">Our Story</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Beauty Rituals</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle-icon"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    SHOP
-                  </a>
-                  <ul class="dropdown-menu mega-menu">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-lg-1">
-                          <p class="mega-menu-heading">VIEW ALL</p>
-                        </div>
-                        <div class="col-lg-3">
-                          <p class="mega-menu-heading">Skin Concern</p>
-                          <p><a href="">Dryness + Dehydrated</a></p>
-                          <p><a href="">Dullness + Uneven tone</a></p>
-                          <p><a href="">Dark spots + Hyperpigmentation</a></p>
-                          <p><a href="">Clogged + Congested</a></p>
-                          <p><a href="">Sensitive + Inflamed</a></p>
-                        </div>
-                        <div class="col-lg-2">
-                          <p class="mega-menu-heading">Product Type</p>
-                          <p><a href="">Skincare</a></p>
-                          <p><a href="">Sets & Minis</a></p>
-                          <p><a href="">Merch</a></p>
-                        </div>
-                        <div class="col-lg-2">
-                          <p class="mega-menu-heading">Featured</p>
-                          <p><a href="">New</a></p>
-                          <p><a href="">Bestsellers</a></p>
-                          <p><a href="">Viral</a></p>
-                          <p><a href="">Save $5</a></p>
-                          <p><a href="">Back in Stock</a></p>
-                          <p></p>
-                        </div>
-                        <div class="col-lg-3 offset-lg-1">
-                          <div class="product-wrap">
-                            <a href="#">
-                              <div class="card">
-                                <div class="card-body">
-                                  <img
-                                    src="./images/product.png"
-                                    alt="img"
-                                    srcset=""
-                                    class="img-fluid"
-                                  />
-                                  <div class="product-info">
-                                    <p class="product-title">
-                                      African beauty butter – Intensive dry skin
-                                      treatment
-                                    </p>
-                                    <p class="product-price">$36</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SKIN QUIZ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">AMBASSADORS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">REWARDS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-            <!-- <div class="blank"></div> -->
-          </nav>
-          <ul class="navbar-nav nav-buttons d-flex">
-            <li class="nav-item">
-              <a href="#" class="search-btn d-flex"
-                ><img src="./images/loupe.png" alt="" srcset=""
-              /></a>
-            </li>
-            <div class="search-menu">
-              <div>
-                <h2><span class="inner-content">Search</span> on 54 thrones</h2>
-                <div class="input-wrap">
-                  <input
-                    type="text"
-                    name="search"
-                    placeholder="Type here"
-                    class="search-box"
-                  />
-                  <span class="clear-icon">×</span>
-                </div>
-              </div>
-            </div>
-            <li class="nav-item">
-              <a href="#" class="log-in-btn">MY ACCOUNT</a>
-            </li>
-            <li class="nav-item">
-              <button
-                class="btn cart-btn"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#staticBackdrop"
-                aria-controls="staticBackdrop"
-              >
-              <img src="./images/cart.png" alt="" srcset="" />0</a
-              >
-              </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style/personal-account.css" />
+</head>
 
-              <div
-                class="offcanvas offcanvas-end cart-modal"
-                data-bs-backdrop="static"
-                tabindex="-1"
-                id="staticBackdrop"
-                aria-labelledby="offcanvasRightLabel"
-              >
-                <div class="offcanvas-header cart-header">
-                  <h5 class="offcanvas-title cart-title" id="offcanvasRightLabel">
-                    Your <span class="inner-heading">order</span> 
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close cart-cross"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="subtotal-wrap">
-                        <p>Subtotal:</p>
-                        <p>$70,2</p>
-                    </div>
-                    <p class="checkout-btn"><a href="#">CHECK OUT</a></p>
-                </div>
-              </div>
-            </li>
-          </ul>
+<body>
+  <!-- Header -->
+  <div class="container-fluid">
+    <header>
+      <div class="header">
+        <button class="menu-btn" aria-label="Open Menu">
+          <a class="navbar-brand" href="#"><img src="./images/menu.png" alt="" srcset="" /></a>
+        </button>
+        <div class="logo">
+          <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="logo" class="img-fluid" srcset="" /></a>
         </div>
-      </header>
-    </div>
-
-    <section>
-      <div class="inner-wrap">
-        <div class="row g-0">
-          <div class="col-lg-3 col-md-4 left-col">
-            <p class="back-to-page-text">
-              <a href="javascript:void()"
-                ><span
-                  ><img
-                    src="./images/left-back.png"
-                    alt="backarrow"
-                    class="img-fluid me-3" /></span
-                >BACK TO MAIN PAGE</a
-              >
-            </p>
-
-            <h2 class="my-account-heading">My account</h2>
-            <p class="email">e-mail@gmail.com</p>
-            <div class="tab">
-              <button class="tablinks text-start w-100 active" onclick="openCity(event, 'London')">ORDERS</button>
-              <hr>
-              <button class="tablinks text-start w-100" onclick="openCity(event, 'Paris')">MY DETAILS</button>
-              <hr>
-              <button class="tablinks text-start w-100" onclick="openCity(event, 'Tokyo')">MANAGE SUBSCRIPTION</button>
-            </div>           <p class="log-out-text">
-              <a href="javascript:void()"><span></span>LOG OUT</a>
-            </p>
-          </div>
-          <div class="col-lg-9 col-md-8 right-col">
-           
-            <div id="London" class="tabcontent newcontent">
-              <div>
-                <h2 class="orders_text">Orders</h2> 
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link tab_text active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Active</button>
+        <nav class="menu">
+          <div class="drawer">
+            <button class="close-btn" aria-label="Close Menu">
+              <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="Close Menu"
+                role="img">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                </path>
+              </svg>
+            </button>
+            <ul class="navbar-nav nav-menus">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./about.html">Our Story</a>
                   </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link tab_text" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Archive</button>
+                  <li>
+                    <a class="dropdown-item" href="#">Beauty Rituals</a>
                   </li>
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <hr>
-                    <div class="orders d-flex active-order">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  SHOP
+                </a>
+                <ul class="dropdown-menu mega-menu">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <p class="mega-menu-heading">VIEW ALL</p>
                       </div>
-                      <div class="images">
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
+                      <div class="col-lg-3">
+                        <p class="mega-menu-heading">Skin Concern</p>
+                        <p><a href="">Dryness + Dehydrated</a></p>
+                        <p><a href="">Dullness + Uneven tone</a></p>
+                        <p><a href="">Dark spots + Hyperpigmentation</a></p>
+                        <p><a href="">Clogged + Congested</a></p>
+                        <p><a href="">Sensitive + Inflamed</a></p>
                       </div>
-                      <div class="images">
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
+                      <div class="col-lg-2">
+                        <p class="mega-menu-heading">Product Type</p>
+                        <p><a href="">Skincare</a></p>
+                        <p><a href="">Sets & Minis</a></p>
+                        <p><a href="">Merch</a></p>
                       </div>
-                      <div class="images">
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="out-delivery">OUT FOR DELIVERY</p>
+                      <div class="col-lg-2">
+                        <p class="mega-menu-heading">Featured</p>
+                        <p><a href="">New</a></p>
+                        <p><a href="">Bestsellers</a></p>
+                        <p><a href="">Viral</a></p>
+                        <p><a href="">Save $5</a></p>
+                        <p><a href="">Back in Stock</a></p>
+                        <p></p>
                       </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">TRACK ORDER</button>
+                      <div class="col-lg-3 offset-lg-1">
+                        <div class="product-wrap">
+                          <a href="#">
+                            <div class="card">
+                              <div class="card-body">
+                                <img src="./images/product.png" alt="img" srcset="" class="img-fluid" />
+                                <div class="product-info">
+                                  <p class="product-title">
+                                    African beauty butter – Intensive dry skin
+                                    treatment
+                                  </p>
+                                  <p class="product-price">$36</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                    <hr>
                   </div>
-                  
-                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <div class="orders d-flex">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SKIN QUIZ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AMBASSADORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">REWARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="blank"></div> -->
+        </nav>
+        <ul class="navbar-nav nav-buttons d-flex">
+          <li class="nav-item">
+            <a href="#" class="search-btn d-flex"><img src="./images/loupe.png" alt="" srcset="" /></a>
+          </li>
+          <div class="search-menu">
+            <div>
+              <h2><span class="inner-content">Search</span> on 54 thrones</h2>
+              <div class="input-wrap">
+                <input type="text" name="search" placeholder="Type here" class="search-box" />
+                <span class="clear-icon">×</span>
+              </div>
+            </div>
+          </div>
+          <li class="nav-item">
+            <a href="#" class="log-in-btn">MY ACCOUNT</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+              aria-controls="staticBackdrop">
+              <img src="./images/cart.png" alt="" srcset="" />0</a>
+            </button>
+
+            <div class="offcanvas offcanvas-end cart-modal" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+              aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header cart-header">
+                <h5 class="offcanvas-title cart-title" id="offcanvasRightLabel">
+                  Your <span class="inner-heading">order</span>
+                </h5>
+                <button type="button" class="btn-close cart-cross" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <hr>
+              <div class="inner-order-wrap">
+                <div class="your-order-wrap pt-3">
+                  <div class="single-order-wrap">
+                    <div class="left-single-order-col">
+                      <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="order-product-info">
+                        <p class="order-product-title">Barrier Repair Cloud Cream</p>
+                        <p class="order-product-subtext">Scent: Kenyan Hibiscus + Moroccan Rose</p>
                       </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="Deliver">DELIVERED</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">VIEW ORDER</button>
-                      </div>
+
                     </div>
-     
-      <hr>
-                    <div class="orders d-flex">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
+                    <div class="right-single-order-col">
+                      <div class="order-quantity">
+                        <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
+                        <span>1</span>
+                        <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
                       </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="Deliver">DELIVERED</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">VIEW ORDER</button>
-                      </div>
+                      <p class="order-price">$34,20</p>
+                      <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
+                            class="img-fluid" srcset="" /></a></p>
                     </div>
-     
-      <hr>
-                    <div class="orders d-flex">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="Deliver">DELIVERED</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">VIEW ORDER</button>
-                      </div>
+                  </div>
+                  <div class="mb-3 form-check subscribe-check-wrap">
+                    <div class="subs-select-wrap">
+                      <input type="checkbox" class="form-check-input ms-0 mt-0" id="subandsaveCheck1">
+                      <label class="form-check-label" for="subandsaveCheck1">Subscribe and save 5% + get free shipping
+                        every</label>
+                    </div>
+
+                    <div class="col-auto order-month-select">
+                      <select class="form-select custom_Select" id="autoSizingSelect">
+                        <option selected>1 Month</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
                     </div>
                   </div>
                 </div>
-  
-                <!-- <div class="d-flex gap-3 active_archive ">
+                <div class="your-order-wrap pb-3">
+                  <div class="single-order-wrap">
+                    <div class="left-single-order-col">
+                      <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="">
+                      <div class="order-product-info">
+                        <p class="order-product-title">Mini African Beauty Butters</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-order-col">
+                      <div class="order-quantity">
+                        <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
+                        <span>1</span>
+                        <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
+                      </div>
+                      <p class="order-price">$36</p>
+                      <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
+                            class="img-fluid" srcset=""></a></p>
+                    </div>
+                  </div>
+                  <div class="mb-3 form-check subscribe-check-wrap">
+                    <div class="subs-select-wrap">
+                      <input type="checkbox" class="form-check-input ms-0 mt-0" id="subsCheck1">
+                      <label class="form-check-label" for="subsCheck1">Subscribe and save 5% + get free shipping</label>
+                    </div>
+
+                  </div>
+                </div>
+                <hr>
+                <div class="you-may-like-wrap py-4">
+                  <h2 class="you-may-heading">Your may also like</h2>
+                  <div class="single-like-wrap">
+                    <div class="left-single-like-col">
+                      <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="like-product-info">
+                        <p class="like-product-title">Mini African Beauty Butters</p>
+                        <p class="like-product-price">$36</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-like-col">
+                      <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="single-like-wrap">
+                    <div class="left-single-like-col">
+                      <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="like-product-info">
+                        <p class="like-product-title">Mini African Beauty Butters</p>
+                        <p class="like-product-price">$36</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-like-col">
+                      <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="offcanvas-body">
+                <div class="subtotal-wrap">
+                  <p>Subtotal:</p>
+                  <p>$70,2</p>
+                </div>
+                <p class="checkout-btn"><a href="#">CHECK OUT</a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <section>
+    <div class="inner-wrap">
+      <div class="row g-0">
+        <div class="col-lg-3 col-md-4 left-col">
+          <p class="back-to-page-text">
+            <a href="javascript:void()"><span><img src="./images/left-back.png" alt="backarrow"
+                  class="img-fluid me-3" /></span>BACK TO MAIN PAGE</a>
+          </p>
+
+          <h2 class="my-account-heading">My account</h2>
+          <p class="email">e-mail@gmail.com</p>
+          <div class="tab">
+            <button class="tablinks text-start w-100 active" onclick="openCity(event, 'London')">ORDERS</button>
+            <hr>
+            <button class="tablinks text-start w-100" onclick="openCity(event, 'Paris')">MY DETAILS</button>
+            <hr>
+            <button class="tablinks text-start w-100" onclick="openCity(event, 'Tokyo')">MANAGE SUBSCRIPTION</button>
+          </div>
+          <p class="log-out-text">
+            <a href="javascript:void()"><span></span>LOG OUT</a>
+          </p>
+        </div>
+        <div class="col-lg-9 col-md-8 right-col">
+
+          <div id="London" class="tabcontent newcontent">
+            <div>
+              <h2 class="orders_text">Orders</h2>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link tab_text active" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">Active</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link tab_text" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Archive</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <hr>
+                  <div class="orders d-flex active-order">
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2  heading_text">Order number</p>
+                      <p>7865435678</p>
+                    </div>
+                    <div class="images">
+                      <p class="mb-2 heading_text  ">Date</p>
+                      <p>04/18/2024</p>
+                    </div>
+                    <div class="images">
+                      <p class="mb-2 heading_text">Total</p>
+                      <p>$144</p>
+                    </div>
+                    <div class="images">
+                      <p class="mb-2 heading_text">Status</p>
+                      <p class="out-delivery">OUT FOR DELIVERY</p>
+                    </div>
+
+                    <div class="ViewOrder ms-lg-auto">
+                      <button class="View_btn">TRACK ORDER</button>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="orders d-flex">
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2  heading_text">Order number</p>
+                      <p>7865435678</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text  ">Date</p>
+                      <p>04/18/2024</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text">Total</p>
+                      <p>$144</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text">Status</p>
+                      <p class="Deliver">DELIVERED</p>
+                    </div>
+
+                    <div class="ViewOrder ms-lg-auto">
+                      <button class="View_btn">VIEW ORDER</button>
+                    </div>
+                  </div>
+
+                  <hr>
+                  <div class="orders d-flex">
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2  heading_text">Order number</p>
+                      <p>7865435678</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text  ">Date</p>
+                      <p>04/18/2024</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text">Total</p>
+                      <p>$144</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text">Status</p>
+                      <p class="Deliver">DELIVERED</p>
+                    </div>
+
+                    <div class="ViewOrder ms-lg-auto">
+                      <button class="View_btn">VIEW ORDER</button>
+                    </div>
+                  </div>
+
+                  <hr>
+                  <div class="orders d-flex">
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2  heading_text">Order number</p>
+                      <p>7865435678</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text  ">Date</p>
+                      <p>04/18/2024</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text">Total</p>
+                      <p>$144</p>
+                    </div>
+                    <div class="images">
+                      <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                      <p class="mb-2 heading_text">Status</p>
+                      <p class="Deliver">DELIVERED</p>
+                    </div>
+
+                    <div class="ViewOrder ms-lg-auto">
+                      <button class="View_btn">VIEW ORDER</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="d-flex gap-3 active_archive ">
                   <button class="tablinks text-start Active_text " onclick="openCity(event, 'London')">Active</button>
                 <button class="tablinks text-start Archive_text" onclick="openCity(event, 'London')">Archive</button>
                 </div> -->
-              </div>
-               
-
- 
-
             </div>
-            
-            <div id="Paris" class="tabcontent">
+
+
+
+
+          </div>
+
+          <div id="Paris" class="tabcontent">
             <div>
-              <h2 class="orders_text">My details</h2> 
+              <h2 class="orders_text">My details</h2>
 
             </div>
             <div class="personal_information ">
               <p>PERSONAL INFORMATION</p>
-              
+
             </div>
-            <div class="personal_info" >
-              <div class="d-flex justify-content-between w-50 Name"><p>Name</p> <p>Mike</p></div>
+            <div class="personal_info">
+              <div class="d-flex justify-content-between w-50 Name">
+                <p>Name</p>
+                <p>Mike</p>
+              </div>
               <hr class="w-50">
-              <div class="d-flex justify-content-between w-50 Name"><p>Phone</p> <p>99999999</p></div>
+              <div class="d-flex justify-content-between w-50 Name">
+                <p>Phone</p>
+                <p>99999999</p>
+              </div>
               <hr class="w-50">
-              <div class="d-flex justify-content-between w-50 Name"><p>E-mail</p> <p>e-mail@gmail.com</p></div>
+              <div class="d-flex justify-content-between w-50 Name">
+                <p>E-mail</p>
+                <p>e-mail@gmail.com</p>
+              </div>
               <hr class="w-50">
-            </div> 
+            </div>
             <div class="Edit_button">
-              <button class="btn edit_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticEdit" aria-controls="staticEdit">
+              <button class="btn edit_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticEdit"
+                aria-controls="staticEdit">
                 EDIT
               </button>
-              
-              <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticEdit" aria-labelledby="staticBackdropLabel">
+
+              <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticEdit"
+                aria-labelledby="staticBackdropLabel">
                 <div class="offcanvas-header">
-                
+
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -428,16 +480,20 @@
                         <h2>Edit address</h2>
                       </div>
                       <div class="mb-4 input_fields">
-                        <input type="text" class="form-control" id="exampleInputFirstName1" placeholder="First Name" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputFirstName1" placeholder="First Name"
+                          aria-describedby="emailHelp">
                       </div>
                       <div class="mb-4 input_fields">
-                        <input type="text" class="form-control" id="exampleInputLastName1" placeholder="Last Name" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputLastName1" placeholder="Last Name"
+                          aria-describedby="emailHelp">
                       </div>
                       <div class="mb-4 input_fields">
-                        <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Address" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Address"
+                          aria-describedby="emailHelp">
                       </div>
                       <div class="mb-4 input_fields">
-                        <input type="text" class="form-control" id="exampleInputCity1" placeholder="City" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputCity1" placeholder="City"
+                          aria-describedby="emailHelp">
                       </div>
                       <div class="col-auto mb-4">
                         <select class="form-select custom_Select" id="autoSizingSelect">
@@ -456,197 +512,327 @@
                         </select>
                       </div>
                       <div class="mb-4 input_fields">
-                        <input type="text" class="form-control" id="exampleInputPost1" placeholder="Postal / ZIP Code" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputPost1" placeholder="Postal / ZIP Code"
+                          aria-describedby="emailHelp">
                       </div>
                       <div class="mb-4 input_fields">
-                        <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="Phone" aria-describedby="emailHelp">
+                        <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="Phone"
+                          aria-describedby="emailHelp">
                       </div>
                       <div class="mb-3 form-check check-wrap custom_checkbox">
-                          <input type="checkbox" class="form-check-input color_checkbox" id="exampleCheck1">
-                          <label class="form-check-label check" for="exampleCheck1">Set as default address</label>
-                        </div>
-                    <div class="update_btn">
-                      <button type="submit" class="btn btn-primary form-btn">UPDATE ADDRESS</button>
-                    </div>
+                        <input type="checkbox" class="form-check-input color_checkbox" id="exampleCheck1">
+                        <label class="form-check-label check" for="exampleCheck1">Set as default address</label>
+                      </div>
+                      <div class="update_btn">
+                        <button type="submit" class="btn btn-primary form-btn">UPDATE ADDRESS</button>
+                      </div>
                     </form>
                   </div>
                 </div>
               </div>
             </div>
 
-<div class="Address">
-  <div class="personal_information ">
-    <p>ADDRESS</p>
-    
-  </div>
-  <div class="personal_info Address_info" >
-    <div class="d-flex gap-lg-3 gap-1 align-items-center  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-      <label for="flexRadioDefault1">first address, street, house no.</lab   el> <p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
-    <hr class="Name mb-2">
-    <div class="d-flex gap-lg-3  gap-1 align-items-center  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-      <label for="flexRadioDefault2">Second address, street, house no</label><p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
- 
-  
-  </div> 
-  <div class="Address_button">
-    <button class="Address_btn">ADD NEW ADDRESS</button>
-  </div>
+            <div class="Address">
+              <div class="personal_information ">
+                <p>ADDRESS</p>
 
-</div>
-
-            </div>
-            
-            <div id="Tokyo" class="tabcontent">
-              <div>
-                <h2 class="orders_text">Manage subscriptions</h2> 
-                <p>2 active subscription </p>
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link tab_text active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Active</button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link tab_text" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Archive</button>
-                  </li>
-                </ul>
-
-
-
-                <div class="tab-content" id="pills-tabContent">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <hr>
-                    <div class="orders d-flex active-order">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
-                      </div>
-                      <div class="images">
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="out-delivery">OUT FOR DELIVERY</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">TRACK ORDER</button>
-                      </div>
-                    </div>
-                    <hr>
-                  </div>
-                  
-                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <div class="orders d-flex">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="Deliver">DELIVERED</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">VIEW ORDER</button>
-                      </div>
-                    </div>
-     
-      <hr>
-                    <div class="orders d-flex">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="Deliver">DELIVERED</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">VIEW ORDER</button>
-                      </div>
-                    </div>
-     
-      <hr>
-                    <div class="orders d-flex">
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2  heading_text">Order number</p>
-                       <p>7865435678</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text  ">Date</p>
-                       <p>04/18/2024</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Total</p>
-                       <p>$144</p>
-                      </div>
-                      <div class="images">
-                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
-                       <p class="mb-2 heading_text">Status</p>
-                       <p class="Deliver">DELIVERED</p>
-                      </div>
-                 
-                      <div class="ViewOrder ms-lg-auto">
-                       <button class="View_btn">VIEW ORDER</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>    
               </div>
-              
+              <div class="personal_info Address_info">
+                <div class="d-flex gap-lg-3 gap-1 align-items-center  Name form-check"><input class="form-check-input"
+                    type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label for="flexRadioDefault1">first address, street, house no.</lab el>
+                    <p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p>
+                </div>
+                <hr class="Name mb-2">
+                <div class="d-flex gap-lg-3  gap-1 align-items-center  Name form-check"><input class="form-check-input"
+                    type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label for="flexRadioDefault2">Second address, street, house no</label>
+                  <p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p>
+                </div>
+
+
+              </div>
+              <div class="Address_button">
+                <button class="Address_btn">ADD NEW ADDRESS</button>
+              </div>
+
             </div>
+
+          </div>
+
+          <div id="Tokyo" class="tabcontent">
+            <div>
+              <h2 class="orders_text">Manage subscriptions</h2>
+              <p class="two-active-text">2 active subscription </p>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link tab_text active" id="subs-active-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-active" type="button" role="tab" aria-controls="pills-active"
+                    aria-selected="true">Active</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link tab_text" id="subs-archive-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-archive" type="button" role="tab" aria-controls="pills-archive"
+                    aria-selected="false">Archive</button>
+                </li>
+              </ul>
+
+
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-active" role="tabpanel"
+                  aria-labelledby="subs-active-tab">
+                  <div class="arvhive-every-month-wrap">
+                    <p class="next-tag">NEXT ON MAY 05</p>
+                    <div class="month-history-wrap">
+                      <div class="every-heading-wrap">
+                        <h2>Every month</h2>
+                        <p>$36 (1 item)</p>
+                      </div>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn view-history-text" data-bs-toggle="modal" data-bs-target="#staticBackdrop12">
+                        View order history
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade history-modal" id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h1 class="modal-title">Order history</h1>
+                              <div class="history-data-wrap">
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">01/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">02/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">03/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">04/05/2024</p>
+                                  <p class="history-data-status-out">OUT FOR DELIVEREY</p>
+                                </div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="month-img-text-wrap">
+                      <img src="./images/mini-african.png" alt="order_1" class="img-fluid">
+                      <p>Mini African Beauty Butters</p>
+                    </div>
+                    <hr>
+                    <div class="subs-ship-wrap">
+                      <div class="left-subs-col">
+                        <div>
+                          <p class="subs-ship-heading">Subscription start</p>
+                          <p class="subs-ship-text">04/05/2024</p>
+                        </div>
+
+                        <div>
+                          <p class="subs-ship-heading">Shipping to</p>
+                          <p class="subs-ship-text">Address</p>
+                        </div>
+                      </div>
+                      <div class="right-subs-col unsubcribe">
+                        <p><a href="">UNSUBSCRIBE</a></p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="arvhive-every-month-wrap mt-4">
+                    <p class="next-tag">NEXT ON MAY 09</p>
+                    <div class="month-history-wrap">
+                      <div class="every-heading-wrap">
+                        <h2>Every month</h2>
+                        <p>$36 (1 item)</p>
+                      </div>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn view-history-text" data-bs-toggle="modal" data-bs-target="#staticBackdrop14">
+                        View order history
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade history-modal" id="staticBackdrop14" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h1 class="modal-title">Order history</h1>
+                              <div class="history-data-wrap">
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">01/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">02/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">03/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">04/05/2024</p>
+                                  <p class="history-data-status-out">OUT FOR DELIVEREY</p>
+                                </div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="month-img-text-wrap">
+                      <img src="./images/mini-african.png" alt="order_1" class="img-fluid">
+                      <p>Mini African Beauty Butters</p>
+                    </div>
+                    <hr>
+                    <div class="month-img-text-wrap">
+                      <img src="./images/mini-african.png" alt="order_1" class="img-fluid">
+                      <p>Mini African Beauty Butters</p>
+                    </div>
+                    <hr>
+                    <div class="month-img-text-wrap">
+                      <img src="./images/mini-african.png" alt="order_1" class="img-fluid">
+                      <p>Mini African Beauty Butters</p>
+                    </div>
+                    <hr>
+                    <div class="subs-ship-wrap">
+                      <div class="left-subs-col">
+                        <div>
+                          <p class="subs-ship-heading">Subscription start</p>
+                          <p class="subs-ship-text">04/05/2024</p>
+                        </div>
+
+                        <div>
+                          <p class="subs-ship-heading">Shipping to</p>
+                          <p class="subs-ship-text">Address</p>
+                        </div>
+                      </div>
+                      <div class="right-subs-col unsubcribe">
+                        <p><a href="">UNSUBSCRIBE</a></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-archive" role="tabpanel" aria-labelledby="subs-archive-tab">
+                  <div class="arvhive-every-month-wrap">
+                    <p class="cancle-tag">Canceled may 5 2024</p>
+                    <div class="month-history-wrap">
+                      <div class="every-heading-wrap">
+                        <h2>Every month</h2>
+                        <p>$36 (1 item)</p>
+                      </div>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn view-history-text" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop13">
+                        View order history
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade history-modal" id="staticBackdrop13" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h1 class="modal-title">Order history</h1>
+                              <div class="history-data-wrap">
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">01/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">02/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">03/05/2024</p>
+                                  <p class="history-data-status">DELIVERED</p>
+                                </div>
+                                <div class="history-data-inner">
+                                  <p class="history-data-date">04/05/2024</p>
+                                  <p class="history-data-status-out">OUT FOR DELIVEREY</p>
+                                </div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="month-img-text-wrap">
+                      <img src="./images/mini-african.png" alt="order_1" class="img-fluid">
+                      <p>Mini African Beauty Butters</p>
+                    </div>
+                    <hr>
+                    <div class="subs-ship-wrap">
+                      <div class="left-subs-col">
+                        <div>
+                          <p class="subs-ship-heading">Subscription start</p>
+                          <p class="subs-ship-text">04/05/2024</p>
+                        </div>
+
+                        <div>
+                          <p class="subs-ship-heading">Shipping to</p>
+                          <p class="subs-ship-text">Address</p>
+                        </div>
+                      </div>
+                      <div class="right-subs-col">
+                        <p><a href="">RE-SUBSCRIBE</a></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
-    </section>
-    <script>
-      function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
+    </div>
+  </section>
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
       }
-      </script>
-    <script src="./script.js"></script>
-  </body>
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+  <script src="./script.js"></script>
+</body>
+
 </html>
