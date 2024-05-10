@@ -619,7 +619,16 @@ hr {
   color: #fdfbff;
   display: inline;
 }
-
+.Save_btn  button{
+  width: 542px !important;
+}
+.personal_informationupdate{
+  width: 542px;
+  margin-top: 100px;
+}
+.mobile_responsive{
+  display: none;
+}
 @media (max-width: 767px) {
   .personal_info .Name {
     width: 100% !important;
@@ -778,17 +787,63 @@ hr {
     row-gap: 20px;
   }
   .orders .images {
+    
     font-size: 14px;
+
     line-height: 16px;
 }
+
 .images .out-delivery {
   font-size: 12px;
   line-height: 18px;
 }
 .ViewOrder .View_btn {
+  width: 120px;
+  height: 48px;
   font-size: 12px;
   line-height: 18px;
+  padding: 10px 13px;
 }
+.desktop_view{
+  display: none !important;
+}
+.mobile_deliver .Deliver{
+  text-align: center;
+  background-color: #765dba;
+  color: #fdfbff;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 5px;
+  width: 93px;
+}
+
+.mobile_view_orders p{
+  color: #ad543b;
+  font-size: 14px;
+}
+.mobile_view_orders .heading_text{
+  font-weight: 600;
+}
+.nav-pills {
+  column-gap: 40px;
+  padding: 20px 0 20px 0;
+}
+
+.my-account-heading {
+  font-size: 40px;
+  line-height: 56px;
+  color: #ad543b;
+  margin-top: 29px;
+}
+.tab{padding-top: 29px;
+padding-bottom: 34px;
+overflow: hidden;
+}
+.mobile_responsive{
+  display: initial;
+}
+.editdelete span{display: block;
+text-align: end;}
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
@@ -869,4 +924,7 @@ hr {
 .right-col {
   padding: 45px;
 }
+.tab {
+  padding-top: 61px;
+  padding-bottom: 61px;}
 }

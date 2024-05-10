@@ -240,6 +240,7 @@ header {
     color: #CA8D00;
     font-size: 18px;
 }
+
 @media (max-width: 920px) {
     .menu-btn, .close-btn {
         display: block;
