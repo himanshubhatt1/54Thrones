@@ -418,26 +418,29 @@
               
               <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticEdit" aria-labelledby="staticBackdropLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="staticBackdropLabel">Edit address</h5>
+                
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                  <div>
+                  <div class="form_box">
                     <form class="form">
-                      <div class="mb-4">
+                      <div class="form_heading">
+                        <h2>Edit address</h2>
+                      </div>
+                      <div class="mb-4 input_fields">
                         <input type="text" class="form-control" id="exampleInputFirstName1" placeholder="First Name" aria-describedby="emailHelp">
                       </div>
-                      <div class="mb-4">
+                      <div class="mb-4 input_fields">
                         <input type="text" class="form-control" id="exampleInputLastName1" placeholder="Last Name" aria-describedby="emailHelp">
                       </div>
-                      <div class="mb-4">
+                      <div class="mb-4 input_fields">
                         <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Address" aria-describedby="emailHelp">
                       </div>
-                      <div class="mb-4">
+                      <div class="mb-4 input_fields">
                         <input type="text" class="form-control" id="exampleInputCity1" placeholder="City" aria-describedby="emailHelp">
                       </div>
                       <div class="col-auto mb-4">
-                        <select class="form-select" id="autoSizingSelect">
+                        <select class="form-select custom_Select" id="autoSizingSelect">
                           <option selected>State</option>
                           <option value="1">One</option>
                           <option value="2">Two</option>
@@ -445,24 +448,26 @@
                         </select>
                       </div>
                       <div class="col-auto mb-4">
-                        <select class="form-select" id="autoSizingSelect">
+                        <select class="form-select custom_Select" id="autoSizingSelect">
                           <option selected>Country</option>
                           <option value="1">One</option>
                           <option value="2">Two</option>
                           <option value="3">Three</option>
                         </select>
                       </div>
-                      <div class="mb-4">
+                      <div class="mb-4 input_fields">
                         <input type="text" class="form-control" id="exampleInputPost1" placeholder="Postal / ZIP Code" aria-describedby="emailHelp">
                       </div>
-                      <div class="mb-4">
+                      <div class="mb-4 input_fields">
                         <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="Phone" aria-describedby="emailHelp">
                       </div>
-                      <div class="mb-3 form-check check-wrap">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Set as default address</label>
+                      <div class="mb-3 form-check check-wrap custom_checkbox">
+                          <input type="checkbox" class="form-check-input color_checkbox" id="exampleCheck1">
+                          <label class="form-check-label check" for="exampleCheck1">Set as default address</label>
                         </div>
+                    <div class="update_btn">
                       <button type="submit" class="btn btn-primary form-btn">UPDATE ADDRESS</button>
+                    </div>
                     </form>
                   </div>
                 </div>
@@ -475,12 +480,12 @@
     
   </div>
   <div class="personal_info Address_info" >
-    <div class="d-flex gap-3  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-      <label for="flexRadioDefault1">first address, street, house no.</label> <p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
-    <hr class="Name">
-    <div class="d-flex gap-3  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+    <div class="d-flex gap-lg-3 gap-1 align-items-center  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label for="flexRadioDefault1">first address, street, house no.</lab   el> <p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
+    <hr class="Name mb-2">
+    <div class="d-flex gap-lg-3  gap-1 align-items-center  Name form-check"><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
       <label for="flexRadioDefault2">Second address, street, house no</label><p class="ms-auto editdelete"><span class="me-3">edit </span> <span> delete</span></p></div>
-    <hr class="Name">
+ 
   
   </div> 
   <div class="Address_button">
@@ -492,8 +497,136 @@
             </div>
             
             <div id="Tokyo" class="tabcontent">
-              <h3>Tokyo</h3>
-              <p>Tokyo is the capital of Japan.</p>
+              <div>
+                <h2 class="orders_text">Manage subscriptions</h2> 
+                <p>2 active subscription </p>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link tab_text active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Active</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link tab_text" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Archive</button>
+                  </li>
+                </ul>
+
+
+
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <hr>
+                    <div class="orders d-flex active-order">
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2  heading_text">Order number</p>
+                       <p>7865435678</p>
+                      </div>
+                      <div class="images">
+                       <p class="mb-2 heading_text  ">Date</p>
+                       <p>04/18/2024</p>
+                      </div>
+                      <div class="images">
+                       <p class="mb-2 heading_text">Total</p>
+                       <p>$144</p>
+                      </div>
+                      <div class="images">
+                       <p class="mb-2 heading_text">Status</p>
+                       <p class="out-delivery">OUT FOR DELIVERY</p>
+                      </div>
+                 
+                      <div class="ViewOrder ms-lg-auto">
+                       <button class="View_btn">TRACK ORDER</button>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                  
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="orders d-flex">
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2  heading_text">Order number</p>
+                       <p>7865435678</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text  ">Date</p>
+                       <p>04/18/2024</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text">Total</p>
+                       <p>$144</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text">Status</p>
+                       <p class="Deliver">DELIVERED</p>
+                      </div>
+                 
+                      <div class="ViewOrder ms-lg-auto">
+                       <button class="View_btn">VIEW ORDER</button>
+                      </div>
+                    </div>
+     
+      <hr>
+                    <div class="orders d-flex">
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2  heading_text">Order number</p>
+                       <p>7865435678</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text  ">Date</p>
+                       <p>04/18/2024</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text">Total</p>
+                       <p>$144</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text">Status</p>
+                       <p class="Deliver">DELIVERED</p>
+                      </div>
+                 
+                      <div class="ViewOrder ms-lg-auto">
+                       <button class="View_btn">VIEW ORDER</button>
+                      </div>
+                    </div>
+     
+      <hr>
+                    <div class="orders d-flex">
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_1.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2  heading_text">Order number</p>
+                       <p>7865435678</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_2.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text  ">Date</p>
+                       <p>04/18/2024</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_3.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text">Total</p>
+                       <p>$144</p>
+                      </div>
+                      <div class="images">
+                       <p class="image_background"><img src="./images/order_4.png" alt="order_1" class="img-fluid"></p>
+                       <p class="mb-2 heading_text">Status</p>
+                       <p class="Deliver">DELIVERED</p>
+                      </div>
+                 
+                      <div class="ViewOrder ms-lg-auto">
+                       <button class="View_btn">VIEW ORDER</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>    
+              </div>
+              
             </div>
           </div>
         </div>

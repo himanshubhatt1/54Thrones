@@ -263,7 +263,85 @@ hr {
   font-size: 16px;
   padding: 4px 16px;
 }
+::placeholder{
+  color: #ad543b !important;
+}
+.form .input_fields input:focus{
+  box-shadow: none;
+}
+.form .input_fields input{
+border: none;
+border-radius: 0;
+  border-bottom: 1px solid #ad543b;
+  font-size: 20px;
+
+}
+.form_box{
+  width: 503px;
+  margin: 0px auto;
+}
+.form_heading h2{
+  color: #ad543b;
+  text-align: center;
+  font-size: 52px;
+}
+.form .custom_Select{
+  color: #ad543b;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ad543b;
+  font-size: 20px;
+
+}
+.form .custom_Select:focus{
+  box-shadow: none;
+}
+.custom_checkbox .check{
+  color: #ad543b;
+  font-size: 20px;
+}
+.form-check-input{
+  font-size: 20px;
+}
+.form-check-input:checked {
+  background-color: #ad543b;
+  border-color: #ad543b;
+ 
+}
+.form-check-input:focus {
+
+box-shadow: none;}
+.update_btn .form-btn{
+  width: 503px;
+  height: 72px;
+  padding: 21px 40px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  color: white;
+  background-color: #765dba;
+  border: none;
+  border-radius: 0px;
+}
+.offcanvas-header .btn-close{
+  background: url('../images/close.png') no-repeat;
+}
+.offcanvas-header .btn-close:focus{
+  box-shadow: none;
+}
+.update_btn .form-btn:active{
+  background-color: #765dba;
+}
+.Address_button {
+margin-top: 30px;
+}
 @media (max-width: 767px) {
+  .personal_info .Name{
+    width: 100% !important;
+  }
+  .personal_info hr{
+    width: 100% !important;
+  }
   .offcanvas {
     width: 100% !important;
     max-width: 100%;
@@ -276,6 +354,13 @@ hr {
 }
 .right-col {
     padding: 20px;
+}
+.personal_info .Name p{
+  font-size: 14px;
+}
+.Address_info .Name {
+
+  font-size: 14px;
 }
 }
 
@@ -305,5 +390,18 @@ hr {
         display: block;
         width: 100%;
     }
+    .personal_info .Name{
+      width: 100% !important;
+    }
+    .personal_info hr{
+      width: 100% !important;
+    }
+    .personal_info .Name p{
+      font-size: 16px;
+    }
+    .Address_info .Name {
+    
+      font-size: 16px;
+  }
     
   }
