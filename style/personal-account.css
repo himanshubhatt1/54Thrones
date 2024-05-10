@@ -722,7 +722,10 @@ hr {
 
 
 @media (max-width: 767px) {
-  .personal_info .Name {
+  
+  .mobile_line {
+    display: block !important;
+}.personal_info .Name {
     width: 100% !important;
   }
   .personal_info hr {
