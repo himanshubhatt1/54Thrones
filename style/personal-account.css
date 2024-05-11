@@ -31,6 +31,7 @@ display:none !important;
   color: #ad543b;
   border-bottom: 1px solid #ad543b;
   text-decoration: none;
+  font-family: "Poppins-Medium";
 }
 .right-col {
   padding: 50px;
@@ -719,7 +720,12 @@ hr {
   line-height: 27px;
   text-decoration: none;
 }
-
+.mobile-back-menu-btn{
+  display: none;
+}
+.personal_info .Name p:first-of-type{
+  font-family: "Poppins-Medium";
+}
 
 @media (max-width: 767px) {
   .personal_info .Name {
@@ -887,8 +893,17 @@ hr {
     font-size: 12px;
     line-height: 18px;
   }
+  .ViewOrder {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .order-single-reorder a {
+    font-size: 12px;
+    line-height: 18px;
+}
   .ViewOrder .View_btn {
-    width: 120px;
+    width: auto;
     height: 48px;
     font-size: 12px;
     line-height: 18px;
@@ -920,11 +935,26 @@ hr {
   }
 
   .my-account-heading {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 31px;
+    line-height: 35px;
     color: #ad543b;
-    margin-top: 29px;
+    margin-top: 60px;
   }
+  .email {
+    font-size: 14px;
+    line-height: 16px;
+}
+.tab button {
+  font-size: 14px;
+  line-height: 16px;
+}
+.log-out-text {
+  margin-top: 20px;
+}
+.log-out-text a {
+  font-size: 14px;
+  line-height: 16px;
+}
   .tab {
     padding-top: 29px;
     padding-bottom: 34px;
@@ -1013,11 +1043,10 @@ hr {
     color: #ad543b;
   }
   .personal_information {
-    font-size: 24px;
-    font-family: "Poppins-Medium";
-    color: #ad543b;
-    margin-top: 45px;
+    font-size: 16px;
+    line-height: 16px;
   }
+
   .inner-order-details {
     width: 100%;
   }
@@ -1057,6 +1086,48 @@ hr {
 }
 .back-to-page-text a {
   font-size: 14px;
+}
+ .hide-content{
+  display: none;
+} 
+ .show-content{
+  display: block;
+} 
+.mobile-back-menu-btn{
+  display: block;
+  margin-bottom: 50px;
+}
+.left-col {
+  background: transparent;
+  padding: 30px 15px;
+}
+.order-menu-btn{
+  background: url('../images/next-icon.png') no-repeat right center;
+  opacity: 1 !important;
+}
+.next-tag {
+  font-size: 12px;
+  line-height: 18px;
+}
+.left-subs-col .subs-ship-heading {
+  font-size: 14px;
+  line-height: 16px;
+}
+.left-subs-col .subs-ship-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+.unsubcribe p a {
+  font-size: 12px;
+  line-height: 18px;
+}
+.cancle-tag {
+  font-size: 11px;
+  line-height: 18px;
+}
+.right-subs-col p a {
+  font-size: 12px;
+  line-height: 18px;
 }
 }
 
