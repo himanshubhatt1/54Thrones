@@ -109,6 +109,15 @@ display:none !important;
   padding-bottom: 130px;
   overflow: hidden;
 }
+.tabs 
+
+
+
+{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
 
 /* Style the buttons inside the tab */
 .tab button {
@@ -121,6 +130,17 @@ display:none !important;
   color: #ad543b;
   opacity: 50%;
 }
+.tabs button{
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-family: "Poppins-Medium";
+  transition: 0.3s;
+  font-size: 18px;
+  color: #ad543b;
+  opacity: 50%;
+
+}
 
 /* Change background color of buttons on hover */
 
@@ -128,12 +148,21 @@ display:none !important;
 .tab button.active {
   opacity: 1;
 }
+.tabs button.active{
+  opacity: 1;
+}
 
 /* Style the tab content */
 .tabcontent {
   display: none;
 }
+.tabcontents {
+  display: none;
+}
 .tablinks {
+  background: transparent;
+}
+.tablinkss {
   background: transparent;
 }
 .newcontent {
@@ -720,9 +749,24 @@ hr {
   text-decoration: none;
 }
 
+.arrow{
+  float: right;
+  margin-bottom: 0px;
+
+}
+.mobile_section{
+  display: none;
+}
 
 @media (max-width: 767px) {
+
+.desktop_section{
+    display: none;
+  }
   
+  .mobile_section{
+    display: contents;
+  }
   .mobile_line {
     display: block !important;
 }.personal_info .Name {
@@ -741,6 +785,7 @@ hr {
   }
   .orders_text {
     font-size: 31px;
+    margin-top: 54px;
   }
   .right-col {
     padding: 20px;
@@ -1061,9 +1106,15 @@ hr {
 .back-to-page-text a {
   font-size: 14px;
 }
+.mobile_col{
+  padding: 20px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
+  .mobile_section{
+    display: none;
+  }
   .orders_text {
     font-size: 72px;
   }
