@@ -1,0 +1,61 @@
+.text-contents{
+    padding: 150px 0;
+    width: 100%;
+    max-width: 1096px;
+    margin: auto;
+}
+.cookies-heading{
+    font-size: 90px;
+    color: #AD543B;
+    margin-bottom: 60px;
+}
+.cookies-heading .inner-heading{
+    font-family: "Playfair-Display-italic";
+    font-size: 96px;
+}
+.cook-sub-text{
+    font-size: 24px;
+    color: #AD543B;
+    font-family: 'Poppins-Medium';
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+.cook-text{
+    font-size: 20px;
+    color: #AD543B;
+    letter-spacing: -0.3px;
+}
+
+@media (min-width: 768px) and (max-width: 820px){
+    .cookies-heading{
+        font-size: 72px;
+        margin-bottom: 60px;
+    }
+    .cookies-heading .inner-heading{
+        font-size: 78px;
+    }
+    .cook-sub-text{
+        font-size: 22px;
+    }
+    .cook-text{
+        font-size: 16px;
+        letter-spacing: -0.3px;
+    }
+}
+
+@media (max-width: 767px){
+    .cookies-heading{
+        font-size: 31px;
+        margin-bottom: 30px;
+    }
+    .cookies-heading .inner-heading{
+        font-size: 33px;
+    }
+    .cook-sub-text{
+        font-size: 16px;
+    }
+    .cook-text{
+        font-size: 14px;
+        letter-spacing: -0.3px;
+    }
+}
