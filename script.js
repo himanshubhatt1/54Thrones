@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const close_btn = document.querySelector(".close-btn");
     const menu = document.querySelector(".menu");
     const drawer = menu.querySelector(".drawer");
-    const blank = menu.querySelector(".blank");
+    // const blank = menu.querySelector(".blank");
     const close = () => {
         menu.classList.remove("blur");
         drawer.classList.remove("drawer-visible");
