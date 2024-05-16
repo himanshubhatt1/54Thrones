@@ -1,0 +1,141 @@
+
+
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('../fonts/Poppins-Regular.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url('../fonts/Poppins-Medium.ttf');
+
+	
+}
+@font-face {
+	font-family: 'Playfair-Display-italic';
+	src:url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
+
+	
+}
+.ambasdor_section{
+    background:url('../images/ambasdoor_banner.png') no-repeat top;
+    background-size: cover;
+    height: 100vh;
+}
+.ambasdor_section .breadcrum_ambasdor .ambassdor_class{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins-Regular';
+}
+.ambasdor_section .breadcrum_ambasdor .home{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    opacity: .8;
+    font-family: 'Poppins-Regular';
+    text-transform: uppercase;
+}
+.ambasdor_section .breadcrum_ambasdor p{
+    color: white;
+}
+
+.ambasdor_bottom_text .applytobe h1{
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins-Regular';
+
+}
+.ambasdor_bottom_text{
+    position: absolute;
+    bottom: 10%;
+}
+.applytobe .thrones_ambassdor{
+    font-size: 134px;
+    font-family: 'Playfair-Display-italic';
+    color: white;
+    font-weight: 400;
+    margin-top: -20px;
+    line-height: 120px;
+    
+}
+
+
+.ambassdor_program_text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins-Regular';
+    padding: 5px 20px;
+}
+.ambasdor_choose{
+    font-size: 90px !important;
+    margin-left:21px ;
+}
+
+.ambassdor_rewards .welcome{
+    font-size: 54px;
+    font-family: 'Playfair-Display-italic' !important;
+}
+.ambassdor_rewards .challenges{
+    font-size: 52px;
+    font-style: normal;
+    font-family: 'Poppins-Regular' !important;
+}
+.ambassdor_title{
+    line-height: 60px;
+}
+.ambassdor_rewards .reward_image{
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    transform: translate(-8%,-40%);
+}
+.join_section_fluid{
+  
+
+    padding:120px 20px;
+    background:url('../images/join_bg.png') center no-repeat ;
+    background-size: cover;
+}
+.why_join_heading .why{
+    font-size: 90px;
+    font-family: 'Poppins-Regular' ;
+    color: #765dba;
+    
+}
+.why_join_heading .join{
+    font-size: 96px;
+    font-family: 'Playfair-Display-italic' ;
+
+color: #765dba;
+}
+
+.join_section_fluid .card_text p{
+    font-size:24px;
+    font-family: 'Poppins-Regular' ;
+    color: #765dba;
+    font-weight:500;
+    margin-top: 25px;
+    
+}
+.space_between{
+    background-color: white;
+    padding-top: 60px;
+}
+.choose_spare_container .choose_heading .choose{
+    font-size: 104px;
+    font-family: 'Poppins-Regular' ;
+    color: #AD543B;
+
+}
+.choose_spare_container .choose_heading .sphere{
+    font-size: 96px;
+    font-family: 'Playfair-Display-italic' ;
+    color: #AD543B;
+    line-height: 90px;
+}
