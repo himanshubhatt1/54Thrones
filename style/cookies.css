@@ -25,6 +25,9 @@
     color: #AD543B;
     letter-spacing: -0.3px;
 }
+.cook-text a{
+    color: #AD543B;
+}
 
 @media (min-width: 768px) and (max-width: 820px){
     .cookies-heading{

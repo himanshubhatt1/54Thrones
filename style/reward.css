@@ -428,8 +428,8 @@
         color: #ca8d00;
     }
 
-    .how_earn_Section{
-        margin-top: 40px;
+    .how_earn_Section .container-fluid{
+        padding-top: 40px;
     }
     .join_the_club{
         display: block !important;
