@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Playfair-Display-italic";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+  }
