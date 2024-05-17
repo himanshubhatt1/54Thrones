@@ -10,3 +10,38 @@
     font-family: "Playfair-Display-italic";
     src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
   }
+  .breadcrum_contact p{
+    color: #ad543b;
+  }
+  .breadcrum_contact .home{
+    color: #ad543b;
+    font-size: 16px;
+    opacity: .7;
+    font-family: "Poppins-Medium";
+
+  }
+  .breadcrum_contact .Contact_class{
+    color: #ad543b;
+    font-family: 'Poppins-Medium';
+  }
+  .store_locator {
+    margin-top: 80px;
+    text-align: center;
+    
+  }
+  .store_locator .store{
+    font-size: 90px;
+    font-family: "Poppins-Regular";
+    color: #ad543b;
+
+  }
+  .store_locator .locator{
+    font-size: 96px;
+    font-family: "Playfair-Display-italic";
+    color: #ca8d00;
+
+
+  }
+  .map_section{
+    background:url('../images/map.png') no-repeat center;
+  }
