@@ -17,8 +17,6 @@ body{
 @font-face {
 	font-family: 'Playfair-Display-italic';
 	src:url('./fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
-
-	
 }
 .nav-menus .nav-link{
     color: #AD543B;
