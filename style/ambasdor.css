@@ -119,7 +119,7 @@ color: #765dba;
     font-size:24px;
     font-family: 'Poppins-Regular' ;
     color: #765dba;
-    font-weight:500;
+    font-weight:600;
     margin-top: 25px;
     
 }
@@ -208,6 +208,9 @@ outline: #AD543B;
 }
 .check_out_Text{
     font-size: 20px;
+}
+.increase_width{
+    width: 11%;
 }
 
 /* media query */
@@ -369,5 +372,44 @@ outline: #AD543B;
         font-family: 'Playfair-Display-italic';
         color: #AD543B;
         line-height: 85px;
+    }
+    .increase_width{
+        width: 23%;
+    }
+    .join_section_fluid .card_text p{
+        font-size:16px;
+        font-family: 'Poppins-Regular' ;
+        color: #765dba;
+        font-weight:600;
+        margin-top: 25px;
+        
+    }
+    .join_section_fluid .card_text p br{
+        display: none !important;
+    }
+    .breadcrum_ambasdor{
+        margin-top: 10px;
+    }
+
+    .spare_table .Spottie_text {
+        font-size: 19px;
+        font-weight: 500;
+        font-family: 'Poppins-Regular';
+        color: #AD543B;
+    
+    }
+    .spare_table .enthuasts {
+        font-size: 15px;
+        font-weight: 400;
+        color: #AD543B;
+    }
+    .spottie button {
+        background-color: #765dba;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family: 'Poppins-Regular';
+        color: white;
+        border: none;
+        padding: 13px 25px;
     }
 }
