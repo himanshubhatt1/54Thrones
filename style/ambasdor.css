@@ -1,415 +1,442 @@
-
-
 @font-face {
-	font-family: 'Poppins-Regular';
-	src: url('../fonts/Poppins-Regular.ttf');
-
-	
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
 }
 @font-face {
-	font-family: 'Poppins-Medium';
-	src: url('../fonts/Poppins-Medium.ttf');
-
-	
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.ttf");
 }
 @font-face {
-	font-family: 'Playfair-Display-italic';
-	src:url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
-
-	
+  font-family: "Playfair-Display-italic";
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
-.ambasdor_section{
-    background:url('../images/ambasdoor_banner.png') no-repeat top;
-    background-size: cover;
-    height: 100vh;
+.ambasdor_section {
+  background: url("../images/ambasdoor_banner.png") no-repeat top;
+  background-size: cover;
+  /* height: 100vh; */
+  padding: 422px 0;
+  position: relative;
 }
-.ambasdor_section .breadcrum_ambasdor .ambassdor_class{
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: 'Poppins-Regular';
+.breadcrum_ambasdor {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.ambasdor_section .breadcrum_ambasdor .home{
-    font-size: 16px;
-    font-weight: 400;
-    color: white;
-    opacity: .8;
-    font-family: 'Poppins-Regular';
-    text-transform: uppercase;
+.ambasdor_section .breadcrum_ambasdor .ambassdor_class {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Poppins-Medium";
 }
-.ambasdor_section .breadcrum_ambasdor p{
-    color: white;
+.ambasdor_section .breadcrum_ambasdor .home {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+  text-transform: uppercase;
 }
-
-.ambasdor_bottom_text .applytobe h1{
-    font-size: 120px;
-    color: white;
-    text-align: center;
-    font-family: 'Poppins-Regular';
-
-}
-.ambasdor_bottom_text{
-    position: absolute;
-    bottom: 10%;
-}
-.applytobe .thrones_ambassdor{
-    font-size: 134px;
-    font-family: 'Playfair-Display-italic';
-    color: white;
-    font-weight: 400;
-    margin-top: -20px;
-    line-height: 120px;
-    
+.ambasdor_section .breadcrum_ambasdor p {
+  color: white;
 }
 
-
-.ambassdor_program_text{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-family: 'Poppins-Regular';
-    padding: 5px 20px;
+.ambasdor_bottom_text .applytobe h1 {
+  font-size: 120px;
+  color: white;
+  text-align: center;
 }
-.ambasdor_choose{
-    font-size: 90px !important;
-    margin-left:21px ;
+.ambasdor_bottom_text {
+  position: absolute;
+  bottom: 7%;
 }
-
-.ambassdor_rewards .welcome{
-    font-size: 54px;
-    font-family: 'Playfair-Display-italic' !important;
-}
-.ambassdor_rewards .challenges{
-    font-size: 52px;
-    font-style: normal;
-    font-family: 'Poppins-Regular' !important;
-}
-.ambassdor_title{
-    line-height: 60px;
-}
-.ambassdor_rewards .reward_image{
-    position: absolute;
-    top: 12%;
-    left: 40%;
-    transform: translate(-8%,-40%);
-}
-.join_section_fluid{
-  
-
-    padding:120px 20px;
-    background:url('../images/join_bg.png') center no-repeat ;
-    background-size: cover;
-}
-.why_join_heading .why{
-    font-size: 90px;
-    font-family: 'Poppins-Regular' ;
-    color: #765dba;
-    
-}
-.why_join_heading .join{
-    font-size: 96px;
-    font-family: 'Playfair-Display-italic' ;
-
-color: #765dba;
+.applytobe .thrones_ambassdor {
+  font-size: 134px;
+  font-family: "Playfair-Display-italic";
+  color: white;
+  font-weight: 400;
+  margin-top: -20px;
+  line-height: 120px;
 }
 
-.join_section_fluid .card_text p{
-    font-size:24px;
-    font-family: 'Poppins-Regular' ;
-    color: #765dba;
-    font-weight:600;
-    margin-top: 25px;
-    
+.ambassdor_program_text {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
 }
-.space_between{
-    background-color: white;
-    padding-top: 60px;
+.ambasdor_choose {
+  font-size: 90px !important;
+  margin-left: 21px;
 }
-.choose_heading_Section .choose_heading .choose{
-    font-size: 104px;
-    font-family: 'Poppins-Regular' ;
-    color: #AD543B;
 
+.ambassdor_rewards .welcome {
+  font-size: 54px;
+  font-family: "Playfair-Display-italic" !important;
 }
-.choose_heading_Section .choose_heading .sphere{
-    font-size: 96px;
-    font-family: 'Playfair-Display-italic' ;
-    color: #AD543B;
-    line-height: 90px;
+.ambassdor_rewards .challenges {
+  font-size: 52px;
+  font-style: normal;
+  font-family: "Poppins-Regular" !important;
 }
-.spottie_text{
-    font-size: 20px;
-    color: #F3BD49;
-    font-family: 'Poppins-Regular' ;
+.ambassdor_title {
+  line-height: 60px;
 }
-.spare_table .Spottie_text{
-    font-size: 24px;
+.ambassdor_rewards .reward_image {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  transform: translate(-8%, -40%);
+}
+.why_join_Section {
+  padding: 20px;
+}
+.join_section_fluid {
+  padding: 120px 20px;
+  background: url("../images/join_bg.png") center no-repeat;
+  background-size: cover;
+}
+.why_join_heading {
+  margin-bottom: 30px;
+}
+.why_join_heading .why {
+  font-size: 90px;
+  color: #765dba;
+}
+.why_join_heading .join {
+  font-size: 96px;
+  font-family: "Playfair-Display-italic";
+
+  color: #765dba;
+}
+
+.join_section_fluid .card_text p {
+  font-size: 24px;
+  color: #765dba;
+  font-family: "Poppins-Medium";
+  margin-top: 25px;
+}
+.space_between {
+  background-color: white;
+  padding-top: 60px;
+}
+.choose_heading_Section .choose_heading .choose {
+  font-size: 104px;
+  color: #ad543b;
+}
+.choose_heading_Section .choose_heading .sphere {
+  font-size: 96px;
+  font-family: "Playfair-Display-italic";
+  color: #ad543b;
+  line-height: 90px;
+}
+.spottie_text {
+  font-size: 20px;
+  color: #f3bd49;
+}
+.spare_table .Spottie_text {
+  font-size: 24px;
   font-weight: 500;
-    font-family: 'Poppins-Regular' ;
-    color: #AD543B;
+  color: #ad543b;
+  font-family: "Poppins-Medium";
+}
+.spare_table .enthuasts {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ad543b;
+}
+.spottie button {
+  background-color: #765dba;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  border: none;
+  padding: 13px 35px;
+  line-height: 30px;
+}
+.spare_table .table_content td {
+  font-size: 20px;
+  color: #ad543b;
+  line-height: 36px;
+  padding: 15px 10px;
+  font-family: "Poppins-Medium";
+}
+.spare_table .table_content td.add-head-text {
+  font-family: "Poppins-Regular";
+}
+.table {
+  /* border-color: #AD543B; */
+  background-color: #f6f3fa !important;
+}
+.table_checkbox .form-check-input {
+  border-radius: 100% !important;
+  color: #ad543b;
+  border: 1px solid #ad543b;
+  outline: #ad543b;
+}
+.table_checkbox .form-check-input:focus {
+  box-shadow: none;
+}
+.table_checkbox .form-check-input:checked {
+  background-color: #ca8d00;
+  border-color: #ca8d00!important;
+}
+.spare_table tr.table_content {
+  border: 1px solid #e8d3d4;
+  border-left: none;
+  border-right: none;
+}
+.choose_spare_container {
+  background-color: #f6f3fa;
+}
+.table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  color: var(
+    --bs-table-color-state,
+    var(--bs-table-color-type, var(--bs-table-color))
+  );
+  background-color: #f6f3fa;
+}
+.choose_spare_Section {
+  padding: 20px;
+}
 
+.choose_spare_container {
+  padding: 40px 30px;
 }
-.spare_table .enthuasts{
-    font-size: 16px;
-    font-weight: 400;
-    color: #AD543B;
+.check_out_Text {
+  font-size: 20px;
 }
-.spottie button{
-    background-color: #765dba;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-family: 'Poppins-Regular' ;
-    color: white;
-    border: none;
-    padding: 13px 35px;
-    line-height: 30px;
-}
-.spare_table .table_content td{
-    font-size: 20px;
-    font-family: 'Poppins-Regular' ;
-    color: #AD543B;
-    line-height: 36px;
-    padding:15px 10px;
-
-
-}
-.table{
-    border-color: #AD543B !important;
-
-    background-color: #f6f3fa!important;
-}
-.table_checkbox .form-check-input{
-border-radius: 100%;
-color: #AD543B;
-border: 1px solid #ad543b;
-outline: #AD543B;
-
-}
-.table_checkbox .form-check-input:focus{
-    box-shadow: none;
-    
-}
-.form-check-input:checked {
-    background-color: #ad543b;
-}
-.choose_spare_container{
-    background-color: #f6f3fa;
-}
-.table>:not(caption)>*>* {
-    padding: .5rem .5rem;
-    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
-    background-color: #f6f3fa}
-
-.choose_spare_container{
-  padding-top: 40px;
-    padding-bottom: 40px;
-}
-.check_out_Text{
-    font-size: 20px;
-}
-.increase_width{
-    width: 11%;
+.increase_width {
+  width: 11%;
 }
 
 /* media query */
-@media (max-width: 767px){
-    .ambasdor_choose {
-        font-size: 34px !important;
-        margin-left: 18px;
-    }
-    br{
-        display: none !important;
-    }
-    .check_out_Text {
-        font-size: 17px;
-    }
-    .why_join_heading .why {
-        font-size: 43px;
-        font-family: 'Poppins-Regular';
-        color: #765dba;
-    }
-    .why_join_heading .join {
-        font-size: 43px;
-        font-family: 'Playfair-Display-italic';
-        color: #765dba;}
-    .choose_heading_Section .choose_heading .choose {
-        font-size: 36px;
-        font-family: 'Poppins-Regular';
-        color: #AD543B;}
+@media (max-width: 767px) {
+  .ambasdor_choose {
+    font-size: 34px !important;
+    margin-left: 18px;
+  }
+  br {
+    display: none !important;
+  }
+  .check_out_Text {
+    font-size: 17px;
+  }
+  .why_join_heading .why {
+    font-size: 43px;
+    font-family: "Poppins-Regular";
+    color: #765dba;
+  }
+  .why_join_heading .join {
+    font-size: 43px;
+    font-family: "Playfair-Display-italic";
+    color: #765dba;
+  }
+  .choose_heading_Section .choose_heading .choose {
+    font-size: 36px;
+    font-family: "Poppins-Regular";
+    color: #ad543b;
+  }
 
-        .choose_heading_Section .choose_heading .sphere {
-            font-size: 34px;
-            font-family: 'Playfair-Display-italic';
-            color: #AD543B;
-            line-height: 58px;}
+  .choose_heading_Section .choose_heading .sphere {
+    font-size: 34px;
+    font-family: "Playfair-Display-italic";
+    color: #ad543b;
+    line-height: 58px;
+  }
 
-            .ambassdor_rewards .challenges {
-                font-size: 24px;
-                font-style: normal;
-                font-family: 'Poppins-Regular' !important;
-            }
-            .ambassdor_rewards .welcome {
-                font-size: 29px;
-                font-family: 'Playfair-Display-italic' !important;}
-                .ambassdor_title {
-                    line-height: 27px;
-                }
-                .ambassdor_rewards .reward_image {
-                    position: absolute;
-                    width: 21%;
-                    top: 23%;
-                    left: 40%;
-                    transform: translate(-8%, -40%);
-                }
-                .applytobe .thrones_ambassdor {
-                    font-size: 36px;
-                    font-family: 'Playfair-Display-italic';
-                    color: white;
-                    font-weight: 400;
-                    margin-top: -20px;
-                    line-height: 48px;
-                }
-                .ambasdor_bottom_text .applytobe h1 {
-                    font-size: 36px;
-                    color: white;
-                    text-align: center;
-                    font-family: 'Poppins-Regular';
-                }
-                .ambassdor_program_text {
-                    text-align: center;
-                    color: white;
-                    font-size: 16px;
-                    font-family: 'Poppins-Regular';
-                    padding: 5px 0px;
-                }
-                .ambasdor_bottom_text {
-                    position: absolute;
-                    bottom: 2%;
-                }
-                .choose_spare_Section
-{
-
-    width: 100%;
-    overflow-x: scroll;
-    background-color: #f6f3fa;
-}
-.spottie button {
-    background-color: #765dba;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-family: 'Poppins-Regular';
+  .ambassdor_rewards .challenges {
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Poppins-Regular" !important;
+  }
+  .ambassdor_rewards .welcome {
+    font-size: 29px;
+    font-family: "Playfair-Display-italic" !important;
+  }
+  .ambassdor_title {
+    line-height: 27px;
+  }
+  .ambassdor_rewards .reward_image {
+    position: absolute;
+    width: 21%;
+    top: 23%;
+    left: 40%;
+    transform: translate(-8%, -40%);
+  }
+  .applytobe .thrones_ambassdor {
+    font-size: 36px;
+    font-family: "Playfair-Display-italic";
     color: white;
-    border: none;
-    padding: 13px 10px;
-    line-height: 30px;
-
-}
-.spare_table{
+    font-weight: 400;
+    margin-top: -20px;
+    line-height: 48px;
+  }
+  .ambasdor_bottom_text .applytobe h1 {
+    font-size: 31px;
+    color: white;
+    text-align: center;
+    font-family: "Poppins-Regular";
+  }
+  .ambassdor_program_text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    padding: 5px 0px;
+  }
+  .ambasdor_bottom_text {
+    position: absolute;
+    bottom: 2%;
+  }
+  .choose_spare_Section {
+    width: 100%;
+    overflow-x: scroll;
+    background-color: #f6f3fa;
+  }
+  .spottie button {
+    background-color: #b39eef;
+    font-size: 12px;
+    padding: 13px 15px;
+    line-height: normal;
+    width: 131px;
+  }
+  .spare_table {
     width: 100%;
     background-color: #f6f3fa;
 
     overflow-x: scroll;
-}
-.spare_table .Spottie_text {
+  }
+  .spare_table .Spottie_text {
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Poppins-Regular';
-    color: #AD543B;
-}
-.spare_table .enthuasts {
+    font-family: "Poppins-Regular";
+    color: #ad543b;
+  }
+  .spare_table .enthuasts {
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
-    color: #AD543B;
+  }
+  .spare_table .enthuasts br {
+    display: none !important;
+  }
+  .breadcrum_ambasdor {
+    width: 100%;
+  }
+  .ambasdor_section .breadcrum_ambasdor .ambassdor_class {
+    font-size: 14px;
+  }
+  .ambasdor_section .breadcrum_ambasdor .home {
+    font-size: 14px;
+  }
+  .join_section_fluid .card_text p {
+    font-size: 16px;
+  }
+  .spare_table .table_content td.add-head-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .spare_table .table_content td {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 15px;
+    width: 100%;
+    min-width: 185px;
+  }
+  .choose_spare_container {
+    padding: 40px 10px;
+  }
+  .choose_spare_Section {
+    padding: 0;
+  }
 }
-.spare_table .enthuasts br {
-   display: none !important;
-}
-.breadcrum_ambasdor{
-    margin-top: 30px;
-}
-}
-@media (min-width: 768px) and (max-width: 820px){
 
+@media (min-width: 768px) and (max-width: 820px) {
+  .applytobe .thrones_ambassdor {
+    font-size: 73px;
+    font-family: "Playfair-Display-italic";
+    color: white;
+    font-weight: 400;
+    margin-top: -20px;
+    line-height: 70px;
+  }
+  .ambasdor_bottom_text .applytobe h1 {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-family: "Poppins-Regular";
+  }
+  .ambasdor_bottom_text {
+    position: absolute;
+    bottom: 7%;
+  }
+  .ambasdor_choose {
+    font-size: 72px !important;
+    margin-left: 21px;
+  }
+  .choose-cat-heading .inner-heading {
+    font-size: 78px !important;
+  }
 
-    .applytobe .thrones_ambassdor {
-        font-size: 73px;
-        font-family: 'Playfair-Display-italic';
-        color: white;
-        font-weight: 400;
-        margin-top: -20px;
-        line-height: 70px;
-    }
-    .ambasdor_bottom_text .applytobe h1 {
-        font-size: 72px;
-        color: white;
-        text-align: center;
-        font-family: 'Poppins-Regular';
-    }
-    .ambasdor_bottom_text {
-        position: absolute;
-        bottom: 7%;
-    }
-    .ambasdor_choose {
-        font-size: 72px !important;
-        margin-left: 21px;
-    }
-    .choose-cat-heading .inner-heading{
-        font-size: 78px !important;
-    }
-    
-    .choose_heading_Section .choose_heading .choose {
-        font-size: 72px;
-        font-family: 'Poppins-Regular';
-        color: #AD543B;
-    
-    
-    }
-    .choose_heading_Section .choose_heading .sphere {
-        font-size: 78px;
-        font-family: 'Playfair-Display-italic';
-        color: #AD543B;
-        line-height: 85px;
-    }
-    .increase_width{
-        width: 23%;
-    }
-    .join_section_fluid .card_text p{
-        font-size:16px;
-        font-family: 'Poppins-Regular' ;
-        color: #765dba;
-        font-weight:600;
-        margin-top: 25px;
-        
-    }
-    .join_section_fluid .card_text p br{
-        display: none !important;
-    }
-    .breadcrum_ambasdor{
-        margin-top: 10px;
-    }
+  .choose_heading_Section .choose_heading .choose {
+    font-size: 72px;
+    font-family: "Poppins-Regular";
+    color: #ad543b;
+  }
+  .choose_heading_Section .choose_heading .sphere {
+    font-size: 78px;
+    font-family: "Playfair-Display-italic";
+    color: #ad543b;
+    line-height: 85px;
+  }
+  .increase_width {
+    width: 23%;
+  }
+  .join_section_fluid .card_text p {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .join_section_fluid .card_text p br {
+    display: none !important;
+  }
+  .breadcrum_ambasdor {
+    margin-top: 10px;
+  }
 
-    .spare_table .Spottie_text {
-        font-size: 19px;
-        font-weight: 500;
-        font-family: 'Poppins-Regular';
-        color: #AD543B;
-    
-    }
-    .spare_table .enthuasts {
-        font-size: 15px;
-        font-weight: 400;
-        color: #AD543B;
-    }
-    .spottie button {
-        background-color: #765dba;
-        text-transform: uppercase;
-        font-size: 16px;
-        font-family: 'Poppins-Regular';
-        color: white;
-        border: none;
-        padding: 13px 25px;
-    }
+  .spare_table .Spottie_text {
+    font-size: 22px;
+    font-family: "Poppins-Medium";
+    color: #ad543b;
+  }
+  .spare_table .enthuasts {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ad543b;
+  }
+  .spottie button {
+    background-color: #765dba;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    color: white;
+    border: none;
+    padding: 13px 18px;
+  }
+  .why_join_heading .why {
+    font-size: 72px;
+  }
+  .why_join_heading .join {
+    font-size: 78px;
+  }
+  .check_out_Text {
+    font-size: 16px;
+  }
+  .spare_table .table_content td {
+    font-size: 16px;
+  }
+  .choose_spare_container {
+    padding: 40px 13px;
+  }
 }

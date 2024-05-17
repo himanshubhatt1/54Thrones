@@ -14,6 +14,374 @@
 @font-face {
 	font-family: 'Playfair-Display-italic';
 	src:url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
-
-	
 }
+
+.rewards_section {
+	background: url("../images/reward-banner.png") no-repeat center;
+	background-size: cover;
+	/* height: 100vh; */
+	padding: 422px 0;
+	position: relative;
+  }
+  .breadcrum_ambasdor {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  .rewards_section .breadcrum_ambasdor .ambassdor_class {
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: "Poppins-Medium";
+  }
+  .rewards_section .breadcrum_ambasdor .home {
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	opacity: 0.8;
+	text-transform: uppercase;
+  }
+  .rewards_section .breadcrum_ambasdor p {
+	color: white;
+  }
+  
+  .ambasdor_bottom_text .applytobe h1 {
+	font-size: 120px;
+	color: white;
+	text-align: center;
+  }
+  .ambasdor_bottom_text {
+	position: absolute;
+	bottom: 7%;
+  }
+  .applytobe .thrones_ambassdor {
+	font-size: 134px;
+	font-family: "Playfair-Display-italic";
+	color: white;
+	font-weight: 400;
+	margin-top: -20px;
+	line-height: 120px;
+  }
+  
+  .ambassdor_program_text {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 5px 20px;
+  }
+  .ambasdor_choose {
+	font-size: 90px !important;
+	margin-left: 21px;
+  }
+  
+  .ambassdor_rewards .welcome {
+	font-size: 54px;
+	font-family: "Playfair-Display-italic" !important;
+  }
+  .ambassdor_rewards .challenges {
+	font-size: 52px;
+	font-style: normal;
+	font-family: "Poppins-Regular" !important;
+  }
+  .ambassdor_title {
+	line-height: 60px;
+  }
+  .ambassdor_rewards .reward_image {
+	position: absolute;
+	top: 12%;
+	left: 40%;
+	transform: translate(-8%, -40%);
+  }
+  .why_join_Section {
+	padding: 20px;
+  }
+  .join_section_fluid {
+	padding: 120px 20px;
+	background: url("../images/join_bg.png") center no-repeat;
+	background-size: cover;
+  }
+  .spare_table .bouncy_text {
+	font-size: 54px;
+	color: #ad543b;
+	font-family: "Playfair-Display-italic";
+	font-weight: 400;
+  }
+  .spare_table .sepend-text {
+	font-size: 20px;
+	font-weight: 400;
+	color: #CA8D00;
+  }
+  .spottie button {
+	background-color: #765dba;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	border: none;
+	padding: 13px 35px;
+	line-height: 30px;
+  }
+  .spare_table .table_content td {
+	font-size: 20px;
+	color: #ad543b;
+	line-height: 36px;
+	padding: 15px 10px;
+	font-family: "Poppins-Medium";
+  }
+  .spare_table .table_content td .td-yellow-text {
+	font-size: 20px;
+	color: #CA8D00;
+	font-family: "Poppins-Regular";
+  }
+  .spare_table .table_content td.add-head-text {
+	font-family: "Poppins-Regular";
+  }
+  .table {
+	/* border-color: #AD543B; */
+	background-color: #f6f3fa !important;
+  }
+  .table_checkbox .form-check-input {
+	border-radius: 100% !important;
+	color: #ad543b;
+	border: 1px solid #ad543b;
+	outline: #ad543b;
+  }
+  .table_checkbox .form-check-input:focus {
+	box-shadow: none;
+  }
+  .table_checkbox .form-check-input:checked {
+	background-color: #ca8d00;
+	border-color: #ca8d00!important;
+  }
+  .spare_table tr.table_content {
+	border: 1px solid #e8d3d4;
+	border-left: none;
+	border-right: none;
+  }
+  .choose_spare_container {
+	background-color: #f6f3fa;
+  }
+  .table > :not(caption) > * > * {
+	padding: 0.5rem 0.5rem;
+	color: var(
+	  --bs-table-color-state,
+	  var(--bs-table-color-type, var(--bs-table-color))
+	);
+	background-color: #f6f3fa;
+  }
+  .choose_spare_Section {
+	padding: 20px;
+  }
+  
+  .choose_spare_container {
+	padding: 40px 30px;
+  }
+  .check_out_Text {
+	font-size: 20px;
+  }
+  .increase_width {
+	width: 11%;
+  }
+  .get-inner-text-wrap{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+  }
+  .get-15-heading{
+	font-size: 90px;
+	color: #AD543B;
+  }
+  .get-15-heading .inner-heading{
+	font-size: 96px;
+	line-height: 90px;
+	font-family: "Playfair-Display-italic";
+    background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .beca-text{
+	font-size: 24px;
+	line-height: 32px;
+	font-family: "Poppins-Medium";
+	background: -webkit-linear-gradient(#F3BD49, #D48C37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .faq-acc-heading{
+	font-size: 90px;
+	line-height: 104px;
+	color: #765DBA;
+	margin-bottom: 30px;
+  }
+.accordion-faq .accordion-item{
+	background: transparent;
+	color: #765DBA;
+	border: none;
+	border-bottom: 1px solid #8c7abc42;
+	border-radius: 0;
+	text-align: left;
+}
+.accordion-faq .accordion-button{
+	background: transparent;
+	color: #765DBA;
+	font-size: 24px;
+	line-height: 32px;
+	font-family: "Poppins-Medium";
+	padding-left: 0;
+}
+.accordion-faq .accordion-button:focus{
+	box-shadow: none;
+}
+.accordion-faq .accordion-body p{
+	font-size: 20px;
+	line-height: 26px;
+}
+.accordion-faq .accordion-button::after {
+    background: url(../images/Vectorplus.png) no-repeat right center;
+    background-size: 12px;
+}
+.accordion-faq .accordion-button:not(.collapsed)::after {
+    background: url(../images/Vectorminus.png) no-repeat right center;
+    background-size: 12px;
+}
+
+
+
+  /* media query */
+@media (max-width: 767px) {
+	.rewards_section {
+		background: url('../images/reward-mob-banner.png') no-repeat center;
+		background-size: cover;
+		padding: 335px 0;
+		position: relative;
+	}
+	.ambasdor_choose {
+	  font-size: 34px !important;
+	  margin-left: 18px;
+	}
+	br {
+	  display: none !important;
+	}
+	.check_out_Text {
+	  font-size: 17px;
+	}
+	.why_join_heading .why {
+	  font-size: 43px;
+	  font-family: "Poppins-Regular";
+	  color: #765dba;
+	}
+	.why_join_heading .join {
+	  font-size: 43px;
+	  font-family: "Playfair-Display-italic";
+	  color: #765dba;
+	}
+  
+  
+	.ambassdor_rewards .challenges {
+	  font-size: 24px;
+	  font-style: normal;
+	  font-family: "Poppins-Regular" !important;
+	}
+	.ambassdor_rewards .welcome {
+	  font-size: 29px;
+	  font-family: "Playfair-Display-italic" !important;
+	}
+	.ambassdor_title {
+	  line-height: 27px;
+	}
+	.ambassdor_rewards .reward_image {
+	  position: absolute;
+	  width: 21%;
+	  top: 23%;
+	  left: 40%;
+	  transform: translate(-8%, -40%);
+	}
+	.applytobe .thrones_ambassdor {
+	  font-size: 36px;
+	  font-family: "Playfair-Display-italic";
+	  color: white;
+	  font-weight: 400;
+	  margin-top: -20px;
+	  line-height: 48px;
+	}
+	.ambasdor_bottom_text .applytobe h1 {
+	  font-size: 31px;
+	  color: white;
+	  text-align: center;
+	  font-family: "Poppins-Regular";
+	}
+	.ambassdor_program_text {
+	  text-align: center;
+	  color: white;
+	  font-size: 16px;
+	  font-family: "Poppins-Regular";
+	  padding: 5px 0px;
+	}
+	.ambasdor_bottom_text {
+	  position: absolute;
+	  bottom: 2%;
+	}
+	.choose_spare_Section {
+	  width: 100%;
+	  overflow-x: scroll;
+	  background-color: #f6f3fa;
+	}
+	.spottie button {
+	  background-color: #b39eef;
+	  font-size: 12px;
+	  padding: 13px 15px;
+	  line-height: normal;
+	  width: 131px;
+	}
+	.spare_table {
+	  width: 100%;
+	  background-color: #f6f3fa;
+  
+	  overflow-x: scroll;
+	}
+	.spare_table .Spottie_text {
+	  font-size: 16px;
+	  font-weight: 600;
+	  font-family: "Poppins-Regular";
+	  color: #ad543b;
+	}
+	.spare_table .enthuasts {
+	  display: block;
+	  font-size: 12px;
+	  font-weight: 400;
+	}
+	.spare_table .enthuasts br {
+	  display: none !important;
+	}
+	.breadcrum_ambasdor {
+	  width: 100%;
+	}
+	.ambasdor_section .breadcrum_ambasdor .ambassdor_class {
+	  font-size: 14px;
+	}
+	.ambasdor_section .breadcrum_ambasdor .home {
+	  font-size: 14px;
+	}
+	.join_section_fluid .card_text p {
+	  font-size: 16px;
+	}
+	.spare_table .table_content td.add-head-text {
+	  font-size: 14px;
+	  line-height: 16px;
+	}
+	.spare_table .table_content td {
+	  font-size: 14px;
+	  line-height: 16px;
+	  padding: 15px 15px;
+	  width: 100%;
+	  min-width: 185px;
+	}
+	.choose_spare_container {
+	  padding: 40px 10px;
+	}
+	.choose_spare_Section {
+	  padding: 0;
+	}
+  }
