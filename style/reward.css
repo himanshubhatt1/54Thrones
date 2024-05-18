@@ -30,6 +30,9 @@
 	align-items: center;
 	padding: 25px 0;
   }
+  .reward-banner-btns p a:hover{
+	color: #FDFBFF;
+  }
   .reward-log-in-btn{
 	text-decoration: none;
 	background: #B39EEF;
