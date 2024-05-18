@@ -5,13 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./style/reward.css">
   <link rel="stylesheet" href="./style/cart.css">
@@ -330,7 +327,7 @@
                         <p class="ps-5">25 POINTS</p>
                     </div>
                     <div class="earn_btn">
-                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">Earn 25 points</button>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal">Earn 25 points</button>
                         
                     </div>
 
@@ -367,7 +364,7 @@
               <p class="ps-5">25 POINTS</p>
             </div>
             <div class="earn_btn opacity-50">
-              <button>EARN 25 POINTS</button>
+              <button data-bs-toggle="modal" data-bs-target="#exampleModal3">EARN 25 POINTS</button>
             </div>
 
                 </div>
@@ -379,7 +376,7 @@
                         <p class="ps-5">25 POINTS</p>
                     </div>
                     <div class="earn_btn opacity-50">
-                        <button>EARN 25 POINTS</button>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal3">EARN 25 POINTS</button>
                     </div>
 
                 </div>
@@ -391,7 +388,7 @@
                         <p class="ps-5">25 POINTS</p>
                     </div>
                     <div class="earn_btn opacity-50">
-                        <button>EARN 25 POINTS</button>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal2" >EARN 25 POINTS</button>
                     </div>
 
           </div>
@@ -401,7 +398,148 @@
     </div>
 
 </section>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal_content">
+        <div class="modal_text text-center">
+          <h1>Your Birthday</h1>
+          <p>Enter your birthday below and we’ll email you a code to unlock a surprise birthday gift!</p>
+        </div>
+<div class="d-flex justify-content-between gap-3 custom_select_box ">
+  
+  <div class="flex-grow-1">
+    <select class="form-select custom_form_select" aria-label="Default select example">
+      <option selected>Month</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+  <div class="flex-grow-1">
+    <select class="form-select custom_form_select" aria-label="Default select example">
+      <option selected>Day</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+  <div class="flex-grow-1">
+    <select class="form-select custom_form_select" aria-label="Default select example">
+      <option selected>Year</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+</div>
 
+<div class="mt-3 save_modal_btn" >
+
+  <button type="button" class="w-100 save_btn" data-bs-toggle="modal" data-bs-target="#exampleModal1" >Save</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal_content">
+        <div class="modal_text text-center">
+          <h1>Your Birthday</h1>
+          <p>Birthday, noted! We’ll email you a code to access your birthday gift during you birthday month, so be sure to sign up for email so you don’t miss it!</p>
+        </div>
+<div class="d-flex justify-content-between gap-3 ">
+  
+ 
+</div>
+
+<div class="mt-3 save_modal_btn" >
+
+                       
+  <button type="button" class="w-100 save_btn" >Save</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    
+      
+
+      <div class="modal_content">
+        <div class="modal_text text-center">
+          <h1>Leave a review</h1>
+          <p>Earn 5 points when you leave a review through the review request email recieved after you place an order!</p>
+        </div>
+
+
+<div class="mt-3 save_modal_btn" >
+
+  <button type="button" class="w-100 save_btn">Shop All</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal_content">
+        <div class="modal_text text-center">
+          <h1><span class="refer">Refer</span > your friends</h1>
+          <p>Give a friend $15 off their first purchase and earn 300 points if they spend over $35</p>
+          <div>
+            <ul class="d-flex gap-2 list-unstyled justify-content-center mt-4">
+              <li><a href=""><img src="./images/meta_social.png" alt="meta_social" class="img-fluid"></a>
+              </li>
+              <li><a href=""><img src="./images/whatsspp_social.png" alt="meta_social" class="img-fluid"></a>
+              </li>
+              <li><a href=""><img src="./images/insta_pink.png" alt="meta_social" class="img-fluid"></a>
+              </li>
+              <li><a href=""><img src="./images/facebook_blue.png" alt="meta_social" class="img-fluid"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+<p class="text-center fs-4 copy_link_text"><b>Or copy link and share anywhere</b></p>
+<div class="mt-3 save_modal_btn d-flex align-items-center gap-2" >
+
+  <input type="text " id="lname" name="lname" class="form-control  disable_link " value="https://54thrones.com/referlink" disabled> 
+  <span><img src="./images/link.png" alt="link_icon" class="img-fluid"></span>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <section class="our-story-sec pt-lg-5">
@@ -1253,6 +1391,8 @@
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script>
     $(document).ready(function () {
       $(".my-slider").slick({

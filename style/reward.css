@@ -388,6 +388,10 @@
 	width: 700px !important;
 	padding: 20px 30px;
 }
+.modal_content{
+	padding: 50px 35px;
+	color: #AD543B;
+}
 .shop_btn{
 	background-color: #B39EEF;
 	width: 100%;
@@ -397,8 +401,66 @@
 	color: white;
 	padding: 15px;
 }
+.btn-close{
+	color: #AD543B!important;
+	background: url('../images/CROSSS.png') no-repeat;
+	background-size: 60%;
+}
+.custom_form_select  {
+	border: none;
+	border-bottom: 1px solid #ad543b;
+	border-radius: 0px;
+	color: #AD543B;
+
+}
+.modal-header{
+	border-bottom: none;
+}
+.save_modal_btn{
+	margin-top: 30px !important;
+}
+.save_modal_btn .save_btn{
+	background-color: #b39eef;
+	padding: 15px ;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Poppins-Medium';
+	text-transform: uppercase;
+}
+.btn-close:focus {
+     outline: 0;
+    box-shadow: none;
+}
+.disable_link{
+	padding: 15px;
+	width: 85%;
+	background-color: white !important;
+	font-size: 20px;
+
+color: #AD543B;}
+.modal_text .refer{
+	font-size: 54px;
+	font-family: 'Playfair-Display-italic';
+	font-weight: 400;
+}
+.modal_text h1{
+	font-size: 52px;
+	font-family: "Poppins-Regular";
+}
+.modal_text p{
+	font-size: 20px;
+	font-family: "Poppins-Regular";
+}
   /* media query */
 @media (max-width: 767px) {
+
+	.modal-dialog-centered {
+		max-width: 787px !important;
+		width: 358px !important;
+		padding: 20px 1px;
+	}
+
 .join_the_club{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -668,7 +730,34 @@
 	.faq-row{
 		flex-direction: column-reverse;
 	}
+	.modal_text h1{
+		font-size: 24px;
+	}
+	.modal_text p{
+		font-size: 14px;
+	}
+	.custom_select_box{
+		flex-direction: column;
+	}
+	.save_modal_btn .save_btn{
+		background-color: #b39eef;
+		padding: 15px ;
+		border: none;
+		color: white;
+		font-size: 12px;}
+
+
+		.modal_text .refer{
+			font-size: 29px;
+		}
+		.copy_link_text{
+			font-size: 16px !important;
+		}
+		.disable_link{
+			font-size: 14px;
+		}
   }
+
 
   @media (min-width: 768px) and (max-width: 820px){
     .right_earn .join_bg{
