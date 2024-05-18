@@ -382,6 +382,9 @@
 	font-family: "Poppins-Regular";
 	
 }
+.table.spare_table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #e8d3d4;
+}
 
 .modal-dialog-centered{
 	max-width: 800px !important;
