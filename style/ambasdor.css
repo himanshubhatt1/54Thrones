@@ -45,6 +45,9 @@
   font-size: 120px;
   color: white;
   text-align: center;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  line-height:120px;
 }
 .ambasdor_bottom_text {
   position: absolute;
