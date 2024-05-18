@@ -48,6 +48,7 @@
    -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   line-height:120px;
+  letter-spacing:-6px;
 }
 .ambasdor_bottom_text {
   position: absolute;
@@ -95,12 +96,15 @@
   padding: 20px;
 }
 .join_section_fluid {
-  padding: 120px 20px;
+  padding: 120px 90px;
   background: url("../images/join_bg.png") center no-repeat;
   background-size: cover;
 }
 .why_join_heading {
   margin-bottom: 30px;
+}
+.why_join_heading h1{
+line-height:115.556%
 }
 .why_join_heading .why {
   font-size: 90px;
