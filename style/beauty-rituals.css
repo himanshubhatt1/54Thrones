@@ -370,8 +370,11 @@
     font-size: 14px;
   }
   .image_with_text .kigelia_text {
-    font-size: 24px;
     font-size: 16px;
+    font-family: "Poppins-Medium";
+  }
+  .mob-map-modal .modal-content{
+    border-radius: 0;
   }
   .map_content {
     top: 34%;
