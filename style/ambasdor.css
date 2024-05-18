@@ -30,6 +30,9 @@
   letter-spacing: 1px;
   font-family: "Poppins-Medium";
 }
+.choose-cat-heading{
+  line-height:104px;
+}
 .ambasdor_section .breadcrum_ambasdor .home {
   font-size: 16px;
   font-weight: 400;
@@ -212,7 +215,9 @@ line-height:115.556%
   padding: 40px 30px;
 }
 .check_out_Text {
-  font-size: 20px;
+  font-size: 20px;    line-height: 26px;
+  margin-top:30px;
+  
 }
 .increase_width {
   width: 11%;
