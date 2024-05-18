@@ -133,22 +133,27 @@ line-height:115.556%
 .choose_heading_Section .choose_heading .choose {
   font-size: 90px;
   color: #ad543b;
+  line-height:104px;
+  letter-spacing:5px;
 }
 .choose_heading_Section .choose_heading .sphere {
   font-size: 96px;
   font-family: "Playfair-Display-italic";
   color: #ad543b;
   line-height: 90px;
+    letter-spacing:5px;
 }
 .spottie_text {
   font-size: 20px;
   color: #f3bd49;
+  line-height:26px;
 }
 .spare_table .Spottie_text {
   font-size: 24px;
   font-weight: 500;
   color: #ad543b;
   font-family: "Poppins-Medium";
+  line-height:32px;
 }
 .spare_table .enthuasts {
   font-size: 16px;
@@ -216,7 +221,7 @@ line-height:115.556%
 }
 .check_out_Text {
   font-size: 20px;    line-height: 26px;
-  margin-top:30px;
+  margin-top:36px;
   
 }
 .increase_width {
