@@ -331,6 +331,15 @@ line-height:115.556%
 .width_mobile{
   width: 32px;
 }
+
+ br {
+  display: none !important;
+}
+.join_section_fluid {
+  padding: 65px 53px;
+  background: url(../images/join_bg.png) center no-repeat;
+  background-size: cover;
+}
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 2%;
