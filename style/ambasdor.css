@@ -325,6 +325,12 @@ line-height:115.556%
     padding: 5px 0px;
     line-height: 16px;
   }
+  .increase_width {
+    width: 32px;
+}
+.width_mobile{
+  width: 32px;
+}
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 2%;
