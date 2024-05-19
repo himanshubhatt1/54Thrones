@@ -113,12 +113,15 @@ line-height:115.556%
 .why_join_heading .why {
   font-size: 90px;
   color: #765dba;
+  line-height: 104px;
+  letter-spacing: -5px;
 }
 .why_join_heading .join {
   font-size: 96px;
   font-family: "Playfair-Display-italic";
-
   color: #765dba;
+  line-height: 90px;
+  letter-spacing: -5px;
 }
 
 .join_section_fluid .card_text p {
@@ -126,6 +129,7 @@ line-height:115.556%
   color: #765dba;
   font-family: "Poppins-Medium";
   margin-top: 25px;
+  line-height: 32px;
 }
 .space_between {
   background-color: #FDFBFF;
