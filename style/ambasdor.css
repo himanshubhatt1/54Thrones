@@ -237,8 +237,23 @@ line-height:115.556%
   display: none;
 }
 
+.slide_finger{
+  display: none;
+}
+.slide_finger {
+  position: absolute;
+  right: 0px;
+bottom: -46px;
+}
+.choose_heading{
+  position: relative;
+}
 /* media query */
 @media (max-width: 767px) {
+  .slide_finger{
+    display: block;
+  }
+  
   .ambasdor_choose {
     font-size: 31px !important;
     margin-left: 8px;
@@ -252,6 +267,9 @@ line-height:115.556%
   .check_out_Text {
     font-size: 14px;
     line-height: 16px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 16px;
   }
   .why_join_heading .why {
     font-size: 31px;
@@ -265,9 +283,10 @@ line-height:115.556%
   }
   .choose_heading_Section .choose_heading .choose {
     font-size: 31px;
+    line-height: 35px;
     font-family: "Poppins-Regular";
     color: #ad543b;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
   }
   .choose-cat-heading {
     line-height: 35px;
@@ -280,15 +299,32 @@ line-height:115.556%
     font-size: 36px;
     font-family: "Playfair-Display-italic";
     color: #ad543b;
-    line-height: 35px;
-    letter-spacing: 0px;
+    letter-spacing: -2px;
+    line-height: 58px;
   }
-
+.sphere{
+  margin-left: 4px;
+}
   .ambassdor_rewards .challenges {
     font-size: 24px;
     font-style: normal;
     font-family: "Poppins-Regular" !important;
   }
+  .choose-cat-heading .choose_text {
+    font-size: 31px  !important;
+    line-height: 36px;
+    font-family: "Poppins-Regular";
+    letter-spacing: -1.55px;
+}
+
+  .choose-cat-heading .inner-heading {
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 34px;
+    font-family: "Playfair-Display-italic";
+    letter-spacing: -1.7px;
+  }
+
   .ambassdor_rewards .welcome {
     font-size: 29px;
     font-family: "Playfair-Display-italic" !important;
@@ -329,7 +365,10 @@ line-height:115.556%
     position: relative;
   
   }
-
+  .choose-cat-heading {
+    line-height: 0px;
+    margin-top: 20px;
+}
 
   .ambassdor_program_text {
     text-align: center;
@@ -339,6 +378,21 @@ line-height:115.556%
     padding: 5px 0px;
     line-height: 16px;
   }
+  .increase_width {
+    width: 32px;
+}
+.width_mobile{
+  width: 32px;
+}
+
+ br {
+  display: none !important;
+}
+.join_section_fluid {
+  padding: 65px 53px;
+  background: url(../images/join_bg.png) center no-repeat;
+  background-size: cover;
+}
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 2%;
@@ -408,12 +462,19 @@ line-height:115.556%
   }
   .choose_spare_Section {
     padding: 0;
+    margin-top: 33px;
+   
+
   }
   .ambasdor_bottom_text .applytobe h1 {
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: transparent;
     line-height: 35px;
     letter-spacing: -1px;
+}
+.space_between {
+  background-color: #FDFBFF;
+  padding-top: 2px;
 }
 }
 
