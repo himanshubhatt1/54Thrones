@@ -478,7 +478,7 @@ bottom: -46px;
 }
 }
 
-@media (min-width: 768px) and (max-width: 1080px) {
+@media screen and (min-width:768px) and (max-width:1020px) {
   .applytobe .thrones_ambassdor {
     font-size: 78px;
     font-family: "Playfair-Display-italic";
@@ -490,6 +490,10 @@ bottom: -46px;
   .ambasdor_section {
     background: url(../images/ambassador-tab-banner.png) no-repeat center;
     padding: 585px 0;
+}
+
+.width_mobile{
+  width: 56px;
 }
 .ambassdor_program_text {
   font-size: 16px;
@@ -517,6 +521,130 @@ bottom: -46px;
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 7%;
+  }
+  .increase_width {
+    width: 56px !important;
+  }
+  .ambasdor_choose {
+    font-size: 72px !important;
+    margin-left: 21px;
+  }
+  .choose-cat-heading .inner-heading {
+    font-size: 78px !important;
+  }
+
+  .choose_heading_Section .choose_heading .choose {
+    font-size: 72px;
+    font-family: "Poppins-Regular";
+    color: #ad543b;
+  }
+  .choose_heading_Section .choose_heading .sphere {
+    font-size: 78px;
+    font-family: "Playfair-Display-italic";
+    color: #ad543b;
+    line-height: 85px;
+  }
+  .increase_width {
+    width: 23%;
+  }
+  .join_section_fluid .card_text p {
+    font-size: 22px;
+    margin-top: 26px;
+    letter-spacing: -1px;
+  }
+  .spottie_text span{
+    font-size: 16px;
+}
+  .join_section_fluid .card_text p br {
+    display: none !important;
+  }
+  .breadcrum_ambasdor {
+    margin-top: 10px;
+  }
+
+  .spare_table .Spottie_text {
+    font-size: 22px;
+    font-family: "Poppins-Medium";
+    color: #ad543b;
+  }
+  .spare_table .enthuasts {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ad543b;
+  }
+  .spottie button {
+    background-color: #765dba;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    color: #FDFBFF;
+    border: none;
+    padding: 13px 18px;
+  }
+  .why_join_heading .why {
+    font-size: 72px;
+  }
+  .why_join_heading .join {
+    font-size: 78px;
+  }
+  .check_out_Text {
+    font-size: 16px;
+  }
+  .spare_table .table_content td {
+    font-size: 16px;
+  }
+  .choose_spare_container {
+    padding: 40px 13px;
+  }
+  
+}
+
+@media (min-width:780px) and (max-width: 1180px) {
+  .applytobe .thrones_ambassdor {
+    font-size: 78px;
+    font-family: "Playfair-Display-italic";
+    color: #FDFBFF;
+    font-weight: 400;
+    margin-top: -20px;
+    line-height: 70px;
+  }
+  .ambasdor_section {
+    background: url(../images/ambassador-tab-banner.png) no-repeat center;
+    padding: 585px 0;
+}
+
+.width_mobile{
+  width: 56px;
+}
+.ambassdor_program_text {
+  font-size: 16px;
+}
+  .ambasdor_bottom_text .applytobe h1 {
+    font-size: 72px;
+    color: #FDFBFF;
+    text-align: center;
+    font-family: "Poppins-Regular";
+    line-height: 80px;
+  }
+  .ambasdor_bottom_text .applytobe h1 {
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+}
+.join_section_fluid {
+  padding: 120px 20px;
+}
+.space_between {
+  padding-top: 5px;
+}
+.why_join_heading {
+  margin-bottom: 88px;
+}
+  .ambasdor_bottom_text {
+    position: absolute;
+    bottom: 7%;
+  }
+  .increase_width {
+    width: 56px !important;
   }
   .ambasdor_choose {
     font-size: 72px !important;
