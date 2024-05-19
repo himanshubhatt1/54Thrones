@@ -246,6 +246,8 @@ line-height:115.556%
 }
   .check_out_Text {
     font-size: 16px;
+    line-height: 21px;
+    margin-top: 16px;
   }
   .why_join_heading .why {
     font-size: 31px;
@@ -259,22 +261,42 @@ line-height:115.556%
   }
   .choose_heading_Section .choose_heading .choose {
     font-size: 31px;
+    line-height: 35px;
     font-family: "Poppins-Regular";
     color: #ad543b;
+    letter-spacing: -2px;
   }
 
   .choose_heading_Section .choose_heading .sphere {
     font-size: 36px;
     font-family: "Playfair-Display-italic";
     color: #ad543b;
+    letter-spacing: -2px;
     line-height: 58px;
   }
-
+.sphere{
+  margin-left: 4px;
+}
   .ambassdor_rewards .challenges {
     font-size: 24px;
     font-style: normal;
     font-family: "Poppins-Regular" !important;
   }
+  .choose-cat-heading .choose_text {
+    font-size: 31px  !important;
+    line-height: 36px;
+    font-family: "Poppins-Regular";
+    letter-spacing: -1.55px;
+}
+
+  .choose-cat-heading .inner-heading {
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 34px;
+    font-family: "Playfair-Display-italic";
+    letter-spacing: -1.7px;
+  }
+
   .ambassdor_rewards .welcome {
     font-size: 29px;
     font-family: "Playfair-Display-italic" !important;
@@ -315,7 +337,10 @@ line-height:115.556%
     position: relative;
   
   }
-
+  .choose-cat-heading {
+    line-height: 0px;
+    margin-top: 20px;
+}
 
   .ambassdor_program_text {
     text-align: center;
@@ -410,6 +435,10 @@ line-height:115.556%
     -webkit-text-stroke-color: transparent;
     line-height: 35px;
     letter-spacing: -1px;
+}
+.space_between {
+  background-color: #FDFBFF;
+  padding-top: 2px;
 }
 }
 
