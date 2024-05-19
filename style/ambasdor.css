@@ -189,9 +189,9 @@ line-height:115.556%
 }
 .table_checkbox .form-check-input {
   border-radius: 100% !important;
-  color: #ad543b;
-  border: 1px solid #ad543b;
-  outline: #ad543b;
+  color: #ca8d00;
+  border: 1px solid #ca8d00;
+  outline: #ca8d00;
 }
 .table_checkbox .form-check-input:focus {
   box-shadow: none;
