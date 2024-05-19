@@ -25,33 +25,33 @@
 }
 .ambasdor_section .breadcrum_ambasdor .ambassdor_class {
   font-size: 16px;
-  color: #FDFBFF;
+  color: #fdfbff;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: "Poppins-Medium";
 }
-.choose-cat-heading{
+/* .choose-cat-heading{
   line-height:104px;
-}
+} */
 .ambasdor_section .breadcrum_ambasdor .home {
   font-size: 16px;
   font-weight: 400;
-  color: #FDFBFF;
+  color: #fdfbff;
   opacity: 0.8;
   text-transform: uppercase;
 }
 .ambasdor_section .breadcrum_ambasdor p {
-  color: #FDFBFF;
+  color: #fdfbff;
 }
 
 .ambasdor_bottom_text .applytobe h1 {
   font-size: 120px;
-  color: #FDFBFF;
+  color: #fdfbff;
   text-align: center;
-   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  line-height:120px;
-  letter-spacing:-6px;
+  line-height: 120px;
+  letter-spacing: -6px;
 }
 .ambasdor_bottom_text {
   position: absolute;
@@ -60,7 +60,7 @@
 .applytobe .thrones_ambassdor {
   font-size: 134px;
   font-family: "Playfair-Display-italic";
-  color: #FDFBFF;
+  color: #fdfbff;
   font-weight: 400;
   margin-top: -20px;
   line-height: 120px;
@@ -68,13 +68,18 @@
 
 .ambassdor_program_text {
   text-align: center;
-  color: #FDFBFF;
+  color: #fdfbff;
   font-size: 20px;
-  padding: 5px 20px;
+  padding: 0;
+  max-width: 727px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
 }
-.ambasdor_choose {
+.reward-chall-heading .ambasdor_choose {
   font-size: 90px !important;
   margin-left: 21px;
+  line-height: 104px;
+  letter-spacing: -5px;
 }
 
 .ambassdor_rewards .welcome {
@@ -107,8 +112,8 @@
 .why_join_heading {
   margin-bottom: 30px;
 }
-.why_join_heading h1{
-line-height:115.556%
+.why_join_heading h1 {
+  line-height: 115.556%;
 }
 .why_join_heading .why {
   font-size: 90px;
@@ -130,35 +135,36 @@ line-height:115.556%
   font-family: "Poppins-Medium";
   margin-top: 25px;
   line-height: 32px;
+  letter-spacing: -1px;
 }
 .space_between {
-  background-color: #FDFBFF;
+  background-color: #fdfbff;
   padding-top: 60px;
 }
 .choose_heading_Section .choose_heading .choose {
   font-size: 90px;
   color: #ad543b;
-  line-height:104px;
-  letter-spacing:-5px;
+  line-height: 104px;
+  letter-spacing: -5px;
 }
 .choose_heading_Section .choose_heading .sphere {
   font-size: 96px;
   font-family: "Playfair-Display-italic";
   color: #ad543b;
   line-height: 90px;
-    letter-spacing:-5px;
+  letter-spacing: -5px;
 }
 .spottie_text {
   font-size: 20px;
   color: #f3bd49;
-  line-height:26px;
+  line-height: 26px;
 }
 .spare_table .Spottie_text {
   font-size: 24px;
   font-weight: 500;
   color: #ad543b;
   font-family: "Poppins-Medium";
-  line-height:32px;
+  line-height: 32px;
   letter-spacing: -1px;
 }
 .spare_table .enthuasts {
@@ -166,14 +172,14 @@ line-height:115.556%
   font-weight: 400;
   color: #ad543b;
   line-height: 18px;
-  font-family: "Poppins-Regular" 
+  font-family: "Poppins-Regular";
 }
 .spottie button {
   background-color: #765dba;
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 2px;
-  color: #FDFBFF;
+  color: #fdfbff;
   border: none;
   padding: 13px 35px;
   line-height: 30px;
@@ -197,13 +203,14 @@ line-height:115.556%
   color: #ca8d00;
   border: 1px solid #ca8d00;
   outline: #ca8d00;
+  font-size: 24px;
 }
 .table_checkbox .form-check-input:focus {
   box-shadow: none;
 }
 .table_checkbox .form-check-input:checked {
   background-color: #ca8d00;
-  border-color: #ca8d00!important;
+  border-color: #ca8d00 !important;
 }
 .spare_table tr.table_content {
   border: 1px solid #e8d3d4;
@@ -229,35 +236,44 @@ line-height:115.556%
   padding: 40px 30px;
 }
 .check_out_Text {
-  font-size: 20px;    
+  font-size: 20px;
   line-height: 26px;
-  margin-top:26px;
-  
+  margin-top: 26px;
 }
 .increase_width {
-  width: 11%;
+  width: 56px;
+  height: 56px;
 }
-.mob-hand-icon{
+.mob-hand-icon {
   display: none;
 }
 
-.slide_finger{
+.slide_finger {
   display: none;
 }
-.slide_finger {
-  position: absolute;
-  right: 0px;
-bottom: -46px;
+.slide_finger img {
+  margin-left: auto;
+  display: flex;
+  padding-bottom: 10px;
 }
-.choose_heading{
+.choose_heading {
   position: relative;
+}
+.reward-chall-heading .inner-heading {
+  line-height: 90px;
+  letter-spacing: -5px;
+}
+.width_mobile {
+  width: 56px;
+  height: 56px;
+  object-fit: none;
 }
 /* media query */
 @media (max-width: 767px) {
-  .slide_finger{
+  .slide_finger {
     display: block;
   }
-  
+
   .ambasdor_choose {
     font-size: 31px !important;
     margin-left: 8px;
@@ -267,7 +283,7 @@ bottom: -46px;
   }
   .spottie_text span {
     font-size: 16px;
-}
+  }
   .check_out_Text {
     font-size: 14px;
     line-height: 16px;
@@ -279,11 +295,13 @@ bottom: -46px;
     font-size: 31px;
     font-family: "Poppins-Regular";
     color: #765dba;
+    letter-spacing: 1px;
   }
   .why_join_heading .join {
     font-size: 36px;
     font-family: "Playfair-Display-italic";
     color: #765dba;
+    letter-spacing: -1px;
   }
   .choose_heading_Section .choose_heading .choose {
     font-size: 31px;
@@ -294,10 +312,10 @@ bottom: -46px;
   }
   .choose-cat-heading {
     line-height: 35px;
-}
-.check_out_Text {
-  margin-top: 0;
-}
+  }
+  .check_out_Text {
+    margin-top: 0;
+  }
 
   .choose_heading_Section .choose_heading .sphere {
     font-size: 36px;
@@ -306,20 +324,21 @@ bottom: -46px;
     letter-spacing: -2px;
     line-height: 58px;
   }
-.sphere{
-  margin-left: 4px;
-}
+  .sphere {
+    margin-left: 4px;
+  }
   .ambassdor_rewards .challenges {
     font-size: 24px;
     font-style: normal;
     font-family: "Poppins-Regular" !important;
   }
   .choose-cat-heading .choose_text {
-    font-size: 31px  !important;
+    font-size: 31px !important;
     line-height: 36px;
     font-family: "Poppins-Regular";
     letter-spacing: -1.55px;
-}
+    margin-left: 9px;
+  }
 
   .choose-cat-heading .inner-heading {
     font-weight: 400;
@@ -346,57 +365,60 @@ bottom: -46px;
   .applytobe .thrones_ambassdor {
     font-size: 36px;
     font-family: "Playfair-Display-italic";
-    color: #FDFBFF;
+    color: #fdfbff;
     font-weight: 400;
     margin-top: -20px;
     line-height: 48px;
   }
   .ambasdor_bottom_text .applytobe h1 {
     font-size: 31px;
-    color: #FDFBFF;
+    color: #fdfbff;
     text-align: center;
     font-family: "Poppins-Regular";
-        -webkit-text-stroke-width: 0px; 
+    -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: black;
     line-height: 35px;
-     letter-spacing: -1px;
+    letter-spacing: -1px;
   }
   .ambasdor_section {
     background: url(../images/ambasdoor_banner.png) no-repeat top;
     background-size: cover;
- 
+
     padding: 301px 0;
     position: relative;
-  
   }
   .choose-cat-heading {
     line-height: 0px;
     margin-top: 20px;
-}
+  }
 
   .ambassdor_program_text {
     text-align: center;
-    color: #FDFBFF;
+    color: #fdfbff;
     font-size: 14px;
     font-family: "Poppins-Regular";
-    padding: 5px 0px;
+    padding: 5px 20px;
     line-height: 16px;
+    letter-spacing: 0px;
   }
   .increase_width {
     width: 32px;
-}
-.width_mobile{
-  width: 32px;
-}
+    height: 32px;
+  }
+  .width_mobile {
+    width: 32px;
+    height: auto;
+    object-fit: contain;
+  }
 
- br {
-  display: none !important;
-}
-.join_section_fluid {
-  padding: 65px 53px;
-  background: url(../images/join_bg.png) center no-repeat;
-  background-size: cover;
-}
+  br {
+    display: none !important;
+  }
+  .join_section_fluid {
+    padding: 65px 53px;
+    background: url(../images/join_bg.png) center no-repeat;
+    background-size: cover;
+  }
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 2%;
@@ -425,7 +447,7 @@ bottom: -46px;
     color: #ad543b;
     letter-spacing: 0px;
   }
-  .mob-hand-icon{
+  .mob-hand-icon {
     display: block;
     text-align: end;
     margin-bottom: 0;
@@ -466,27 +488,24 @@ bottom: -46px;
   }
   .choose_spare_Section {
     padding: 0;
-    margin-top: 33px;
-   
-
   }
   .ambasdor_bottom_text .applytobe h1 {
-    -webkit-text-stroke-width: 0px;
-    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
     line-height: 35px;
     letter-spacing: -1px;
-}
-.space_between {
-  background-color: #FDFBFF;
-  padding-top: 2px;
-}
+  }
+  .space_between {
+    background-color: #fdfbff;
+    padding-top: 2px;
+  }
 }
 
-@media screen and (min-width:768px) and (max-width:1020px) {
+@media screen and (min-width: 768px) and (max-width: 1020px) {
   .applytobe .thrones_ambassdor {
     font-size: 78px;
     font-family: "Playfair-Display-italic";
-    color: #FDFBFF;
+    color: #fdfbff;
     font-weight: 400;
     margin-top: -20px;
     line-height: 70px;
@@ -494,17 +513,17 @@ bottom: -46px;
   .ambasdor_section {
     background: url(../images/ambassador-tab-banner.png) no-repeat center;
     padding: 585px 0;
-}
+  }
 
-.width_mobile{
-  width: 56px;
-}
-.ambassdor_program_text {
-  font-size: 16px;
-}
+  .width_mobile {
+    width: 56px;
+  }
+  .ambassdor_program_text {
+    font-size: 16px;
+  }
   .ambasdor_bottom_text .applytobe h1 {
     font-size: 72px;
-    color: #FDFBFF;
+    color: #fdfbff;
     text-align: center;
     font-family: "Poppins-Regular";
     line-height: 80px;
@@ -512,16 +531,16 @@ bottom: -46px;
   .ambasdor_bottom_text .applytobe h1 {
     -webkit-text-stroke-width: 0;
     -webkit-text-stroke-color: transparent;
-}
-.join_section_fluid {
-  padding: 120px 20px;
-}
-.space_between {
-  padding-top: 5px;
-}
-.why_join_heading {
-  margin-bottom: 88px;
-}
+  }
+  .join_section_fluid {
+    padding: 120px 20px;
+  }
+  .space_between {
+    padding-top: 5px;
+  }
+  .why_join_heading {
+    margin-bottom: 88px;
+  }
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 7%;
@@ -556,9 +575,9 @@ bottom: -46px;
     margin-top: 26px;
     letter-spacing: -1px;
   }
-  .spottie_text span{
+  .spottie_text span {
     font-size: 16px;
-}
+  }
   .join_section_fluid .card_text p br {
     display: none !important;
   }
@@ -581,7 +600,7 @@ bottom: -46px;
     text-transform: uppercase;
     font-size: 16px;
     font-family: "Poppins-Regular";
-    color: #FDFBFF;
+    color: #fdfbff;
     border: none;
     padding: 13px 18px;
   }
@@ -600,14 +619,13 @@ bottom: -46px;
   .choose_spare_container {
     padding: 40px 13px;
   }
-  
 }
 
-@media (min-width:780px) and (max-width: 1180px) {
+@media (min-width: 780px) and (max-width: 1180px) {
   .applytobe .thrones_ambassdor {
     font-size: 78px;
     font-family: "Playfair-Display-italic";
-    color: #FDFBFF;
+    color: #fdfbff;
     font-weight: 400;
     margin-top: -20px;
     line-height: 70px;
@@ -615,17 +633,17 @@ bottom: -46px;
   .ambasdor_section {
     background: url(../images/ambassador-tab-banner.png) no-repeat center;
     padding: 585px 0;
-}
+  }
 
-.width_mobile{
-  width: 56px;
-}
-.ambassdor_program_text {
-  font-size: 16px;
-}
+  .width_mobile {
+    width: 56px;
+  }
+  .ambassdor_program_text {
+    font-size: 16px;
+  }
   .ambasdor_bottom_text .applytobe h1 {
     font-size: 72px;
-    color: #FDFBFF;
+    color: #fdfbff;
     text-align: center;
     font-family: "Poppins-Regular";
     line-height: 80px;
@@ -633,16 +651,16 @@ bottom: -46px;
   .ambasdor_bottom_text .applytobe h1 {
     -webkit-text-stroke-width: 0;
     -webkit-text-stroke-color: transparent;
-}
-.join_section_fluid {
-  padding: 120px 20px;
-}
-.space_between {
-  padding-top: 5px;
-}
-.why_join_heading {
-  margin-bottom: 88px;
-}
+  }
+  .join_section_fluid {
+    padding: 120px 20px;
+  }
+  .space_between {
+    padding-top: 5px;
+  }
+  .why_join_heading {
+    margin-bottom: 88px;
+  }
   .ambasdor_bottom_text {
     position: absolute;
     bottom: 7%;
@@ -677,9 +695,9 @@ bottom: -46px;
     margin-top: 26px;
     letter-spacing: -1px;
   }
-  .spottie_text span{
+  .spottie_text span {
     font-size: 16px;
-}
+  }
   .join_section_fluid .card_text p br {
     display: none !important;
   }
@@ -702,7 +720,7 @@ bottom: -46px;
     text-transform: uppercase;
     font-size: 16px;
     font-family: "Poppins-Regular";
-    color: #FDFBFF;
+    color: #fdfbff;
     border: none;
     padding: 13px 18px;
   }
@@ -720,5 +738,19 @@ bottom: -46px;
   }
   .choose_spare_container {
     padding: 40px 13px;
+  }
+  .ambassdor_rewards.g-2,
+  .gy-2 {
+    --bs-gutter-y: 1rem;
+  }
+  .ambassdor_rewards.g-2 {
+    --bs-gutter-x: 1rem;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 1080px) {
+  .ambassdor_rewards .catagry-col {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
