@@ -154,16 +154,20 @@ line-height:115.556%
   color: #ad543b;
   font-family: "Poppins-Medium";
   line-height:32px;
+  letter-spacing: -1px;
 }
 .spare_table .enthuasts {
   font-size: 16px;
   font-weight: 400;
   color: #ad543b;
+  line-height: 18px;
+  font-family: "Poppins-Regular" 
 }
 .spottie button {
   background-color: #765dba;
   text-transform: uppercase;
   font-size: 18px;
+  letter-spacing: 2px;
   color: white;
   border: none;
   padding: 13px 35px;
