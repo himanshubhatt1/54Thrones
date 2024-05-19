@@ -1,587 +1,788 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Beauty Rituals</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./style/beauty-rituals.css">
-    <link rel="stylesheet" href="./style/cart.css">
-  </head>
-  <body>
-    <!-- Header -->
-    <div class="container-fluid">
-      <header>
-        <div class="header">
-          <button class="menu-btn" aria-label="Open Menu">
-            <a class="navbar-brand" href="#"><img src="./images/menu.png" alt="" srcset="" /></a>
-          </button>
-          <div class="logo">
-            <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="logo" class="img-fluid" srcset="" /></a>
-          </div>
-          <nav class="menu">
-            <div class="drawer">
-              <button class="close-btn" aria-label="Close Menu">
-                <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="Close Menu"
-                  role="img">
-                  <path d="M0 0h24v24H0z" fill="none"></path>
-                  <path
-                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
-                  </path>
-                </svg>
-              </button>
-              <ul class="navbar-nav nav-menus">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    ABOUT
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="./about.html">Our Story</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Beauty Rituals</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    SHOP
-                  </a>
-                  <ul class="dropdown-menu mega-menu">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-lg-1">
-                          <p class="mega-menu-heading">VIEW ALL</p>
-                        </div>
-                        <div class="col-lg-3">
-                          <p class="mega-menu-heading">Skin Concern</p>
-                          <p><a href="">Dryness + Dehydrated</a></p>
-                          <p><a href="">Dullness + Uneven tone</a></p>
-                          <p><a href="">Dark spots + Hyperpigmentation</a></p>
-                          <p><a href="">Clogged + Congested</a></p>
-                          <p><a href="">Sensitive + Inflamed</a></p>
-                        </div>
-                        <div class="col-lg-2">
-                          <p class="mega-menu-heading">Product Type</p>
-                          <p><a href="">Skincare</a></p>
-                          <p><a href="">Sets & Minis</a></p>
-                          <p><a href="">Merch</a></p>
-                        </div>
-                        <div class="col-lg-2">
-                          <p class="mega-menu-heading">Featured</p>
-                          <p><a href="">New</a></p>
-                          <p><a href="">Bestsellers</a></p>
-                          <p><a href="">Viral</a></p>
-                          <p><a href="">Save $5</a></p>
-                          <p><a href="">Back in Stock</a></p>
-                          <p></p>
-                        </div>
-                        <div class="col-lg-3 offset-lg-1">
-                          <div class="product-wrap">
-                            <a href="#">
-                              <div class="card">
-                                <div class="card-body">
-                                  <img src="./images/product.png" alt="img" srcset="" class="img-fluid" />
-                                  <div class="product-info">
-                                    <p class="product-title">
-                                      African beauty butter – Intensive dry skin
-                                      treatment
-                                    </p>
-                                    <p class="product-price">$36</p>
-                                  </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Rituals</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style/beauty-rituals.css">
+  <link rel="stylesheet" href="./style/cart.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container-fluid">
+    <header>
+      <div class="header">
+        <button class="menu-btn" aria-label="Open Menu">
+          <a class="navbar-brand" href="#"><img src="./images/menu.png" alt="" srcset="" /></a>
+        </button>
+        <div class="logo">
+          <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="logo" class="img-fluid" srcset="" /></a>
+        </div>
+        <nav class="menu">
+          <div class="drawer">
+            <button class="close-btn" aria-label="Close Menu">
+              <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" aria-label="Close Menu"
+                role="img">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                </path>
+              </svg>
+            </button>
+            <ul class="navbar-nav nav-menus">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./about.html">Our Story</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./beauty-rituals.html">Beauty Rituals</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle-icon" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  SHOP
+                </a>
+                <ul class="dropdown-menu mega-menu">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <p class="mega-menu-heading">VIEW ALL</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <p class="mega-menu-heading">Skin Concern</p>
+                        <p><a href="">Dryness + Dehydrated</a></p>
+                        <p><a href="">Dullness + Uneven tone</a></p>
+                        <p><a href="">Dark spots + Hyperpigmentation</a></p>
+                        <p><a href="">Clogged + Congested</a></p>
+                        <p><a href="">Sensitive + Inflamed</a></p>
+                      </div>
+                      <div class="col-lg-2">
+                        <p class="mega-menu-heading">Product Type</p>
+                        <p><a href="">Skincare</a></p>
+                        <p><a href="">Sets & Minis</a></p>
+                        <p><a href="">Merch</a></p>
+                      </div>
+                      <div class="col-lg-2">
+                        <p class="mega-menu-heading">Featured</p>
+                        <p><a href="">New</a></p>
+                        <p><a href="">Bestsellers</a></p>
+                        <p><a href="">Viral</a></p>
+                        <p><a href="">Save $5</a></p>
+                        <p><a href="">Back in Stock</a></p>
+                        <p></p>
+                      </div>
+                      <div class="col-lg-3 offset-lg-1">
+                        <div class="product-wrap">
+                          <a href="#">
+                            <div class="card">
+                              <div class="card-body">
+                                <img src="./images/product.png" alt="img" srcset="" class="img-fluid" />
+                                <div class="product-info">
+                                  <p class="product-title">
+                                    African beauty butter – Intensive dry skin
+                                    treatment
+                                  </p>
+                                  <p class="product-price">$36</p>
                                 </div>
                               </div>
-                            </a>
-                          </div>
+                            </div>
+                          </a>
                         </div>
                       </div>
                     </div>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SKIN QUIZ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./ambassdors.html">AMBASSADORS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./rewards.html">REWARDS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-            <!-- <div class="blank"></div> -->
-          </nav>
-          <ul class="navbar-nav nav-buttons d-flex">
-            <li class="nav-item">
-              <a href="#" class="search-btn d-flex"><img src="./images/loupe.png" alt="" srcset="" /></a>
-            </li>
-            <div class="search-menu">
-              <div>
-                <h2><span class="inner-content">Search</span> on 54 thrones</h2>
-                <div class="input-wrap">
-                  <input type="text" name="search" placeholder="Type here" class="search-box" />
-                  <span class="clear-icon">×</span>
-                </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SKIN QUIZ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ambassdors.html">AMBASSADORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./rewards.html">REWARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="blank"></div> -->
+        </nav>
+        <ul class="navbar-nav nav-buttons d-flex">
+          <li class="nav-item">
+            <a href="#" class="search-btn d-flex"><img src="./images/loupe.png" alt="" srcset="" /></a>
+          </li>
+          <div class="search-menu">
+            <div>
+              <h2><span class="inner-content">Search</span> on 54 thrones</h2>
+              <div class="input-wrap">
+                <input type="text" name="search" placeholder="Type here" class="search-box" />
+                <span class="clear-icon">×</span>
               </div>
             </div>
-            <li class="nav-item">
-              <a href="#" class="log-in-btn">MY ACCOUNT</a>
-            </li>
-            <li class="nav-item">
-              <button class="btn cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
-                aria-controls="staticBackdrop">
-                <img src="./images/cart.png" alt="" srcset="" />0</a>
-              </button>
-  
-              <div class="offcanvas offcanvas-end cart-modal" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header cart-header">
-                  <h5 class="offcanvas-title cart-title" id="offcanvasRightLabel">
-                    Your <span class="inner-heading">order</span>
-                  </h5>
-                  <button type="button" class="btn-close cart-cross" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
+          </div>
+          <li class="nav-item">
+            <a href="#" class="log-in-btn">MY ACCOUNT</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+              aria-controls="staticBackdrop">
+              <img src="./images/cart.png" alt="" srcset="" />0</a>
+            </button>
+
+            <div class="offcanvas offcanvas-end cart-modal" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+              aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header cart-header">
+                <h5 class="offcanvas-title cart-title" id="offcanvasRightLabel">
+                  Your <span class="inner-heading">order</span>
+                </h5>
+                <button type="button" class="btn-close cart-cross" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <hr>
+              <div class="inner-order-wrap">
+                <div class="your-order-wrap pt-3">
+                  <div class="single-order-wrap">
+                    <div class="left-single-order-col">
+                      <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="order-product-info">
+                        <p class="order-product-title">Barrier Repair Cloud Cream</p>
+                        <p class="order-product-subtext">Scent: Kenyan Hibiscus + Moroccan Rose</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-order-col">
+                      <div class="order-quantity">
+                        <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
+                        <span>1</span>
+                        <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
+                      </div>
+                      <p class="order-price">$34,20</p>
+                      <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
+                            class="img-fluid" srcset="" /></a></p>
+                    </div>
+                  </div>
+                  <div class="mb-3 form-check subscribe-check-wrap">
+                    <div class="subs-select-wrap">
+                      <input type="checkbox" class="form-check-input ms-0 mt-0" id="subandsaveCheck1">
+                      <label class="form-check-label" for="subandsaveCheck1">Subscribe and save 5% + get free shipping
+                        every</label>
+                    </div>
+
+                    <div class="col-auto order-month-select">
+                      <select class="form-select custom_Select" id="autoSizingSelect">
+                        <option selected>1 Month</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
-                <hr>
-                <div class="inner-order-wrap">
-                  <div class="your-order-wrap pt-3">
-                    <div class="single-order-wrap">
-                      <div class="left-single-order-col">
-                        <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="" />
-                        <div class="order-product-info">
-                          <p class="order-product-title">Barrier Repair Cloud Cream</p>
-                          <p class="order-product-subtext">Scent: Kenyan Hibiscus + Moroccan Rose</p>
-                        </div>
-  
+                <div class="your-order-wrap pb-3">
+                  <div class="single-order-wrap">
+                    <div class="left-single-order-col">
+                      <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="">
+                      <div class="order-product-info">
+                        <p class="order-product-title">Mini African Beauty Butters</p>
                       </div>
-                      <div class="right-single-order-col">
-                        <div class="order-quantity">
-                          <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
-                          <span>1</span>
-                          <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
-                        </div>
-                        <p class="order-price">$34,20</p>
-                        <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
-                              class="img-fluid" srcset="" /></a></p>
-                      </div>
+
                     </div>
-                    <div class="mb-3 form-check subscribe-check-wrap">
-                      <div class="subs-select-wrap">
-                        <input type="checkbox" class="form-check-input ms-0 mt-0" id="subandsaveCheck1">
-                        <label class="form-check-label" for="subandsaveCheck1">Subscribe and save 5% + get free shipping
-                          every</label>
+                    <div class="right-single-order-col">
+                      <div class="order-quantity">
+                        <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
+                        <span>1</span>
+                        <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
                       </div>
-  
-                      <div class="col-auto order-month-select">
-                        <select class="form-select custom_Select" id="autoSizingSelect">
-                          <option selected>1 Month</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                      </div>
+                      <p class="order-price">$36</p>
+                      <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
+                            class="img-fluid" srcset=""></a></p>
                     </div>
                   </div>
-                  <div class="your-order-wrap pb-3">
-                    <div class="single-order-wrap">
-                      <div class="left-single-order-col">
-                        <img src="./images/order-img.png" alt="img" class="img-fluid" srcset="">
-                        <div class="order-product-info">
-                          <p class="order-product-title">Mini African Beauty Butters</p>
-                        </div>
-  
-                      </div>
-                      <div class="right-single-order-col">
-                        <div class="order-quantity">
-                          <button class="order-decrease order-btn" fdprocessedid="9lqjua">-</button>
-                          <span>1</span>
-                          <button class="order-increase order-btn" fdprocessedid="iofiy6">+</button>
-                        </div>
-                        <p class="order-price">$36</p>
-                        <p class="mb-0 order-cancle"><a href=""><img src="./images/order-cancle.png" alt="img"
-                              class="img-fluid" srcset=""></a></p>
-                      </div>
+                  <div class="mb-3 form-check subscribe-check-wrap">
+                    <div class="subs-select-wrap">
+                      <input type="checkbox" class="form-check-input ms-0 mt-0" id="subsCheck1">
+                      <label class="form-check-label" for="subsCheck1">Subscribe and save 5% + get free shipping</label>
                     </div>
-                    <div class="mb-3 form-check subscribe-check-wrap">
-                      <div class="subs-select-wrap">
-                        <input type="checkbox" class="form-check-input ms-0 mt-0" id="subsCheck1">
-                        <label class="form-check-label" for="subsCheck1">Subscribe and save 5% + get free shipping</label>
-                      </div>
-  
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="you-may-like-wrap py-4">
-                    <h2 class="you-may-heading">Your may also like</h2>
-                    <div class="single-like-wrap">
-                      <div class="left-single-like-col">
-                        <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
-                        <div class="like-product-info">
-                          <p class="like-product-title">Mini African Beauty Butters</p>
-                          <p class="like-product-price">$36</p>
-                        </div>
-  
-                      </div>
-                      <div class="right-single-like-col">
-                        <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="single-like-wrap">
-                      <div class="left-single-like-col">
-                        <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
-                        <div class="like-product-info">
-                          <p class="like-product-title">Mini African Beauty Butters</p>
-                          <p class="like-product-price">$36</p>
-                        </div>
-  
-                      </div>
-                      <div class="right-single-like-col">
-                        <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
-                        </p>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
                 <hr>
-                <div class="offcanvas-body">
-                  <div class="subtotal-wrap">
-                    <p>Subtotal:</p>
-                    <p>$70,2</p>
+                <div class="you-may-like-wrap py-4">
+                  <h2 class="you-may-heading">Your may also like</h2>
+                  <div class="single-like-wrap">
+                    <div class="left-single-like-col">
+                      <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="like-product-info">
+                        <p class="like-product-title">Mini African Beauty Butters</p>
+                        <p class="like-product-price">$36</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-like-col">
+                      <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
+                      </p>
+                    </div>
                   </div>
-                  <p class="checkout-btn"><a href="#">CHECK OUT</a></p>
+                  <div class="single-like-wrap">
+                    <div class="left-single-like-col">
+                      <img src="./images/like-product-img1.png" alt="img" class="img-fluid" srcset="" />
+                      <div class="like-product-info">
+                        <p class="like-product-title">Mini African Beauty Butters</p>
+                        <p class="like-product-price">$36</p>
+                      </div>
+
+                    </div>
+                    <div class="right-single-like-col">
+                      <p><a href="">ADD <img src="./images/cart-icon.png" alt="img" class="img-fluid" srcset="" /></a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </li>
-          </ul>
-        </div>
-      </header>
+              <hr>
+              <div class="offcanvas-body">
+                <div class="subtotal-wrap">
+                  <p>Subtotal:</p>
+                  <p>$70,2</p>
+                </div>
+                <p class="checkout-btn"><a href="#">CHECK OUT</a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <!-- Banner section -->
+  <section class="banner-sec">
+    <div class="banner-img">
+      <img src="./images/beauty-banner.png" alt="banner" class="img-fluid img-full" />
     </div>
-
-    <!-- Banner section -->
-    <section class="banner-sec">
-      <div class="banner-img">
-        <img
-          src="./images/beauty-banner.png"
-          alt="banner"
-          class="img-fluid img-full"
-        />
-      </div>
-      <div class="bredcrum">
-        <p><span class="light-bredcrum">HOME /</span> BEAUTY RITUALS</p>
-      </div>
-      <div class="banner-text">
-        <h1><span class="inner-heading">Welcome</span> to The Origin 
-            of Clean Beauty</h1>
-        <p>
-            Our products pay homage to the 54 nations of the African continent, its culture, and people. Every product features botanical ingredients that are ethically sourced from cooperatives and artisans throughout Africa.
-        </p>
-      </div>
-    </section>
+    <div class="bredcrum">
+      <p><span class="light-bredcrum">HOME /</span> BEAUTY RITUALS</p>
+    </div>
+    <div class="banner-text">
+      <h1><span class="inner-heading">Welcome</span> to The Origin
+        of Clean Beauty</h1>
+      <p>
+        Our products pay homage to the 54 nations of the African continent, its culture, and people. Every product
+        features botanical ingredients that are ethically sourced from cooperatives and artisans throughout Africa.
+      </p>
+    </div>
+  </section>
 
 
-    <section class="img-content-sec py-5">
-      <div class="container">
-        <div class="row d-flex sm-col-rev">
-          <div class="col-lg-6 col-md-6 african_root">
-            <img
-              src="./images/african-roots.png"
-              alt="img3"
-              class="img-fluid img-full"
-            />
-            <p class="after_image"><img src="./images/collage_4.png" alt="collage_4" class="img-fluid"></p>
-          </div>
-          <div class="col-lg-6 col-md-6 p-lg-5">
-            <div class="we-look-content">
-              <h2 class="we-look-heading">We look to our <span class="inner-heading">African roots</span> to define what clean beauty means.</h2>
-              <p class="fw-500 mb-0">
-                In many African communities masks, ointments, steams and other treatments literally come from the Earth. Think, plant botanicals like roots, herbs, oils and butters. 
-              </p>
-              <p class="text-indent mb-0 the_idea">
-                The idea is to not be wasteful and utilize what the land has given to purify, heal and beautify from the inside out. Ingredients are only used when needed, and remnants repurposed.
-              </p>
-              <p class="text-indent the_idea the-level-text">
-                This level of resourcefulness is a reminder that everything has a purpose, even the things that we may consider to be waste. African beauty rituals remind us who the originators are when it comes to zero waste, organic and natural treatments as it exemplifies this in its purest sense.
-              </p>
-            </div>
+  <section class="img-content-sec py-5">
+    <div class="container">
+      <div class="row d-flex sm-col-rev">
+        <div class="col-lg-6 col-md-6 african_root">
+          <img src="./images/african-roots.png" alt="img3" class="img-fluid img-full" />
+          <p class="after_image"><img src="./images/collage_4.png" alt="collage_4" class="img-fluid"></p>
+        </div>
+        <div class="col-lg-6 col-md-6 p-lg-5">
+          <div class="we-look-content">
+            <h2 class="we-look-heading">We look to our <span class="inner-heading">African roots</span> to define what
+              clean beauty means.</h2>
+            <p class="fw-500 mb-0">
+              In many African communities masks, ointments, steams and other treatments literally come from the Earth.
+              Think, plant botanicals like roots, herbs, oils and butters.
+            </p>
+            <p class="text-indent mb-0 the_idea">
+              The idea is to not be wasteful and utilize what the land has given to purify, heal and beautify from the
+              inside out. Ingredients are only used when needed, and remnants repurposed.
+            </p>
+            <p class="text-indent the_idea the-level-text">
+              This level of resourcefulness is a reminder that everything has a purpose, even the things that we may
+              consider to be waste. African beauty rituals remind us who the originators are when it comes to zero
+              waste, organic and natural treatments as it exemplifies this in its purest sense.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="african-beauty-orig-sec">
-        <div class="container">
-            <h2 class="african-beauty-heading text-center mb-5">
-                African beauty 
-              <span class="inner-heading"><br>originators</span>
-            </h2>
-         <div class="african_map" >
-          <img
-          src="./images/map.png"
-          alt="img"
-          class="img-fluid img-full"
-        />
-          
-        <div class="map_content"  > 
-          <div class="inner_content">
-            <div class="image_with_text">
-              <p class="kigelia_text" >Kigelia African 
-                Extract</p>
+    </div>
+  </section>
+  <section class="african-beauty-orig-sec">
+    <div class="container">
+      <h2 class="african-beauty-heading text-center mb-5">
+        African beauty
+        <span class="inner-heading"><br>originators</span>
+      </h2>
+      <div class="african_map">
+        <img src="./images/map-ori.png" alt="img" class="img-fluid img-full" />
+
+        <div class="kenya-icon-content-wrap">
+          <img src="./images/kenya.png" alt="img" class="img-fluid kenya-icon map-icons" />
+          <div class="map_content kenya-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Kigelia African
+                  Extract</p>
                 <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
                 <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
             </div>
-            <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so it appears at its healthiest.</p>
           </div>
         </div>
+
+        <div class="south-africa-icon-content-wrap">
+          <img src="./images/south-africa.png" alt="img" class="img-fluid south-africa-icon map-icons" />
+          <div class="map_content south-africa-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Africa
+                  Extract</p>
+                <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="morocco-icon-content-wrap">
+          <img src="./images/morocco.png" alt="img" class="img-fluid morocco-icon map-icons" />
+          <div class="map_content morocco-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Morocco
+                  Extract</p>
+                <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="egypt-icon-content-wrap">
+          <img src="./images/egypt.png" alt="img" class="img-fluid egypt-icon map-icons" />
+          <div class="map_content egypt-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Egypt
+                  Extract</p>
+                <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghana-icon-content-wrap">
+          <img src="./images/ghana.png" alt="img" class="img-fluid ghana-icon map-icons" />
+          <div class="map_content ghana-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Ghana
+                  Extract</p>
+                <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="nigeria-icon-content-wrap">
+          <img src="./images/nigeria.png" alt="img" class="img-fluid nigeria-icon map-icons" />
+          <div class="map_content nigeria-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Nigeria
+                  Extract</p>
+                <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="uganda-icon-content-wrap">
+          <img src="./images/uganda.png" alt="img" class="img-fluid uganda-icon map-icons" />
+          <div class="map_content uganda-content">
+            <div class="inner_content">
+              <div class="image_with_text">
+                <p class="kigelia_text">Uganda
+                  Extract</p>
+                <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                <p class="ms-auto close_btn"><img src="./images/Vector(Stroke).png" alt="close_btn"></p>
+              </div>
+              <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions, such as
+                acne and eczema. It also firms and tightens skin, making it ideal to combat premature aging, like fine
+                lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes and strengthens skin so
+                it appears at its healthiest.</p>
+            </div>
+          </div>
+        </div>
+
+
+
         <div>
-          <ul class="list-unstyled flowerList" id="pop_up">
-            <li class="list_items"><span class="me-2"><img src="./images/BLUE_TANSY_FLOWER.png" alt="flower pic" class="img-fluid"></span>Morocco</li>
-            <li class="list_items"><span class="me-2"><img src="./images/kigela.png" alt="flower pic" class="img-fluid"></span>Kenya</li>
-            <li class="list_items"><span class="me-2"> <img src="./images/marula.png" alt="flower pic" class="img-fluid"></span>South Africa</li>
-            <li class="list_items"><span class="me-2"><img src="./images/jojoba.png" alt="flower pic" class="img-fluid"></span>Egypt</li>
-            <lil class="list_items"><span class="me-2"><img src="./images/shea.png" alt="flower pic" class="img-fluid"></span>Nigeria, Ghana, Uganda </lil>
+          <ul class="list-unstyled flowerList">
+            <li class="list_items" data-bs-toggle="modal" data-bs-target="#morocco"><span class="me-2"><img
+                  src="./images/BLUE_TANSY_FLOWER.png" alt="flower pic" class="img-fluid"></span>Morocco</li>
+            <li class="list_items" data-bs-toggle="modal" data-bs-target="#kenya"><span class="me-2"><img src="./images/kigela.png" alt="flower pic"
+                  class="img-fluid"></span>Kenya</li>
+            <li class="list_items" data-bs-toggle="modal" data-bs-target="#africa"><span class="me-2"> <img src="./images/marula.png" alt="flower pic"
+                  class="img-fluid"></span>South Africa</li>
+            <li class="list_items" data-bs-toggle="modal" data-bs-target="#egypt"><span class="me-2"><img src="./images/jojoba.png" alt="flower pic"
+                  class="img-fluid"></span>Egypt</li>
+            <lil class="list_items" data-bs-toggle="modal" data-bs-target="#nigeria"><span class="me-2"><img src="./images/shea.png" alt="flower pic"
+                  class="img-fluid"></span>Nigeria, Ghana, Uganda </lil>
           </ul>
         </div>
+        <div class="modal fade mob-map-modal" id="morocco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal_content">
+                <div class="inner-modal-wrap">
+                  <div class="inner_content">
+                    <div class="image_with_text">
+                      <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                      <p class="kigelia_text">Morocco
+                        Extract</p>
+                    </div>
+                    <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions,
+                      such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature
+                      aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes
+                      and strengthens skin so it appears at its healthiest.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade mob-map-modal" id="kenya" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal_content">
+                <div class="inner-modal-wrap">
+                  <div class="inner_content">
+                    <div class="image_with_text">
+                      <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                      <p class="kigelia_text">Kenya
+                        Extract</p>
+                    </div>
+                    <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions,
+                      such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature
+                      aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes
+                      and strengthens skin so it appears at its healthiest.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade mob-map-modal" id="africa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal_content">
+                <div class="inner-modal-wrap">
+                  <div class="inner_content">
+                    <div class="image_with_text">
+                      <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                      <p class="kigelia_text">Africa
+                        Extract</p>
+                    </div>
+                    <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions,
+                      such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature
+                      aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes
+                      and strengthens skin so it appears at its healthiest.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade mob-map-modal" id="egypt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal_content">
+                <div class="inner-modal-wrap">
+                  <div class="inner_content">
+                    <div class="image_with_text">
+                      <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                      <p class="kigelia_text">Egypt
+                        Extract</p>
+                    </div>
+                    <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions,
+                      such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature
+                      aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes
+                      and strengthens skin so it appears at its healthiest.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade mob-map-modal" id="nigeria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal_content">
+                <div class="inner-modal-wrap">
+                  <div class="inner_content">
+                    <div class="image_with_text">
+                      <p><img src="./images/Ellipse-19.png" alt="eclipse19" class="img-fluid"></p>
+                      <p class="kigelia_text">Nigeria
+                        Extract</p>
+                    </div>
+                    <p>Local healers have traditionally used Kigelia fruit to remedy stressed skin-related conditions,
+                      such as acne and eczema. It also firms and tightens skin, making it ideal to combat premature
+                      aging, like fine lines, wrinkles and sagging. Kigelia is extremely calming for skin and soothes
+                      and strengthens skin so it appears at its healthiest.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-         </div>
-     <div id="popupContent" class="popup"></div>
-</div>
-    </section>
+  <!-- Our Story section -->
+  <section class="our-story-sec">
+    <div class="container-fluid">
+      <div class="row g-0 pt-5 pb-5">
+        <div class="col-lg-6 col-md-6 d-flex flex-column justify-content-center story-col">
+          <h2 class="how-does-heading">
+            How does 54 Thrones define
+            <span class="inner-heading">clean beauty</span>
+          </h2>
+          <p class="Christina-inner-text mb-0">
+            54 Thrones Clean Beauty is inspired by traditional African rituals and practices rooted in community, the
+            power of healing, celebration and creating beauty from the inside out. Ingredients are pure, botanical and
+            ethically sourced from what we identify as the birthplace of clean beauty, Africa.
+          </p>
+          <p class="Christina-inner-text text-indent">
+            The development of these products are done sustainably, at a fair wage and devoid of harm to both humans and
+            animals.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <img src="./images/how-does-img.jpg" alt="img" class="img-fluid img-full" />
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Our Story section -->
-    <section class="our-story-sec">
+  <footer class="pt-5">
+    <div class="footer-top">
+      <img src="./images/top.png" alt="img" class="img-fluid img-full" />
+    </div>
+    <div class="footer-content">
       <div class="container-fluid">
-        <div class="row g-0 pt-5 pb-5">
-          <div
-            class="col-lg-6 col-md-6 d-flex flex-column justify-content-center story-col"
-          >
-            <h2 class="how-does-heading">
-                How does 54 Thrones define 
-              <span class="inner-heading">clean beauty</span>
-            </h2>
-            <p class="Christina-inner-text mb-0">
-                54 Thrones Clean Beauty is inspired by traditional African rituals and practices rooted in community, the power of healing, celebration and creating beauty from the inside out. Ingredients are pure, botanical and ethically sourced from what we identify as the birthplace of clean beauty, Africa. 
-            </p>
-            <p class="Christina-inner-text text-indent">
-                The development of these products are done sustainably, at a fair wage and devoid of harm to both humans and animals.
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <img
-              src="./images/how-does-img.jpg"
-              alt="img"
-              class="img-fluid img-full"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="pt-5">
-      <div class="footer-top">
-        <img src="./images/top.png" alt="img" class="img-fluid img-full" />
-      </div>
-      <div class="footer-content">
-        <div class="container-fluid">
-          <div class="lets-touch-wrap">
-            <p class="lets-heading">
-              Let’s <span class="inner-content">stay in touch!</span>
-            </p>
-            <div class="row">
-              <div class="col-lg-10 col-md-9 d-flex">
-                <input
-                  type="email"
-                  name="email"
-                  id=""
-                  placeholder="E-mail*"
-                  class="email-box"
-                />
-              </div>
-              <div class="col-lg-2 col-md-3">
-                <p class="m-0"><a href="#" class="sign-up-btn">SIGN UP</a></p>
-              </div>
-            </div>
-          </div>
-          <img
-            src="./images/footer-logo.png"
-            alt="img"
-            class="img-fluid py-5 img-full"
-          />
-          <p class="footer-text">Follow us @54thrones —everywhere!</p>
-
+        <div class="lets-touch-wrap">
+          <p class="lets-heading">
+            Let’s <span class="inner-content">stay in touch!</span>
+          </p>
           <div class="row">
-            <div class="col-lg-2 col-md-2 col-sm-4">
-              <img
-                src="./images/frame1.png"
-                alt="img"
-                class="img-fluid img-full"
-              />
+            <div class="col-lg-10 col-md-9 d-flex">
+              <input type="email" name="email" id="" placeholder="E-mail*" class="email-box" />
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-4">
-              <img
-                src="./images/frame2.png"
-                alt="img"
-                class="img-fluid img-full"
-              />
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4">
-              <img
-                src="./images/frame3.png"
-                alt="img"
-                class="img-fluid img-full"
-              />
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4">
-              <img
-                src="./images/frame4.png"
-                alt="img"
-                class="img-fluid img-full"
-              />
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4">
-              <img
-                src="./images/frame5.png"
-                alt="img"
-                class="img-fluid img-full"
-              />
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-4">
-              <img
-                src="./images/frame6.png"
-                alt="img"
-                class="img-fluid img-full"
-              />
-            </div>
-          </div>
-
-          <div class="row py-5 row-gap-sm">
-            <div class="col-lg-6 col-sm-6 sm-order-3 col-rev-sm">
-              <p class="footer-menu">54 THRONES <br />© 2024 COPYRIGHT</p>
-              <img
-                src="./images/footer-icon.png"
-                alt="img"
-                class="img-fluid footer-icon"
-              />
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-1">
-              <p class="footer-title">Menu</p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Shop</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">About</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Beauty Rituals</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Rewards</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Ambassador Program</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Contact</a>
-              </p>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-2">
-              <p class="footer-title">Support</p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="./privacy-policy.html">Privacy Policy</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="./cookies.html">Cookies Policy</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="./terms-of-service.html">Terms & Conditions</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="./shipping-&-returns.html"
-                  >Shipping & Return Policy</a
-                >
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="./accessibility.html">Accessibility Statement</a>
-              </p>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-4">
-              <p class="footer-title">Social</p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Youtube</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Facebook</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">Instagram</a>
-              </p>
-              <p class="footer-menu">
-                <a class="footer-menu-link" href="#">X</a>
-              </p>
+            <div class="col-lg-2 col-md-3">
+              <p class="m-0"><a href="#" class="sign-up-btn">SIGN UP</a></p>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <section class="img-content-sec pt-5 sticky-sec mt-4">
-      <div class="container">
-        <h2 class="meet-heading text-center py-5">
-          Meet our <span class="inner-heading">founder</span>
-        </h2>
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-6">
-            <img
-              src="./images/Christina-img.png"
-              alt="img3"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="Christina-content">
-              <h2>Christina Tegbe</h2>
-              <p class="two-color-content">
-                A southern-American childhood rooted with the cultural essence
-                of Nigeria, Christina grew up experiencing
-                <span class="inner-content">the true</span> and
-                <span class="inner-content">sacred beauty of Africa.</span>
-              </p>
+        <img src="./images/footer-logo.png" alt="img" class="img-fluid py-5 img-full" />
+        <p class="footer-text">Follow us @54thrones —everywhere!</p>
 
-              <p class="Christina-inner-text">
-                Empowered by her Nigerian aunt who would indulge her with tubs
-                of shea butter sent via Nigeria and moved by the ingenuity and
-                innovation across the motherland, she answered the call to share
-                the heart and soul of Africa with the world. In 2015, she left a
-                career in corporate consulting to launch 54 Thrones.
-              </p>
-              <p class="Christina-inner-text">
-                With 54 Thrones, Christina aspires to spread the message of the
-                African origin of clean beauty. Determined to share the beauty
-                and authenticity of an Africa often not seen, she partners with
-                passionate artisans who handcraft the rich ingredients that make
-                up the brand.
-              </p>
-              <p class="pt-3"><a href="#" class="learn-btn">LEARN MORE</a></p>
-            </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <img src="./images/frame1.png" alt="img" class="img-fluid img-full" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <img src="./images/frame2.png" alt="img" class="img-fluid img-full" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <img src="./images/frame3.png" alt="img" class="img-fluid img-full" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <img src="./images/frame4.png" alt="img" class="img-fluid img-full" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <img src="./images/frame5.png" alt="img" class="img-fluid img-full" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <img src="./images/frame6.png" alt="img" class="img-fluid img-full" />
+          </div>
+        </div>
+
+        <div class="row py-5 row-gap-sm">
+          <div class="col-lg-6 col-sm-6 sm-order-3 col-rev-sm">
+            <p class="footer-menu">54 THRONES <br />© 2024 COPYRIGHT</p>
+            <img src="./images/footer-icon.png" alt="img" class="img-fluid footer-icon" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-1">
+            <p class="footer-title">Menu</p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./Shop.html">Shop</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./about.html">About</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./beauty-rituals.html">Beauty Rituals</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./rewards.html">Rewards</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./ambassdors.html">Ambassador Program</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./Contact.html">Contact</a>
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-2">
+            <p class="footer-title">Support</p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./privacy-policy.html">Privacy Policy</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./cookies.html">Cookies Policy</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./terms-of-service.html">Terms & Conditions</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./shipping-&-returns.html">Shipping & Return Policy</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="./accessibility.html">Accessibility Statement</a>
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-4">
+            <p class="footer-title">Social</p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="#">Youtube</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="#">Facebook</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="#">Instagram</a>
+            </p>
+            <p class="footer-menu">
+              <a class="footer-menu-link" href="#">X</a>
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
+  <section class="img-content-sec pt-5 sticky-sec mt-4">
+    <div class="container">
+      <h2 class="meet-heading text-center py-5">
+        Meet our <span class="inner-heading">founder</span>
+      </h2>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <img src="./images/Christina-img.png" alt="img3" class="img-fluid" />
+        </div>
+        <div class="col-lg-6">
+          <div class="Christina-content">
+            <h2>Christina Tegbe</h2>
+            <p class="two-color-content">
+              A southern-American childhood rooted with the cultural essence
+              of Nigeria, Christina grew up experiencing
+              <span class="inner-content">the true</span> and
+              <span class="inner-content">sacred beauty of Africa.</span>
+            </p>
 
- 
-    <script src="./script.js"></script>
-  </body>
+            <p class="Christina-inner-text">
+              Empowered by her Nigerian aunt who would indulge her with tubs
+              of shea butter sent via Nigeria and moved by the ingenuity and
+              innovation across the motherland, she answered the call to share
+              the heart and soul of Africa with the world. In 2015, she left a
+              career in corporate consulting to launch 54 Thrones.
+            </p>
+            <p class="Christina-inner-text">
+              With 54 Thrones, Christina aspires to spread the message of the
+              African origin of clean beauty. Determined to share the beauty
+              and authenticity of an Africa often not seen, she partners with
+              passionate artisans who handcraft the rich ingredients that make
+              up the brand.
+            </p>
+            <p class="pt-3"><a href="#" class="learn-btn">LEARN MORE</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="./script.js"></script>
+</body>
+
 </html>

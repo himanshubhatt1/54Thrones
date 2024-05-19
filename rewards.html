@@ -11,9 +11,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
   crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./style/reward.css">
   <link rel="stylesheet" href="./style/cart.css">
@@ -52,7 +60,7 @@
                     <a class="dropdown-item" href="./about.html">Our Story</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Beauty Rituals</a>
+                    <a class="dropdown-item" href="./beauty-rituals.html">Beauty Rituals</a>
                   </li>
                 </ul>
               </li>
@@ -119,10 +127,10 @@
                 <a class="nav-link" href="./ambassdors.html">AMBASSADORS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">REWARDS</a>
+                <a class="nav-link" href="./rewards.html">REWARDS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="./Contact.html">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -142,7 +150,7 @@
             </div>
           </div>
           <li class="nav-item">
-            <a href="#" class="log-in-btn">MY ACCOUNT</a>
+            <a href="#" class="log-in-btn">LOG IN</a>
           </li>
           <li class="nav-item">
             <button class="btn cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
@@ -281,7 +289,7 @@
       <div class="row ">
         <div class="col-lg-12">
           <div class="breadcrum_ambasdor text-center pt-lg-3">
-            <p><span class="home">Home</span> <span>/</span> <span class="ambassdor_class">Ambassador Program</span></p>
+            <p><span class="home">Home</span> <span>/</span> <span class="ambassdor_class">REWARDS</span></p>
           </div>
         </div>
         <div class="col-lg-12 ambasdor_bottom_text ">
@@ -332,7 +340,7 @@
                         <p class="ps-5">25 POINTS</p>
                     </div>
                     <div class="earn_btn">
-                        <button data-bs-toggle="modal" data-bs-target="#exampleModal">Earn 25 points</button>
+                        <button>Earn 25 points</button>
                         
                     </div>
 
@@ -357,7 +365,7 @@
                         <p class="ps-5">Birthday surprise</p>
                     </div>
                     <div class="earn_btn opacity-50">
-                        <button>GET  A SURPRISE</button>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal">GET  A SURPRISE</button>
                     </div>
 
           </div>
@@ -408,7 +416,7 @@
     <div class="modal-content">
       <div class="modal-header">
         
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       
       <div class="modal_content">
@@ -459,7 +467,7 @@
     <div class="modal-content">
       <div class="modal-header">
         
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       
       <div class="modal_content">
@@ -489,7 +497,7 @@
     <div class="modal-content">
       <div class="modal-header">
         
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
     
       
@@ -515,7 +523,7 @@
     <div class="modal-content">
       <div class="modal-header">
         
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="earn-modal-btn-close btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       
       <div class="modal_content">
@@ -536,7 +544,7 @@
           </div>
         </div>
 <p class="text-center fs-4 copy_link_text"><b>Or copy link and share anywhere</b></p>
-<div class="mt-3 save_modal_btn d-flex align-items-center gap-2" >
+<div class="mt-3 save_modal_btn d-flex justify-content-center align-items-center gap-2" >
 
   <input type="text " id="lname" name="lname" class="form-control  disable_link " value="https://54thrones.com/referlink" disabled> 
   <span><img src="./images/link.png" alt="link_icon" class="img-fluid"></span>
@@ -1196,7 +1204,7 @@
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample" style="">
+                  data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur rem
                       autem repellat quis reprehenderit sequi qui consequatur nostrum.
@@ -1300,22 +1308,22 @@
           <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-1">
             <p class="footer-title">Menu</p>
             <p class="footer-menu">
-              <a class="footer-menu-link" href="#">Shop</a>
+              <a class="footer-menu-link" href="./Shop.html">Shop</a>
             </p>
             <p class="footer-menu">
-              <a class="footer-menu-link" href="#">About</a>
+              <a class="footer-menu-link" href="./about.html">About</a>
             </p>
             <p class="footer-menu">
-              <a class="footer-menu-link" href="#">Beauty Rituals</a>
+              <a class="footer-menu-link" href="./beauty-rituals.html">Beauty Rituals</a>
             </p>
             <p class="footer-menu">
               <a class="footer-menu-link" href="./rewards.html">Rewards</a>
             </p>
             <p class="footer-menu">
-              <a class="footer-menu-link" href="#">Ambassador Program</a>
+              <a class="footer-menu-link" href="./ambassdors.html">Ambassador Program</a>
             </p>
             <p class="footer-menu">
-              <a class="footer-menu-link" href="#">Contact</a>
+              <a class="footer-menu-link" href="./Contact.html">Contact</a>
             </p>
           </div>
           <div class="col-lg-2 col-md-2 col-sm-6 footer-menus sm-order-2">

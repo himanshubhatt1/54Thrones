@@ -30,6 +30,9 @@
 	align-items: center;
 	padding: 25px 0;
   }
+  .reward-banner-btns p a:hover{
+	color: #FDFBFF;
+  }
   .reward-log-in-btn{
 	text-decoration: none;
 	background: #B39EEF;
@@ -382,6 +385,9 @@
 	font-family: "Poppins-Regular";
 	
 }
+.table.spare_table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #e8d3d4;
+}
 
 .modal-dialog-centered{
 	max-width: 800px !important;
@@ -392,6 +398,9 @@
 	padding: 50px 35px;
 	color: #AD543B;
 }
+.how_earn_Section .modal-content{
+	border-radius: 0;
+}
 .shop_btn{
 	background-color: #B39EEF;
 	width: 100%;
@@ -401,9 +410,9 @@
 	color: white;
 	padding: 15px;
 }
-.btn-close{
+.earn-modal-btn-close{
 	color: #AD543B!important;
-	background: url('../images/CROSSS.png') no-repeat;
+	background: url('../images/CROSSS.png') no-repeat center;
 	background-size: 60%;
 }
 .custom_form_select  {
@@ -428,7 +437,7 @@
 	font-family: 'Poppins-Medium';
 	text-transform: uppercase;
 }
-.btn-close:focus {
+.earn-modal-btn-close:focus {
      outline: 0;
     box-shadow: none;
 }

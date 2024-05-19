@@ -74,26 +74,7 @@
 .african_map {
   position: relative;
 }
-.map_content {
-  top: 34%;
-  left: 81%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 33%;
-  background-color: white;
-  padding: 25px;
-}
 
-.map_content::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 49%;
-  margin-left: -12px;
-  border-width: 20px;
-  border-style: solid;
-  border-color: rgb(255, 255, 255) transparent transparent transparent;
-}
 .image_with_text .kigelia_text {
   font-size: 24px;
   font-size: 24px;
@@ -113,6 +94,223 @@
 .flowerList {
   display: none;
 }
+.kenya-icon{
+  position: absolute;
+  right: 17%;
+  top: 48%;
+  cursor: pointer;
+}
+.kenya-content {
+  top: 33%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.kenya-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.kenya-icon-content-wrap:hover .kenya-content{
+  display: block;
+}
+.south-africa-icon{
+  position: absolute;
+  right: 39%;
+  bottom: 3%;
+  cursor: pointer;
+}
+.south-africa-content {
+  bottom: -3%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.south-africa-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.south-africa-icon-content-wrap:hover .south-africa-content{
+  display: block;
+}
+
+.morocco-icon{
+  position: absolute;
+  left: 17%;
+  top: 4%;
+  cursor: pointer;
+}
+.morocco-content {
+  top: -10%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.morocco-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.morocco-icon-content-wrap:hover .morocco-content{
+  display: block;
+}
+
+.egypt-icon{
+  position: absolute;
+  right: 31%;
+  top: 12%;
+  cursor: pointer;
+}
+.egypt-content {
+  top: -3%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.egypt-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.egypt-icon-content-wrap:hover .egypt-content{
+  display: block;
+}
+
+.ghana-icon{
+  position: absolute;
+  left: 22%;
+  top: 38%;
+  cursor: pointer;
+}
+.ghana-content {
+  top: 24%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.ghana-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.ghana-icon-content-wrap:hover .ghana-content{
+  display: block;
+}
+
+.nigeria-icon{
+  position: absolute;
+  left: 34%;
+  top: 35%;
+  cursor: pointer;
+}
+.nigeria-content {
+  top: 21%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.nigeria-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.nigeria-icon-content-wrap:hover .nigeria-content{
+  display: block;
+}
+
+.uganda-icon{
+  position: absolute;
+  right: 24.5%;
+  top: 47.5%;
+  cursor: pointer;
+}
+.uganda-content {
+  top: 34%;
+  right: -6%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 33%;
+  background-color: white;
+  padding: 25px;
+  display: none;
+}
+
+.uganda-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 49%;
+  margin-left: -12px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+.uganda-icon-content-wrap:hover .uganda-content{
+  display: block;
+}
+
+
 @media (max-width: 767px) {
   .banner-text .inner-heading {
     font-size: 36px;
@@ -172,8 +370,11 @@
     font-size: 14px;
   }
   .image_with_text .kigelia_text {
-    font-size: 24px;
     font-size: 16px;
+    font-family: "Poppins-Medium";
+  }
+  .mob-map-modal .modal-content{
+    border-radius: 0;
   }
   .map_content {
     top: 34%;
@@ -230,6 +431,9 @@
     line-height: 16px;
     letter-spacing: -0.3px;
 }
+.map-icons{
+  display: none;
+}
 }
 
 @media (min-width:768px) and (max-width:820px){
@@ -259,10 +463,43 @@
         font-size: 78px;
     }
     .map_content {
-        top: 23%;
-        left: 78%;
+        /* top: 23%;
+        left: 78%; */
         width: 53%;
+        z-index: 1;
     }
+    .kenya-content {
+      top: 20%;
+      left: 79%;
+  }
+    .south-africa-content {
+      bottom: -9%;
+      right: -8%;
+  }
+  .morocco-content {
+    top: -24%;
+    left: 21%;
+}
+.egypt-content {
+  top: -16%;
+  right: -18%;
+}
+.ghana-content {
+  top: 8%;
+  left: 24%;
+}
+.ghana-icon {
+  left: 22%;
+  top: 34%;
+}
+.nigeria-content {
+  top: 9%;
+  left: 37%;
+}
+.uganda-content {
+  top: 20%;
+  right: -23%;
+}
     .african_root img{
         object-fit: cover;
     }
