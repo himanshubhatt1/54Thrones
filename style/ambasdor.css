@@ -87,7 +87,8 @@
   font-family: "Poppins-Regular" !important;
 }
 .ambassdor_title {
-  line-height: 60px;
+  line-height: 56px;
+  letter-spacing: -1px;
 }
 .ambassdor_rewards .reward_image {
   position: absolute;
@@ -224,13 +225,18 @@ line-height:115.556%
   padding: 40px 30px;
 }
 .check_out_Text {
-  font-size: 20px;    line-height: 26px;
-  margin-top:36px;
+  font-size: 20px;    
+  line-height: 26px;
+  margin-top:26px;
   
 }
 .increase_width {
   width: 11%;
 }
+.mob-hand-icon{
+  display: none;
+}
+
 .slide_finger{
   display: none;
 }
@@ -249,8 +255,8 @@ bottom: -46px;
   }
   
   .ambasdor_choose {
-    font-size: 34px !important;
-    margin-left: 18px;
+    font-size: 31px !important;
+    margin-left: 8px;
   }
   br {
     display: none !important;
@@ -259,6 +265,8 @@ bottom: -46px;
     font-size: 16px;
 }
   .check_out_Text {
+    font-size: 14px;
+    line-height: 16px;
     font-size: 16px;
     line-height: 21px;
     margin-top: 16px;
@@ -280,6 +288,12 @@ bottom: -46px;
     color: #ad543b;
     letter-spacing: -2px;
   }
+  .choose-cat-heading {
+    line-height: 35px;
+}
+.check_out_Text {
+  margin-top: 0;
+}
 
   .choose_heading_Section .choose_heading .sphere {
     font-size: 36px;
@@ -403,9 +417,14 @@ bottom: -46px;
   }
   .spare_table .Spottie_text {
     font-size: 16px;
-    font-weight: 600;
-    font-family: "Poppins-Regular";
+    font-family: "Poppins-Medium";
     color: #ad543b;
+    letter-spacing: 0px;
+  }
+  .mob-hand-icon{
+    display: block;
+    text-align: end;
+    margin-bottom: 0;
   }
   .spare_table .enthuasts {
     display: block;

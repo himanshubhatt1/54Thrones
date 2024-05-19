@@ -389,11 +389,11 @@
     border-bottom-color: #e8d3d4;
 }
 
-.modal-dialog-centered{
+/* .modal-dialog-centered{
 	max-width: 800px !important;
 	width: 700px !important;
 	padding: 20px 30px;
-}
+} */
 .modal_content{
 	padding: 50px 35px;
 	color: #AD543B;
@@ -461,13 +461,87 @@ color: #AD543B;}
 	font-size: 20px;
 	font-family: "Poppins-Regular";
 }
+.mob-hand-icon{
+	display: none;
+}
+.setter-mobile-sec{
+	display: none;
+}
   /* media query */
 @media (max-width: 767px) {
 
-	.modal-dialog-centered {
+	/* .modal-dialog-centered {
 		max-width: 787px !important;
 		width: 358px !important;
 		padding: 20px 1px;
+	} */
+	.setter-mobile-sec{
+		display: block;
+	}
+	.setter-mobile-sec .carousel-control-prev {
+		border: 1px solid #AD543B;
+		top: 0px;
+        left: 32%;
+		border-radius: 50%;
+		width: 62px;
+		height: 62px;
+	}
+	.setter-mobile-sec .carousel-control-prev-icon {
+		background: url(../images/prev-icon.png) no-repeat center;
+	}
+	.setter-mobile-sec .carousel-control-next {
+		border: 1px solid #AD543B;
+		top: 0px;
+        right: 32%;
+		border-radius: 50%;
+		width: 62px;
+		height: 62px;
+	}
+	.setter-mobile-sec .carousel-control-next-icon {
+		background: url(../images/next-icon.png) no-repeat center;
+	}
+	.mobile-prod-slider-wrap{
+		padding-top: 100px;
+	}
+	.setter-mobile-sec .desk-card-tag {
+		flex-direction: column;
+		align-items: baseline;
+	}
+	.setter-mobile-sec .card-product-name {
+        font-size: 14px;
+    }
+	.setter-mobile-sec .card-bottom-cart {
+		padding: 12px;
+	}
+	.setter-mobile-sec .please-log-text {
+		font-size: 14px;
+	}
+	.club-col{
+		padding: 55px 20px;
+	}
+	.mob-hand-icon{
+		display: block;
+	}
+	.setter-mobile-sec .card {
+		border: none;
+	}
+	.setter-mobile-sec {
+		padding: 40px 0;
+	}
+	.setter-mobile-sec .card-body{
+		padding: 0;
+	}
+	.give-15{
+		padding: 50px 60px;
+	}
+	.give-15 .Christina-inner-text {
+        margin: 20px 0;
+    }
+	.give-15 .beca-text {
+        margin-bottom: 70px;
+    }
+	.card-bottom-cart:hover{
+		color: #fff;
 	}
 
 .join_the_club{
@@ -697,9 +771,10 @@ color: #AD543B;}
 	.get-15-heading {
 		font-size: 31px;
 	}
-	.get-15-heading .inner-heading {
+	.give-15 .get-15-heading .inner-heading {
 		font-size: 36px;
 		line-height: 40px;
+		display: block;
 	}
 	.beca-text {
 		font-size: 16px;
